@@ -66,7 +66,7 @@ return [
     "realTimeCapture" => "Real Time Data Capture",
     "dataAnalytics" => "Data Analytics",
     "iaTitle" => "Artificial Intelligence",
-    "experieceTitle" => "Experience",
+    "experienceTitle" => "Experience",
     "experienceDescription" => "Binnops have executed over 100 Laser Scanning projects and produced more than 75 3D Intelligent Models ( Digital Twins ) , including the updating of engineering information, the capturing of static and dynamic data from sensors, PLC’s or data bases and the production of dash boards with rich and intelligent data linked to the asset components.",
     "experienceDescription2" => " Binnops owns its own sets of laser equipment, lidar equipment, drones, and software platforms that allows the efficient production of rich data using reverse engineering techniques and required to improve efficiency in Assets Management Binnops employs over 50 engineers, designers, technicians and data science engineers to implement digital transformation process in Industrial and Commercial Assets.",
     "ecoPetrolRefineryTitle" => "Ecopetrol Refinery UOP II Process Plant",
