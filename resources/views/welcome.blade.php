@@ -1616,6 +1616,7 @@
         </button>
         <div class="modal-body">
           <h3 class="titles-modals">{{ __("messages.assetVisualization") }}</h3>
+          <p>{{ __("messages.saveMoney") }}</p>
           <p> {{ __("messages.assetVisualization2") }} </p>
         </div>
 
