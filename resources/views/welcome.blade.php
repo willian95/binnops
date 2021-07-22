@@ -375,7 +375,7 @@
                         <img class="icon-demo" src="assets/images/iconos/scanner.svg" alt="">
                         {{ __("messages.iot") }}
                       </div>
-                      <p>{{ __("messages.binoopsDigital") }}<span class="btn-minicard moreviews" data-toggle="modal"
+                      <p>{{ __("messages.binnopsDigital") }}<span class="btn-minicard moreviews" data-toggle="modal"
                           data-target="#card-mini5">{{ __("messages.viewMore") }}</span></p>
                       <!---<div class="demo-gallery swiper-miniaturas">
                         <div class="swiper-wrapper">
@@ -1701,7 +1701,7 @@
           <span aria-hidden="true">&times;</span>
         </button>
         <div class="modal-body">
-          <h3 class="titles-modals"> {{ __("messages.aerialScannig") }}</h3>
+          <h3 class="titles-modals"> {{ __("messages.aerialScanning") }}</h3>
 
           <p>{{ __("messages.aerialScanningDescription") }} </p>
         </div>

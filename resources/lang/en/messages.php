@@ -28,7 +28,7 @@ return [
     "viewMore" => "View more",
     "terrestrialScanning" => "Terrestrial Laser Scanning",
     "asBuilt" => "The path to an “as-built” 3D virtual model of plant facilities and assets is surprisingly easy. If a 3D design model does not already exist, Laser Scanning technology and or other techniques are used to collect field information",
-    "aerialScannig" => "Aerial Scanning with Drones",
+    "aerialScanning" => "Aerial Scanning with Drones",
     "groundScanning" => "Ground Scanning of extended areas can be surveyed by using Lidar and other optical instruments mounted over Drones to produce point cloud data. Collected data gets processed to generate terrain geographical conditions, ground contour lines, mapping, and 3D Terrain Digital Models.",
     "digitalTwinsExploit" => "Digital Twins exploits the human visual system to provide an intuitive, immediate and language-independent way to view and show data. It is an essential tool for understanding information.",
     "binnopsDevelops" => "Binnops develops and Implement the foundation of your Digital Transformation by building 3D Intelligent Digital Twins that permits advanced visualization of Engineering, Revamps , Maintenance, Reliability and Plant Operations , for any type of Asset.",
