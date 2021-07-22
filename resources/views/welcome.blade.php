@@ -1399,7 +1399,7 @@
             <section id="contact" class="section section-a fullscreen-h-lg ">
 
               <!-- Begin of section body -->
-              <div class="section-body section-contact pt-0" style="padding-top: 4rem;" itemscope itemtype="https://schema.org/Organization">
+              <div class="section-body section-contact" style="padding-top: 4rem;" itemscope itemtype="https://schema.org/Organization">
                 <!-- content -->
                 <div class="section-content container content-width anim">
                   <div class="row justify-content-between">
