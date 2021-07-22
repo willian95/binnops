@@ -65,9 +65,9 @@
                           </a>
                           
                           
-                          <div id="video-overlay" class="video-overlay">
+                          <!---<div id="video-overlay" class="video-overlay">
                             <a class="video-overlay-close">&times;</a>
-                          </div>
+                          </div>--->
                           <div class="c-header_title o-h1" data-scroll>
                             <span class="c-header_title_line -version u-white cards-banner_grids">
                               <!-------------card servicio 1 ---------------->
@@ -497,10 +497,10 @@
            
             </section>--->
 
-            <section id="business" class="section section-a with-overflow section-white_content">
+            <section id="business" class="section section-a with-overflow section-white_content " >
               <div class="section-title title-left text-vert z-top"></div>
               <!-- Begin of section body -->
-              <div class="section-body section-white pb-12">
+              <div class="section-body section-white pb-12 section-bg">
                 <!-- content -->
                 <div class="section-content container content-width anim">
                   <div class="row mb-4">
@@ -590,6 +590,7 @@
               </div>
               <!-- End of section body -->
             </section>
+
             <section id="aourroadmap" class="section section-a with-overflow section-white_content">
               <div class="section-title title-left text-vert z-top"></div>
               <!-- Begin of section body -->
@@ -682,7 +683,7 @@
               </div>
               <!-- End of section body -->
             </section>
-            <section id="experience" class="section section-a  ">
+            <section id="experience" class="section section-a pt-5 section-bg pb-5 ">
               <div class="section-body p-0">
                 <!-- content -->
                 <div class="section-content container content-width anim">
@@ -790,7 +791,7 @@
                                   <a href="assets/images/experiencia/Imagen2.png" data-size="1600x1600"
                                     data-med="assets/images/experiencia/Imagen2.png" data-med-size="1024x1024"
                                     data-author="Folkert Gorter" class="demo-gallery__img--main">
-                                    <img src="assets/images/experiencia/Imagen2.png" alt="" />
+                                    <img class="logo-expe" src="assets/images/experiencia/Imagen2.png" alt="" />
                                   </a>
                                   <a href="assets/images/experiencia/Imagen6.jpg" data-size="1600x1600"
                                     data-med="assets/images/experiencia/Imagen6.jpg" data-med-size="1024x1024"
@@ -886,10 +887,10 @@
                                     data-author="Folkert Gorter" class="demo-gallery__img--main">
                                     <img src="assets/images/experiencia/images/Imagen 27.jpeg" />
                                   </a>
-                                  <a href="assets/images/experiencia/images/Imagen 27.jpeg" data-size="1600x1600"
-                                    data-med="assets/images/experiencia/images/Imagen 27.jpeg" data-med-size="1024x1024"
+                                  <a href="assets/images/experiencia/images/Imagen 25.jpeg" data-size="1600x1600"
+                                    data-med="assets/images/experiencia/images/Imagen 25.jpeg" data-med-size="1024x1024"
                                     data-author="Folkert Gorter" class="demo-gallery__img--main">
-                                    <img src="assets/images/experiencia/images/Imagen 27.jpeg" />
+                                    <img src="assets/images/experiencia/images/Imagen 25.jpeg" />
                                   </a>
                                 </div>
                               </div>
@@ -1321,48 +1322,13 @@
                       </a>
                     </div>
 
-
-                    <div class="col">
-
-                      <a class="item item-feature-c" href="single.html">
-                        <div class="item-img anim-hover">
-                          <img class="fit" src="https://madatac.es/wp-content/uploads/2016/01/spiral.gif"
-                            alt="team member" />
-                        </div>
-                        <div class="icon">
-                          <span class="icon-text">02</span>
-                        </div>
-                        <div class="item-body">
-                          <h4 class=" title-blue">lorem ipsum</h4>
-                          <span class="btn btn-overline-a  title-blue"> Learn more </span>
-                        </div>
-                      </a>
-                    </div>
-
-
-                    <div class="col">
-
-                      <a class="item item-feature-c" href="single.html">
-                        <div class="item-img anim-hover">
-                          <img class="fit" src="https://madatac.es/wp-content/uploads/2016/01/spiral.gif"
-                            alt="team member" />
-                        </div>
-                        <div class="icon">
-                          <span class="icon-text  title-blue">03</span>
-                        </div>
-                        <div class="item-body">
-                          <h4 class="title-blue">lorem ipsum</h4>
-                          <span class="btn btn-overline-a  title-blue"> Learn more </span>
-                        </div>
-                      </a>
-                    </div>
                   </div>
 
                 </div>
               </div>
 
             </section>
-            <section class="section section-a section-white">
+            <section class="section section-a section-white section-bg p-2">
               <div class="section-content container content-width anim">
                 <!------ <div class="row mb-4">
                   <div class="col-12 col-lg-7 text-left">
@@ -1401,7 +1367,7 @@
                 </div>
               </div>
             </section>
-            <section class="pre-footer section section-a " style="background-image: url('assets/images/card4.jpg');">
+            <!---<section class="pre-footer section section-a mt-0" style="background-image: url('assets/images/card4.jpg');">
               <div class="row">
                 <div class="col-md-12 flex-contact">
                   <h2 class="display-3 anim-1 mb-4">{{ __("messages.contactUs") }}</h2>
@@ -1409,7 +1375,27 @@
                   </p>
                 </div>
               </div>
-            </section>
+            </section>--->
+            <div class="c-fixed_wrapper is-inview fix-sect mt-0" data-scroll="" data-scroll-call="dynamicBackground"
+              data-scroll-repeat="" style="background-color: rgb(201, 212, 211);">
+              <div class="c-fixed_target" id="fixed-target"></div>
+              <div class="c-fixed is-inview pre-footer" data-scroll="" data-scroll-sticky="" data-scroll-target="#fixed-target"
+                style="background-image: url('assets/images/card2.jpg'); ">
+              </div>
+              <div class="txt-fix">
+                <div class="row ">
+                  <div class="col-md-12 flex-contact">
+                    <h2 class="display-3 anim-1 mb-4">Contact Us</h2>
+                    <p>We’ll reach you in less than 1 hour
+                      if you don’t get a response
+                      immediately! We take business
+                      opportunities very seriously!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            
+            </div>
             <section id="contact" class="section section-a fullscreen-h-lg ">
 
               <!-- Begin of section body -->
