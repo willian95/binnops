@@ -788,11 +788,11 @@
                               </div>
                               <div class="row">
                                 <div class="demo-gallery ">
-                                  <a href="assets/images/experiencia/Imagen2.png" data-size="1600x1600"
+                                  <!--<a href="assets/images/experiencia/Imagen2.png" data-size="1600x1600"
                                     data-med="assets/images/experiencia/Imagen2.png" data-med-size="1024x1024"
                                     data-author="Folkert Gorter" class="demo-gallery__img--main">
                                     <img class="logo-expe" src="assets/images/experiencia/Imagen2.png" alt="" />
-                                  </a>
+                                  </a>--->
                                   <a href="assets/images/experiencia/Imagen6.jpg" data-size="1600x1600"
                                     data-med="assets/images/experiencia/Imagen6.jpg" data-med-size="1024x1024"
                                     data-author="Folkert Gorter" class="demo-gallery__img--main">
