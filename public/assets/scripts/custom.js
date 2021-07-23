@@ -1,134 +1,4 @@
-(function () {
-  function init(item) {
-    var items = item.querySelectorAll("li"),
-      current = 0,
-      autoUpdate = false,
-      timeTrans = 4000;
 
-    //create nav
-    var nav = document.createElement("nav");
-    nav.className = "nav_arrows";
-
-    //create button prev
-    var prevbtn = document.createElement("button");
-    prevbtn.className = "prev";
-    prevbtn.setAttribute("aria-label", "Prev");
-
-    //create button next
-    var nextbtn = document.createElement("button");
-    nextbtn.className = "next";
-    nextbtn.setAttribute("aria-label", "Next");
-
-    //create counter
-    var counter = document.createElement("div");
-    counter.className = "counter";
-    counter.innerHTML = "<span>1</span><span>" + items.length + "</span>";
-
-    if (items.length > 1) {
-      nav.appendChild(prevbtn);
-      nav.appendChild(counter);
-      nav.appendChild(nextbtn);
-      item.appendChild(nav);
-    }
-
-    items[current].className = "current";
-    if (items.length > 1) items[items.length - 1].className = "prev_slide";
-
-    var navigate = function (dir) {
-      items[current].className = "";
-
-      if (dir === "right") {
-        current = current < items.length - 1 ? current + 1 : 0;
-      } else {
-        current = current > 0 ? current - 1 : items.length - 1;
-      }
-
-      var nextCurrent = current < items.length - 1 ? current + 1 : 0,
-        prevCurrent = current > 0 ? current - 1 : items.length - 1;
-
-      items[current].className = "current";
-      items[prevCurrent].className = "prev_slide";
-      items[nextCurrent].className = "";
-
-      //update counter
-      counter.firstChild.textContent = current + 1;
-    };
-
-    item.addEventListener("mouseenter", function () {
-      autoUpdate = false;
-    });
-
-    item.addEventListener("mouseleave", function () {
-      autoUpdate = true;
-    });
-
-    setInterval(function () {
-      if (autoUpdate) navigate("right");
-    }, timeTrans);
-
-    prevbtn.addEventListener("click", function () {
-      navigate("left");
-    });
-
-    nextbtn.addEventListener("click", function () {
-      navigate("right");
-    });
-
-    //keyboard navigation
-    document.addEventListener("keydown", function (ev) {
-      var keyCode = ev.keyCode || ev.which;
-      switch (keyCode) {
-        case 37:
-          navigate("left");
-          break;
-        case 39:
-          navigate("right");
-          break;
-      }
-    });
-
-    // swipe navigation
-    // from http://stackoverflow.com/a/23230280
-    item.addEventListener("touchstart", handleTouchStart, false);
-    item.addEventListener("touchmove", handleTouchMove, false);
-    var xDown = null;
-    var yDown = null;
-    function handleTouchStart(evt) {
-      xDown = evt.touches[0].clientX;
-      yDown = evt.touches[0].clientY;
-    }
-    function handleTouchMove(evt) {
-      if (!xDown || !yDown) {
-        return;
-      }
-
-      var xUp = evt.touches[0].clientX;
-      var yUp = evt.touches[0].clientY;
-
-      var xDiff = xDown - xUp;
-      var yDiff = yDown - yUp;
-
-      if (Math.abs(xDiff) > Math.abs(yDiff)) {
-        /*most significant*/
-        if (xDiff > 0) {
-          /* left swipe */
-          navigate("right");
-        } else {
-          navigate("left");
-        }
-      }
-      /* reset values */
-      xDown = null;
-      yDown = null;
-    }
-  }
-
-  [].slice
-    .call(document.querySelectorAll(".cd-slider"))
-    .forEach(function (item) {
-      init(item);
-    });
-})();
 
 $(document).on('ready', function() {
   $(".main1,.main2,.main3").hide();
@@ -611,11 +481,33 @@ var mySwiper = new Swiper ('.swiper-partners', {
   slidesOffsetBefore: 0,
   //
   grabCursor: true,
+  breakpoints: {
+    500: {
+      slidesPerView: 2
+    },
+    700: {
+      slidesPerView: 3
+    },
+    320: {
+      slidesPerView: 2
+    }
+  
+  }
 })      
 var showActive = true
 function changeActive(){
   
   showActive=false
+}
+
+
+
+var tabChange = function () {
+  var tabs = $('.circle-container > li');
+  var active = tabs.filter('.active');
+  var next = active.next('li').length ? active.next('li').find('a') : tabs.filter(':first-child').find('a');
+
+  next.tab('show')
 }
 
 setInterval(() => {
@@ -671,6 +563,18 @@ pagination: {
     el: '.swiper-pagination',
     clickable: true,
 },
+breakpoints: {
+  500: {
+    slidesPerView: 1
+  },
+  700: {
+    slidesPerView: 2
+  },
+  320: {
+    slidesPerView: 1
+  }
+
+}
 });
 /*
 new Swiper(".child-slider", {
@@ -687,6 +591,7 @@ new Swiper(".child-slider", {
 */
 
 /*******************************slider zoom*************************************************/
+/*
 tippy('.swiper-button-prev', {
   content: "Prev",
   theme: "light",
@@ -697,7 +602,7 @@ tippy('.swiper-button-next', {
   theme: "light",
   arrow: true,
 })
-
+*/
 
 var homeSwiper = new Swiper(".home-swiper-container", {
   fadeEffect: { crossFade: true },
@@ -708,6 +613,7 @@ var homeSwiper = new Swiper(".home-swiper-container", {
 autoplay: {
     delay: 8000,
   },
+
 });
 /*
 $('#play-video').on('click', function(e){
@@ -728,7 +634,7 @@ $(document).keyup(function(e){
 function close_video() {
   $('.video-overlay.open').removeClass('open').find('iframe').remove();
 };*/
-
+/*
 $( document ).ready(function() {
   $('.videoo').modal('toggle')
-});
+});*/
