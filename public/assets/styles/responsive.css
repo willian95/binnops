@@ -12,9 +12,7 @@
     .logo img {
         width: 150px;
     }
-    .menux {
-        display: none;
-    }
+  
     .c-scene {
         display: block;
     }
@@ -244,6 +242,51 @@ form{
     height: 100%;
     object-fit: contain;
 }
+.mb-5 {
+  margin-bottom: 0rem!important;
+}
+.main-content_navegation {
+  height: auto;
+
+}
+.menu-grid {
+
+  grid-template-columns: 1fr;
+  gap: 0rem;
+  padding: 1rem;
+}
+.menu-grid::before{
+  display: none;
+}
+.section-title-nav h2 {
+  font-size: 2rem!important;
+}
+.main-content_navegation .demo-gallery img {
+
+  object-fit: cover;
+}
+.menu-grid_item {
+  height: auto;
+  margin-top: 3rem;
+}
+.demo-box {
+
+  font-size: 1rem;
+}
+.section-navegation {
+  margin: 2rem 0;
+  padding: .3rem .5rem;
+}
+.section-navegation-height-modif:hover p {
+  height: auto!important;
+}
+.section-navegation-height:hover p {
+  height: auto;
+}
+.section-navegation:hover p {
+  height: auto;
+}
+
 }
 @media (width: 375px) and (height: 812px) {
     .back-banner {

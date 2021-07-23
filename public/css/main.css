@@ -1076,12 +1076,7 @@ body {
     -webkit-transform: translateY(-100%);
     transform: translateY(-100%);
 }
-@media screen and (min-width: 768px) {
-    .navbar-a.hide-header {
-        -webkit-transform: none;
-        transform: none;
-    }
-}
+
 
 body.menu-visible .navbar-a.hide-header {
     -webkit-transform: none;
