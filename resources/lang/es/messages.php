@@ -28,7 +28,7 @@ return [
     "viewMore" => "Ver más",
     "terrestrialScanning" => "Escaneo Láser Terrestre",
     "asBuilt" => "El camino hacia un modelo virtual en 3D 'as-built' de las instalaciones y los activos de la planta es sorprendentemente fácil. Si aún no se tiene un modelo de diseño 3D, se utiliza la tecnología de escaneo láser u otras técnicas para recopilar información de campo",
-    "aerialScannig" => "Escaneo Aéreo con Drones",
+    "aerialScanning" => "Escaneo Aéreo con Drones",
     "groundScanning" => "El escaneo terrestre de grandes superficies se puede realizar mediante el uso de Lidar y otros instrumentos ópticos montados sobre drones para producir datos de nubes de puntos. Los datos recopilados se procesan para generar condiciones geográficas, curvas de nivel, mapas y modelos digitales del terreno en 3D",
     "digitalTwinsExploit" => "Los Gemelos Digitales aprovechan el sistema visual humano para proporcionar una forma intuitiva, inmediata e independiente de mostrar los datos. Es una herramienta esencial para comprender la información",
     "binnopsDevelops" => "Binnops desarrolla e implementa la base de su transformación digital mediante la construcción de Gemelos Digitales Inteligente; que permiten la visualización avanzada de la ingeniería, las renovaciones, los mantenimientos, la confiabilidad y las operaciones de planta",

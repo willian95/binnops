@@ -375,12 +375,22 @@
                 <div class="main-custom ">
                   <div class="section-navegation">
 
+<<<<<<< HEAD
                     <div class="demo-box">
                       <img class="icon-demo" src="assets/images/iconos/scanner.svg" alt="">
                       {{ __("messages.iot") }}
                     </div>
                     <p>{{ __("messages.binoopsDigital") }}<span class="btn-minicard moreviews" data-toggle="modal" data-target="#card-mini5">{{ __("messages.viewMore") }}</span></p>
                     <!---<div class="demo-gallery swiper-miniaturas">
+=======
+                      <div class="demo-box">
+                        <img class="icon-demo" src="assets/images/iconos/scanner.svg" alt="">
+                        {{ __("messages.iot") }}
+                      </div>
+                      <p>{{ __("messages.binnopsDigital") }}<span class="btn-minicard moreviews" data-toggle="modal"
+                          data-target="#card-mini5">{{ __("messages.viewMore") }}</span></p>
+                      <!---<div class="demo-gallery swiper-miniaturas">
+>>>>>>> a47eb3c8bccb29020129ff42971cdafd600ac202
                         <div class="swiper-wrapper">
                           <div class="swiper-slide">
                             <a href="assets/images/1.png" data-size="1600x1600" data-med="assets/images/1.png"
@@ -1647,6 +1657,7 @@
 
     </div>
   </div>
+<<<<<<< HEAD
 </div>
 <!-- Modal -->
 <div class="modal fade" id="card-mini2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
@@ -1657,6 +1668,21 @@
       </button>
       <div class="modal-body">
         <h3 class="titles-modals"> {{ __("messages.aerialScannig") }}</h3>
+=======
+  <!-- Modal -->
+  <div class="modal fade" id="card-mini2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered  modal-lg" role="document">
+      <div class="modal-content modal_cards-styles">
+        <button type="button" class="close text-right mr-3 mt-2" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <div class="modal-body">
+          <h3 class="titles-modals"> {{ __("messages.aerialScanning") }}</h3>
+
+          <p>{{ __("messages.aerialScanningDescription") }} </p>
+        </div>
+>>>>>>> a47eb3c8bccb29020129ff42971cdafd600ac202
 
         <p>{{ __("messages.aerialScanningDescription") }} </p>
       </div>
