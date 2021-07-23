@@ -242,7 +242,7 @@ body {
 
 @media screen and (min-width: 992px) {
     .fullscreen-h-lg {
-        min-height: 100vh;
+        /*min-height: 100vh;*/
     }
 }
 
