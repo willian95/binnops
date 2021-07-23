@@ -50,8 +50,10 @@
   <script>
   
 
-
 </script>
+
+  @stack("script")
+
 </body>
 
 </html>
