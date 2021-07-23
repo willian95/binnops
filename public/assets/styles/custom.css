@@ -1,8 +1,10 @@
-
+html{
+  scroll-behavior: smooth!important;
+}
 body{
   background-color: #ECEDEF!important;
   font-family: 'Lato', sans-serif;
-  scroll-behavior: smooth;
+  scroll-behavior: smooth!important;
 }/*
 .o-scroll {
   background-color: #ECEDEF!important;
@@ -2441,12 +2443,12 @@ color: #000;
 
 }
 .certifications img{
-  width: 120px;
-  background: white;
-  border-radius: 10px;
-  margin-right: 1rem;
-  margin-top: 1rem;
-  padding: 10px;
+width: 110px;
+background: white;
+border-radius: 10px;
+margin-right: 1rem;
+margin-top: 1rem;
+padding: 6px;
 }
 .btn-modal{
   text-align: center;
@@ -2818,4 +2820,9 @@ object-fit: contain!important;
 
   object-fit: contain;
 
+}
+.navbar-collaps-click{
+  visibility: hidden!important;
+opacity: 0!important;
+transition: 0.3s;
 }

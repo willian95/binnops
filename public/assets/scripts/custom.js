@@ -638,3 +638,7 @@ function close_video() {
 $( document ).ready(function() {
   $('.videoo').modal('toggle')
 });*/
+
+$(".nav-link").click(function () {
+  $("#navbarMenuCollapse").removeClass("show");
+});
