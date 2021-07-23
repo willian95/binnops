@@ -379,7 +379,7 @@
                       <img class="icon-demo" src="assets/images/iconos/scanner.svg" alt="">
                       {{ __("messages.iot") }}
                     </div>
-                    <p>{{ __("messages.binoopsDigital") }}<span class="btn-minicard moreviews" data-toggle="modal" data-target="#card-mini5">{{ __("messages.viewMore") }}</span></p>
+                    <p>{{ __("messages.binnopsDigital") }}<span class="btn-minicard moreviews" data-toggle="modal" data-target="#card-mini5">{{ __("messages.viewMore") }}</span></p>
                     <!---<div class="demo-gallery swiper-miniaturas">
                         <div class="swiper-wrapper">
                           <div class="swiper-slide">
@@ -1423,12 +1423,14 @@
                         <div class="title-desc">
                           <!---<h2 class="display-3 anim-1 mb-4">Contact Us</h2>--->
                           <p class="anim-2">{{ __("messages.worldwideOffice") }}</p>
-                          <select class="form-select" aria-label="Default select example">
-                            <option class="col">{{ __("messages.usOffice") }}</option>
-                            <option class="usa"  onclick="col()">{{ __("messages.colombiaOffice") }}</option>
+                          <select class="form-select" aria-label="Default select example" onchange="locationChange()" id="countrySelector">
+                            <option value="us" class="col">{{ __("messages.usOffice") }}</option>
+                            <option value="colombia" class="usa">{{ __("messages.colombiaOffice") }}</option>
                           </select>
                           <div id="info-col">
-                            <p class="direction">{{ __("messages.address") }}</p>
+                            <p id="custom-address" class="direction">
+                              Subsidiary of E2 SAS Colombia - 2101 City West Boulevard, Suite 100 77042 Houston Texas
+                            </p>
 
                             <div class="d-flex align-items-center">
 
@@ -1438,7 +1440,7 @@
                                   <span class="icon"><i class="ion-md-mail"></i></span>
                                 </button>--->
                             </div>
-                            <div class="d-flex align-items-center">
+                            <div class="d-flex align-items-center" id="custom-phone">
                               <a class="contact-main btn-inline url-phone phone" href="tel:+1 713 429 1912" itemprop="phone">
                                 +1 713 429 1912</a>
                             </div>
@@ -2025,3 +2027,30 @@
 </div>
 
 @endsection
+
+@push("script")
+
+  <script>
+
+
+
+    function locationChange(){
+
+      let location = $("#countrySelector").val()
+
+      if(location == "us"){
+
+        $("#custom-address").html("Subsidiary of E2 SAS Colombia - 2101 City West Boulevard, Suite 100 77042 Houston Texas")
+        $("#custom-phone").html("<a class='contact-main btn-inline url-phone phone' href='tel:+1 713 429 1912' itemprop='phone'>+1 713 429 1912</a>")
+
+      }else if(location == "colombia"){
+
+        $("#custom-address").html("E2 SAS Cra. 7 #156-78 of. 901 Bogotá D.C., Colombia")
+        $("#custom-phone").html("<a class='contact-main btn-inline url-phone phone' href='tel:+57 1 487 0918' itemprop='phone'>+57 1 487 0918</a>")
+
+      }
+
+    }
+  </script>
+
+@endpush
