@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\IndexController;
+use App\Http\Controllers\SendEmailController;
 
 
 /*
@@ -16,3 +17,5 @@ use App\Http\Controllers\IndexController;
 */
 
 Route::get('/', [IndexController::class, "index"]);
+
+Route::post("/send/message", [SendEmailController::class, "sendEmail"]);
