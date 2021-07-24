@@ -14,7 +14,7 @@ class SendEmailController extends Controller
 
         \Mail::send("emails.emailUser", $data, function($message) {
 
-            $message->to("rodriguezwillian95@gmail.com",)->subject("Contact");
+            $message->to("contact@binnops.com",)->subject("Contact");
             $message->from( env('MAIL_FROM_ADDRESS'), env('MAIL_FROM_NAME'));
 
         });
