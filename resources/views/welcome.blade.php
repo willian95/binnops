@@ -2034,7 +2034,8 @@
       <span aria-hidden="true">&times;</span>
     </button>
     <div class="modal-content">
-      <iframe width="100%" height="500" src="https://www.youtube.com/watch?v=iVS-AuSjpOQ&t=56s&ab_channel=GeospatialWorld" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+      <iframe width="100%" height="500" src="https://www.youtube.com/embed/iVS-AuSjpOQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
   </div>
 </div>

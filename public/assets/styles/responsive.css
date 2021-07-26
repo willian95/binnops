@@ -1,4 +1,9 @@
 @media (max-width: 768px) {
+  .nav-fullscreen-lg .nav-link {
+    color: #ffffff !important;
+    font-size: 1.5rem;
+    line-height: 1;
+}
   .video-play-button:after {
 
     width: 66px;
@@ -596,4 +601,21 @@ form{
     .fix-sect {
         height: 36vh;
     }
+}
+
+@media (min-width: 390px) and (max-width: 991px) {
+  .back-banner {
+    height: 130vh;
+}
+}
+@media (min-width: 414px) and (max-width: 991px) {
+  .back-banner {
+    height: 147vh;
+}
+}
+@media (min-width: 375px) and (max-width: 991px) {
+  .back-banner {
+   
+    height: 170vh;
+}
 }
