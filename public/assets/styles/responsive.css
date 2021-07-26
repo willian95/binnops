@@ -297,7 +297,14 @@ form{
       display: none;
     }
 }
-@media (min-width: 576px) {
+@media (min-width: 992px) and (max-width: 1199px) {
+  .cards-banner_grids{
+    grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
+  }
+  .home-1 {
+    font-size: 1.1rem;
+    padding: 0 13rem;
+}
 }
 
 @media (min-width: 768px) {
@@ -309,10 +316,14 @@ form{
 .experience-main .demo-gallery {
   display: grid;
 }
+.section-title-nav h2 {
+  font-size: 2rem!important;
+
+}
 }
 
 @media (min-width: 992px) {
-
+ 
 }
 
 @media (min-width: 1200px) {

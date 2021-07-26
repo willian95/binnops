@@ -634,10 +634,10 @@ $(document).keyup(function(e){
 function close_video() {
   $('.video-overlay.open').removeClass('open').find('iframe').remove();
 };*/
-/*
+
 $( document ).ready(function() {
   $('.videoo').modal('toggle')
-});*/
+});
 
 $(".nav-link").click(function () {
   $("#navbarMenuCollapse").removeClass("show");

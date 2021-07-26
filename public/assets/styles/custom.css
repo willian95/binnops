@@ -1555,7 +1555,7 @@ cursor: pointer;
   z-index: 2;
   text-align: center;
   margin: 1rem 0;
-  height: 15vh;
+ 
   overflow: auto;
 }
 .demo-box:hover {
@@ -2535,7 +2535,7 @@ padding: 6px;
     gap: 1rem;
     display: grid;
     grid-auto-rows: 13rem;
-    grid-template-columns: repeat(auto-fill, minmax(27rem, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(23rem, 1fr));
 }
 
 .cards-banner_grids  span {

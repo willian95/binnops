@@ -106,7 +106,7 @@
                           </div>
                         </div>
 
-                        <div class="text-center dflex-content mb-5">
+                        <div class="text-center dflex-content ">
                           <a data-toggle="modal" data-target=".videoo" id="play-video" class="video-play-button" href="#">
                             <span></span>
                           </a>
