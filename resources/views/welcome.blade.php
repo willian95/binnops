@@ -1473,9 +1473,14 @@
                             <textarea class="form-control form-control-b" id="message-message" placeholder="Hello, your message" required></textarea>
                           </div>
                           <div class="mt-4">
-                            <button class="btn btn-solid btn-white rounded-pill">
+                            <button type="button" class="btn btn-solid btn-white rounded-pill" onclick="sendMessage()" id="buttonSendMessage">
                               <span class="text">{{ __("messages.sendMessage") }}</span>
                             </button>
+
+                            <div class="spinner-border" role="status" id="spinner">
+                              <span class="sr-only">Loading...</span>
+                            </div>
+
                           </div>
                         </form>
                       </div>
@@ -2029,7 +2034,7 @@
 @endsection
 
 @push("script")
-
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>      
   <script>
 
 
@@ -2051,6 +2056,39 @@
       }
 
     }
+
+    function sendMessage(){
+
+      let email = $("#email-message").val()
+      let name = $("#name-message").val()
+      let message = $("#message-message").val()
+
+      $("#buttonSendMessage").css("display", "none")
+      $("#spinner").css("display", "block")
+
+      $.post("{{ url('/send/message') }}", {
+        "email": email,
+        "name": name,
+        "text": message,
+        "_token": "{{ csrf_token() }}"
+      }, function(data){
+
+        $("#buttonSendMessage").css("display", "block")
+        $("#spinner").css("display", "none")
+
+        $("#email-message").val("")
+        $("#name-message").val("")
+        $("#message-message").val("")
+
+        swal({
+          icon:"success",
+          text:"{{ __('messages.emailSent') }}"
+        })
+
+      })
+
+    }
+
   </script>
 
 @endpush

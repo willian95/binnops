@@ -5647,4 +5647,8 @@ body.scrolled .hero-a .hero-footer {
     color: #ffffff;
 }
 
+#spinner{
+    display:none;
+}
+
 /* */
