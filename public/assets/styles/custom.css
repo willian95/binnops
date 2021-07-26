@@ -2535,7 +2535,7 @@ padding: 6px;
     gap: 1rem;
     display: grid;
     grid-auto-rows: 13rem;
-  grid-template-columns: repeat(auto-fill, minmax(23rem, 1fr));
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .cards-banner_grids  span {
@@ -2830,4 +2830,16 @@ transition: 0.3s;
   text-align: center;
 display: flex;
 justify-content: center;
+}
+.idioma-xs{
+  display: flex;
+    color: #fff;
+    list-style: none;
+    text-transform: uppercase;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: 6rem;
+}
+.idioma-xs a{
+  color: #fff;
 }

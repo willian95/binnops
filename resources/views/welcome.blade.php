@@ -11,14 +11,14 @@
             <div class="collapse navbar-collapse order-lg-1">
               <div class="navbar-menu-wrapper">
                 <div class="nav-body">
-                  <ul class="navbar-nav nav-menu-top">
+                  <!---<ul class="navbar-nav nav-menu-top">
                     <li class="nav-item" data-section-anchor="about">
                       <a class="nav-link" aria-current="page" href="{{ url('/?locale=es') }}">es</a>
                     </li>
                     <li class="nav-item ml-0" data-section-anchor="projects">
                       <a class="nav-link" aria-current="page" href="{{ url('/') }}">EN</a>
                     </li>
-                  </ul>
+                  </ul>-->
 
 
                   <button class="navbar-toggler menux" type="button" data-toggle="collapse" data-target="#navbarMenuCollapse" aria-controls="navbarMenuCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -74,8 +74,8 @@
         </header>
         <div class="nav-dot-menu"></div>
         <div class="cover-page">
-            <div class="cover-bg bg-black"></div>
-          </div>
+          <div class="cover-bg bg-black"></div>
+        </div>
         <main class="page-main sections-scroll scroll-anim " id="mainpage">
           <section id="banner" class="section section-a back-banner" style="background-image: url('assets/images/banner.jpg');">
 
@@ -86,6 +86,14 @@
                     <div class="o-container">
                       <div class="c-header" id="header">
                         <div class="c-header_heading" data-scroll data-scroll-speed="-8" data-scroll-position="top" data-scroll-target="#header" data-scroll-repeat></div>
+                        <div class="idioma-xs">
+                          <li class="nav-item" data-section-anchor="about">
+                            <a class="nav-link" aria-current="page" href="{{ url('/?locale=es') }}">es</a>
+                          </li>
+                          <li class="nav-item ml-0" data-section-anchor="projects">
+                            <a class="nav-link" aria-current="page" href="{{ url('/') }}">EN</a>
+                          </li>
+                        </div>
                         <h1 class="p8" data-scroll>
                           <span class="c-header_title_line text-center logo">
                             <span data-scroll data-scroll-speed="3" data-scroll-position="top">
@@ -314,13 +322,14 @@
                       <img class="icon-demo" src="assets/images/iconos/drone.svg" alt="">
                       {{ __("messages.digitalApplications") }}
                     </div>
-                    <p class="content__items-modal">{{ __("messages.binnopsPlatform") }}<br> 
-                    <span data-toggle="modal" data-target="#engineering">{{ __("messages.enginneringTitle") }},</span>
-                    <span data-toggle="modal" data-target="#revamps">{{ __("messages.revamps") }},</span>
-                    <span data-toggle="modal" data-target="#maintenace">{{ __("messages.maintenance") }},</span>
-                    <span data-toggle="modal" data-target="#reliabulity">{{ __("messages.reliability") }},</span> 
-                    <span>&</span> 
-                    <span data-toggle="modal" data-target="#operations">{{ __("messages.operations") }}.</span></p>
+                    <p class="content__items-modal">{{ __("messages.binnopsPlatform") }}<br>
+                      <span data-toggle="modal" data-target="#engineering">{{ __("messages.enginneringTitle") }},</span>
+                      <span data-toggle="modal" data-target="#revamps">{{ __("messages.revamps") }},</span>
+                      <span data-toggle="modal" data-target="#maintenace">{{ __("messages.maintenance") }},</span>
+                      <span data-toggle="modal" data-target="#reliabulity">{{ __("messages.reliability") }},</span>
+                      <span>&</span>
+                      <span data-toggle="modal" data-target="#operations">{{ __("messages.operations") }}.</span>
+                    </p>
 
                   </div>
                 </div>
@@ -1452,11 +1461,11 @@
 
                         </div>
                         <div class="certifications">
-                        <img src="assets/images/certifications/Logo_for_client_1110011 (1).png" alt="">
-                        <img src="assets/images/certifications/Logo_for_client_1110012.png" alt="">
-                        <img src="assets/images/certifications/Logo_for_client_1110013_2018.png" alt="">
-                        <img src="assets/images/certifications/Logo_for_client_1110074.png" alt="">
-                      </div>
+                          <img src="assets/images/certifications/Logo_for_client_1110011 (1).png" alt="">
+                          <img src="assets/images/certifications/Logo_for_client_1110012.png" alt="">
+                          <img src="assets/images/certifications/Logo_for_client_1110013_2018.png" alt="">
+                          <img src="assets/images/certifications/Logo_for_client_1110074.png" alt="">
+                        </div>
                       </div>
                       <div class="col-md-5">
                         <form id="form-message" class="form-a form-message form-message" method="post" action="ajaxserver/serverfile.php">
@@ -1484,7 +1493,7 @@
                           </div>
                         </form>
                       </div>
-                  
+
                     </div>
 
                   </div>
@@ -1656,8 +1665,7 @@
     </div>
   </div>
   <!-- Modal -->
-  <div class="modal fade" id="card-mini2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
-    aria-hidden="true">
+  <div class="modal fade" id="card-mini2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered  modal-lg" role="document">
       <div class="modal-content modal_cards-styles">
         <button type="button" class="close text-right mr-3 mt-2" data-dismiss="modal" aria-label="Close">
@@ -2034,61 +2042,57 @@
 @endsection
 
 @push("script")
-  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>      
-  <script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script>
+  function locationChange() {
 
+    let location = $("#countrySelector").val()
 
+    if (location == "us") {
 
-    function locationChange(){
+      $("#custom-address").html("Subsidiary of E2 SAS Colombia - 2101 City West Boulevard, Suite 100 77042 Houston Texas")
+      $("#custom-phone").html("<a class='contact-main btn-inline url-phone phone' href='tel:+1 713 429 1912' itemprop='phone'>+1 713 429 1912</a>")
 
-      let location = $("#countrySelector").val()
+    } else if (location == "colombia") {
 
-      if(location == "us"){
-
-        $("#custom-address").html("Subsidiary of E2 SAS Colombia - 2101 City West Boulevard, Suite 100 77042 Houston Texas")
-        $("#custom-phone").html("<a class='contact-main btn-inline url-phone phone' href='tel:+1 713 429 1912' itemprop='phone'>+1 713 429 1912</a>")
-
-      }else if(location == "colombia"){
-
-        $("#custom-address").html("E2 SAS Cra. 7 #156-78 of. 901 Bogotá D.C., Colombia")
-        $("#custom-phone").html("<a class='contact-main btn-inline url-phone phone' href='tel:+57 1 487 0918' itemprop='phone'>+57 1 487 0918</a>")
-
-      }
+      $("#custom-address").html("E2 SAS Cra. 7 #156-78 of. 901 Bogotá D.C., Colombia")
+      $("#custom-phone").html("<a class='contact-main btn-inline url-phone phone' href='tel:+57 1 487 0918' itemprop='phone'>+57 1 487 0918</a>")
 
     }
 
-    function sendMessage(){
+  }
 
-      let email = $("#email-message").val()
-      let name = $("#name-message").val()
-      let message = $("#message-message").val()
+  function sendMessage() {
 
-      $("#buttonSendMessage").css("display", "none")
-      $("#spinner").css("display", "block")
+    let email = $("#email-message").val()
+    let name = $("#name-message").val()
+    let message = $("#message-message").val()
 
-      $.post("{{ url('/send/message') }}", {
-        "email": email,
-        "name": name,
-        "text": message,
-        "_token": "{{ csrf_token() }}"
-      }, function(data){
+    $("#buttonSendMessage").css("display", "none")
+    $("#spinner").css("display", "block")
 
-        $("#buttonSendMessage").css("display", "block")
-        $("#spinner").css("display", "none")
+    $.post("{{ url('/send/message') }}", {
+      "email": email,
+      "name": name,
+      "text": message,
+      "_token": "{{ csrf_token() }}"
+    }, function(data) {
 
-        $("#email-message").val("")
-        $("#name-message").val("")
-        $("#message-message").val("")
+      $("#buttonSendMessage").css("display", "block")
+      $("#spinner").css("display", "none")
 
-        swal({
-          icon:"success",
-          text:"{{ __('messages.emailSent') }}"
-        })
+      $("#email-message").val("")
+      $("#name-message").val("")
+      $("#message-message").val("")
 
+      swal({
+        icon: "success",
+        text: "{{ __('messages.emailSent') }}"
       })
 
-    }
+    })
 
-  </script>
+  }
+</script>
 
 @endpush
