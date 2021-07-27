@@ -153,7 +153,8 @@ return [
     "integrityDescription1" => "A common practice in process industries is to document inspection circuits using 2D isometric drawings with manual placement of the thickness monitoring locations (TMLs) and corrosion monitoring locations (CMLs) for stationary equipment. In parallel, an “inspection” database is kept with inspection dates, and other data for each circuit. The challenges in coordinating and maintaining accuracy under this system should be obvious. In contrast, inspection circuits documented in a 3D virtual model can be subset into individual views with TMLs and CMLs clearly called out in their exact geospatial location while linked dynamically to the source data.",
     "integrityDescription2" => " With such “active isometrics,” personnel can virtually walk the area before inspections, adding or subtracting detail to under- stand what they are dealing with. The model accuracy enables scaffolding design and other preliminary set-up work. And since the 3D virtual model always shows true placement and measurements, so do the isometric circuits. This avoids the possible and time-consuming inconvenience of inaccurate inspection circuit documentation. Plus, since the Smart Digital Twin allows the repository of results of inspections at every exact point which generates and accurate trend or avoid mistakes",
     "digitalDataDescription" => "The 3D Model of the Asset is built in a reverse way and based on cloud point data previously collected from the field. The models are produced using commercial software platforms such as SP3D, Cadworx, Autoplant, Revit, E3D etc. Upon population and building of completion of all the engineering databases , the geometrical or the intelligent model gets uploaded onto a web based platform for easy navigation and data management .",
-    "emailSent" => "Email sent"
+    "emailSent" => "Email sent",
+    "learnMore" => "Learn more"
 
 
     

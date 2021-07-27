@@ -135,7 +135,8 @@ return [
     "integrityDescription1" => "Una práctica habitual en las industrias de proceso es documentar los circuitos de inspección mediante dibujos isométricos en 2D con la colocación manual de los lugares de control de espesores (TML) y los lugares de control de la corrosión (CML) para los equipos fijos. Paralelamente, se mantiene una base de datos de 'inspección' con las fechas de inspección y otros datos de cada circuito. Las dificultades para coordinar y mantener la precisión con este sistema deberían ser obvias. Por el contrario, los circuitos de inspección documentados en un modelo virtual 3D pueden subdividirse en vistas individuales con los TML y CML claramente indicados en su ubicación geoespacial exacta mientras se vinculan dinámicamente a los datos de origen.",
     "integrityDescription2" => "Con estas 'isométricas activas', el personal puede recorrer virtualmente la zona antes de las inspecciones, añadiendo o sustrayendo detalles para comprender lo que están tratando. La precisión del modelo permite el diseño de andamios y otros trabajos de preparación. Y como el modelo virtual en 3D siempre muestra la ubicación y las medidas reales, también lo hacen los circuitos isométricos. Esto evita los posibles y largos inconvenientes de una documentación inexacta del circuito de inspección. Además, el gemelo digital inteligente permite almacenar los resultados de las inspecciones en cada punto exacto, lo que genera una tendencia precisa o evita errores.",
     "digitalDataDescription" => "El modelo 3D del activo se construye de forma inversa y se basa en datos de nubes de puntos recopilados previamente en el campo. Los modelos se producen utilizando plataformas de software comerciales como Intergraph SP3D, Cadworx, Bentley Autoplant / OpenPlant, Autodek Revit, Autodesk Plant 3D, Aveva E3D: Dassault Catia, entre otros.",
-    "emailSent" => "Correo enviado"
+    "emailSent" => "Correo enviado",
+    "learnMore" => "Ver más"
 
 
 

@@ -77,7 +77,7 @@
           <div class="cover-bg bg-black"></div>
         </div>
         <main class="page-main sections-scroll scroll-anim " id="mainpage">
-          <section id="banner" class="section section-a back-banner" style="background-image: url('assets/images/banner.jpg');">
+          <section id="banner" class="section section-a back-banner" style="background-image: url('{{ App\Models\Header::first()->image }}');">
 
             <div class="s-hero" id="home">
               <div class="s-hero__scene">
@@ -1329,24 +1329,28 @@
                   </div>
                 </div>
 
-                <div class="item-list row row-cols-1 row-cols-md-2 g-5">
-                  <div class="col">
+               
+                  <div class="item-list row row-cols-1 row-cols-md-2 g-5">
+                    @foreach(App\Models\Blog::all() as $blog)
+                    <div class="col">
 
-                    <a class="item item-feature-c" href="single.html">
-                      <div class="item-img anim-hover">
-                        <img class="fit" src="assets/images/img/Home/3.jpg" alt="team member" />
-                      </div>
-                      <div class="icon">
-                        <span class="icon-text">01</span>
-                      </div>
-                      <div class="item-body">
-                        <h4 class=" title-blue">Look to New Technologies as Project Economics Shift</h4>
-                        <span class="btn btn-overline-a  title-blue"> Learn more </span>
-                      </div>
-                    </a>
+                      <a class="item item-feature-c" href="{{ url('/time-lapse/'.$blog->slug.'/lang/'.App::currentLocale()) }}">
+                        <div class="item-img anim-hover">
+                          <img class="fit" src="assets/images/img/Home/3.jpg" alt="team member" />
+                        </div>
+                        <div class="icon">
+                          <span class="icon-text">{{ $loop->index + 1 < 10 ? '0': '' }} {{ $loop->index + 1 }}</span>
+                        </div>
+                        <div class="item-body">
+                          <h4 class=" title-blue">{{ $blog->title }}</h4>
+                          <span class="btn btn-overline-a  title-blue"> {{ __('messages.learnMore') }} </span>
+                        </div>
+                      </a>
+                    </div>
+                    @endforeach
                   </div>
 
-                </div>
+               
 
               </div>
             </div>
@@ -2035,7 +2039,7 @@
     </button>
     <div class="modal-content">
     
-      <iframe width="100%" height="500" src="https://www.youtube.com/embed/iVS-AuSjpOQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="100%" height="500" src="{{ App\Models\Video::first()->link }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
   </div>
 </div>
@@ -2045,6 +2049,7 @@
 @push("script")
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <script>
+  
   function locationChange() {
 
     let location = $("#countrySelector").val()
