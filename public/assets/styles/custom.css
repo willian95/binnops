@@ -999,6 +999,8 @@ position: relative;
 }
 .blog-modal img{
   width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 .blog-modal .modal-body p{
   color: #14162d;
@@ -2428,6 +2430,7 @@ color: #000;
 .home-1{
   font-size: 1.3rem;
   padding: 0 15rem;
+  color: #fff;
 }
 .c-header_line, .c-header_title {
 
@@ -2841,5 +2844,8 @@ justify-content: center;
     margin-right: 6rem;
 }
 .idioma-xs a{
+  color: #fff;
+}
+.txt-fix h2, .txt-fix p{
   color: #fff;
 }

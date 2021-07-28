@@ -25,12 +25,34 @@
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;900&display=swap" rel="stylesheet" />
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.3/photoswipe.min.css">
-  <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.3/default-skin/default-skin.min.css">
-    <style>.navbar-a .navbar-nav .nav-link {
-      color: #14162d;
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.3/default-skin/default-skin.min.css">
+  <style>
+    .idioma-xs {
 
-  }</style>
+      padding-right: 6rem;
+      background: #fff;
+      margin-right: 0;
+    }
+
+    .idioma-xs a {
+      color: #14162d;
+    }
+
+    @media (max-width: 768px) {
+      .pb-12 {
+        padding-bottom: 0rem !important;
+      }
+
+      .logo img {
+        width: 200px;
+        margin: 0rem 0;
+      }
+
+      .idioma-xs {
+        padding-right: 0;
+      }
+    }
+  </style>
 </head>
 
 <body>
@@ -38,19 +60,81 @@
     <div data-scroll-section="">
       <section class="viewport">
         <div id="scroll-container" class="scroll-container">
+          <div class="idioma-xs">
+            <li class="nav-item" data-section-anchor="about">
+              <a class="nav-link" aria-current="page" href="{{ url('/?locale=es') }}">es</a>
+            </li>
+            <li class="nav-item ml-0" data-section-anchor="projects">
+              <a class="nav-link" aria-current="page" href="{{ url('/') }}">EN</a>
+            </li>
+          </div>
           <header class="navbar-top navbar navbar-a navbar-expand-lg">
+
             <nav class="container-fluid px-0">
               <div class="collapse navbar-collapse order-lg-1">
                 <div class="navbar-menu-wrapper">
                   <div class="nav-body">
-                    <ul class="navbar-nav nav-menu-top">
-                      <li class="nav-item" data-section-anchor="about">
-                        <a class="nav-link" aria-current="page" href="{{ url('/time-lapse-all/es') }}">ES</a>
-                      </li>
-                      <li class="nav-item ml-0" data-section-anchor="projects">
-                        <a class="nav-link" aria-current="page" href="{{ url('/time-lapse-all/en') }}">EN</a>
-                      </li>
-                    </ul>
+                    <!---<ul class="navbar-nav nav-menu-top">
+                    <li class="nav-item" data-section-anchor="about">
+                      <a class="nav-link" aria-current="page" href="{{ url('/?locale=es') }}">es</a>
+                    </li>
+                    <li class="nav-item ml-0" data-section-anchor="projects">
+                      <a class="nav-link" aria-current="page" href="{{ url('/') }}">EN</a>
+                    </li>
+                  </ul>-->
+
+
+                    <button class="navbar-toggler menux" type="button" data-toggle="collapse" data-target="#navbarMenuCollapse" aria-controls="navbarMenuCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="icon icon-menu icon-menu-c">
+                        <img src="{{ url('assets/images/icon.png') }}" alt="">
+                        <!--<span class="bars">
+                      <span class="bar1"></span>
+                      <span class="bar2"></span>
+                    </span>-->
+                      </span>
+                    </button>
+
+                    <div class="collapse navbar-collapse order-lg-1" id="navbarMenuCollapse">
+                      <div class="navbar-menu-wrapper">
+                        <div class="nav-body">
+                          <div class="nav-fullscreen-lg">
+                            <ul class="navbar-nav nav">
+                              <li class="nav-item">
+                                <a class="nav-link" data-scroll-to aria-current="page" data-scroll href="#home"> {{
+                                __("messages.home") }}</a>
+                              </li>
+                              <!---<li class="nav-item">
+                <a class="nav-link" data-scroll-to data-scroll href="#products">{{ __("messages.products")  }}
+                </a>
+              </li>-->
+                              <li class="nav-item">
+                                <a class="nav-link" data-scroll-to data-scroll href="#business">{{
+                                __("messages.businessModel") }}</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" data-scroll-to data-scroll href="#exprience">{{
+                                __("messages.experienceTitle") }}
+                                </a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" data-scroll-to data-scroll href="#aourroadmap">{{
+                                __("messages.transformationRoadMap") }}
+                                </a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" data-scroll-to data-scroll href="#blog">Blog
+                                </a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" data-scroll-to data-scroll href="#contact">{{ __("messages.contact")
+                                }}
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -62,8 +146,7 @@
           </div>
           <main class="page-main sections-scroll scroll-anim bg-blue " id="mainpage">
             <section class="section section-a ">
-              <div class="c-header_heading mb-5" data-scroll data-scroll-speed="-8" data-scroll-position="top"
-                data-scroll-repeat>
+              <div class="c-header_heading mb-5" data-scroll data-scroll-speed="-8" data-scroll-position="top" data-scroll-repeat>
                 <h1 class="pt-5 pb-12 " data-scroll>
                   <span class="c-header_title_line text-center logo">
                     <span data-scroll data-scroll-speed="3" data-scroll-position="top">
@@ -74,136 +157,136 @@
               </div>
               <div class="main-blog container">
                 @foreach(App\Models\Blog::all() as $blog)
-                    <div class="main-blog_item " data-toggle="modal" data-target=".blog-id{{ $blog->id }}" data-scroll data-scroll-speed="5" data-scroll-position="top" data-scroll-delay="0.05">
-                        <div class="main-blog_txt">
-                            <p>{{ $blog->title }}</p>
-                            <span>{{ $blog->created_at->format('d/m/Y') }} <i class="fa fa-calendar" aria-hidden="true"></i>
-                            </span>
-                        </div>
-                        <img src="{{ $blog->image }}" alt="">
-                    </div>
+                <div class="main-blog_item " data-toggle="modal" data-target=".blog-id{{ $blog->id }}" data-scroll data-scroll-speed="5" data-scroll-position="top" data-scroll-delay="0.05">
+                  <div class="main-blog_txt">
+                    <p>{{ $blog->title }}</p>
+                    <span>{{ $blog->created_at->format('d/m/Y') }} <i class="fa fa-calendar" aria-hidden="true"></i>
+                    </span>
+                  </div>
+                  <img src="{{ $blog->image }}" alt="">
+                </div>
 
-                    
+
 
                 @endforeach
 
 
               </div>
             </section>
-            <section id="contact" class="section section-a fullscreen-h-lg ">
+            <section id="contact" class="section section-a fullscreen-h-lg pt-10">
 
-            <!-- Begin of section body -->
-            <div class="section-body section-contact" style="padding-top: 4rem;" itemscope itemtype="https://schema.org/Organization">
-              <!-- content -->
-              <div class="section-content container content-width anim">
-                <div class="row justify-content-between">
-                  <div class="col-12 col-lg-12 text-left">
-                    <!-- title and description -->
-                    <div class="row">
-                      <div class="col-md-7">
-                        <div class="title-desc">
-                          <!---<h2 class="display-3 anim-1 mb-4">Contact Us</h2>--->
-                          <p class="anim-2">{{ __("messages.worldwideOffice") }}</p>
-                          <select class="form-select" aria-label="Default select example" onchange="locationChange()" id="countrySelector">
-                            <option value="us" class="col">{{ __("messages.usOffice") }}</option>
-                            <option value="colombia" class="usa">{{ __("messages.colombiaOffice") }}</option>
-                          </select>
-                          <div id="info-col">
-                            <p id="custom-address" class="direction">
-                              Subsidiary of E2 SAS Colombia - 2101 City West Boulevard, Suite 100 77042 Houston Texas
-                            </p>
+              <!-- Begin of section body -->
+              <div class="section-body section-contact" style="padding-top: 4rem;" itemscope itemtype="https://schema.org/Organization">
+                <!-- content -->
+                <div class="section-content container content-width anim">
+                  <div class="row justify-content-between">
+                    <div class="col-12 col-lg-12 text-left">
+                      <!-- title and description -->
+                      <div class="row">
+                        <div class="col-md-7">
+                          <div class="title-desc">
+                            <!---<h2 class="display-3 anim-1 mb-4">Contact Us</h2>--->
+                            <p class="anim-2">{{ __("messages.worldwideOffice") }}</p>
+                            <select class="form-select" aria-label="Default select example" onchange="locationChange()" id="countrySelector">
+                              <option value="us" class="col">{{ __("messages.usOffice") }}</option>
+                              <option value="colombia" class="usa">{{ __("messages.colombiaOffice") }}</option>
+                            </select>
+                            <div id="info-col">
+                              <p id="custom-address" class="direction">
+                                Subsidiary of E2 SAS Colombia - 2101 City West Boulevard, Suite 100 77042 Houston Texas
+                              </p>
 
-                            <div class="d-flex align-items-center">
+                              <div class="d-flex align-items-center">
 
-                              <a class="email email-main btn-inline" href="mailto: contact@binnops.com" itemprop="email">
-                                contact@binnops.com</a>
-                              <!---<button class="btn-fab btn-white ml-3" data-toggle="modal" data-target="#messageModal">
+                                <a class="email email-main btn-inline" href="mailto: contact@binnops.com" itemprop="email">
+                                  contact@binnops.com</a>
+                                <!---<button class="btn-fab btn-white ml-3" data-toggle="modal" data-target="#messageModal">
                                   <span class="icon"><i class="ion-md-mail"></i></span>
                                 </button>--->
+                              </div>
+                              <div class="d-flex align-items-center" id="custom-phone">
+                                <a class="contact-main btn-inline url-phone phone" href="tel:+1 713 429 1912" itemprop="phone">
+                                  +1 713 429 1912</a>
+                              </div>
                             </div>
-                            <div class="d-flex align-items-center" id="custom-phone">
-                              <a class="contact-main btn-inline url-phone phone" href="tel:+1 713 429 1912" itemprop="phone">
-                                +1 713 429 1912</a>
+                            <div id="info-usa">
+
                             </div>
+
+
                           </div>
-                          <div id="info-usa">
-
+                          <div class="certifications">
+                            <img src="{{ url('assets/images/certifications/Logo_for_client_1110011 (1).png') }}" alt="">
+                            <img src="{{ url('assets/images/certifications/Logo_for_client_1110012.png') }}" alt="">
+                            <img src="{{ url('assets/images/certifications/Logo_for_client_1110013_2018.png') }}" alt="">
+                            <img src="{{ url('assets/images/certifications/Logo_for_client_1110074.png') }}" alt="">
                           </div>
-
-
                         </div>
-                        <div class="certifications">
-                          <img src="{{ url('assets/images/certifications/Logo_for_client_1110011 (1).png') }}" alt="">
-                          <img src="{{ url('assets/images/certifications/Logo_for_client_1110012.png') }}" alt="">
-                          <img src="{{ url('assets/images/certifications/Logo_for_client_1110013_2018.png') }}" alt="">
-                          <img src="{{ url('assets/images/certifications/Logo_for_client_1110074.png') }}" alt="">
-                        </div>
-                      </div>
-                      <div class="col-md-5">
-                        <form id="form-message" class="form-a form-message form-message" method="post">
-                          <div class="mb-3">
-                            <label for="name-message" class="form-label">{{ __("messages.name") }}</label>
-                            <input type="text" class="form-control form-control-a" id="name-message" placeholder="Firstname Lastname" required />
-                          </div>
-                          <div class="mb-3">
-                            <label for="email-message" class="form-label">{{ __("messages.email") }}</label>
-                            <input type="email" class="form-control form-control-a" id="email-message" placeholder="your@email.com" required />
-                          </div>
-                          <div class="mb-3">
-                            <label for="message-message" class="form-label">{{ __("messages.message") }}</label>
-                            <textarea class="form-control form-control-b" id="message-message" placeholder="Hello, your message" required></textarea>
-                          </div>
-                          <div class="mt-4">
-                            <button type="button" class="btn btn-solid btn-white rounded-pill" onclick="sendMessage()" id="buttonSendMessage">
-                              <span class="text">{{ __("messages.sendMessage") }}</span>
-                            </button>
-
-                            <div class="spinner-border" role="status" id="spinner">
-                              <span class="sr-only">Loading...</span>
+                        <div class="col-md-5">
+                          <form id="form-message" class="form-a form-message form-message" method="post">
+                            <div class="mb-3">
+                              <label for="name-message" class="form-label">{{ __("messages.name") }}</label>
+                              <input type="text" class="form-control form-control-a" id="name-message" placeholder="Firstname Lastname" required />
                             </div>
+                            <div class="mb-3">
+                              <label for="email-message" class="form-label">{{ __("messages.email") }}</label>
+                              <input type="email" class="form-control form-control-a" id="email-message" placeholder="your@email.com" required />
+                            </div>
+                            <div class="mb-3">
+                              <label for="message-message" class="form-label">{{ __("messages.message") }}</label>
+                              <textarea class="form-control form-control-b" id="message-message" placeholder="Hello, your message" required></textarea>
+                            </div>
+                            <div class="mt-4">
+                              <button type="button" class="btn btn-solid btn-white rounded-pill" onclick="sendMessage()" id="buttonSendMessage">
+                                <span class="text">{{ __("messages.sendMessage") }}</span>
+                              </button>
 
-                          </div>
-                        </form>
+                              <div class="spinner-border" role="status" id="spinner">
+                                <span class="sr-only">Loading...</span>
+                              </div>
+
+                            </div>
+                          </form>
+                        </div>
+
                       </div>
 
                     </div>
-
                   </div>
+                  <footer id="site-footer" class="footer-page">
+                    <!-- Right content -->
+                    <div class="footer-right">
+                      <nav class="nav-social nav-social-a">
+                        <ul>
+                          <li class="nav-item">
+                            <a class="nav-link btn" href="#">
+                              <span class="icon">
+                                <i class="ion ion-logo-instagram"></i>
+                              </span>
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link btn" href="#">
+                              <span class="icon">
+                                <i class="ion ion-logo-twitter"></i>
+                              </span>
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link btn" href="#">
+                              <span class="icon">
+                                <i class="ion ion-logo-linkedin"></i>
+                              </span>
+                            </a>
+                          </li>
+                        </ul>
+                      </nav>
+                    </div>
+                  </footer>
                 </div>
-                <footer id="site-footer" class="footer-page">
-                  <!-- Right content -->
-                  <div class="footer-right">
-                    <nav class="nav-social nav-social-a">
-                      <ul>
-                        <li class="nav-item">
-                          <a class="nav-link btn" href="#">
-                            <span class="icon">
-                              <i class="ion ion-logo-instagram"></i>
-                            </span>
-                          </a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link btn" href="#">
-                            <span class="icon">
-                              <i class="ion ion-logo-twitter"></i>
-                            </span>
-                          </a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link btn" href="#">
-                            <span class="icon">
-                              <i class="ion ion-logo-linkedin"></i>
-                            </span>
-                          </a>
-                        </li>
-                      </ul>
-                    </nav>
-                  </div>
-                </footer>
               </div>
-            </div>
-            <!-- End of section body -->
-          </section>
+              <!-- End of section body -->
+            </section>
           </main>
         </div>
       </section>
@@ -211,88 +294,37 @@
   </div>
 
   @foreach(App\Models\Blog::all() as $blog)
-    <!-- Modal blog-->
-    <div class="modal fade blog-modal blog-id{{ $blog->id }}" id="exampleModalCenter" tabindex="-1" role="dialog"
-        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-            <div class="modal-content">
-                <div class="">
-                    <div class="main-blog_txt-modal">
-                        <p>{{ $blog->title }}</p>
-                        <span>{{ $blog->created_at->format("d/m/Y") }} <i class="fa fa-calendar" aria-hidden="true"></i>
-                        </span>
-                    </div>
+  <!-- Modal blog-->
+  <div class="modal fade blog-modal blog-id{{ $blog->id }}" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <div class="modal-content">
+        <div class="">
+          <div class="main-blog_txt-modal">
+            <p>{{ $blog->title }}</p>
+            <span>{{ $blog->created_at->format("d/m/Y") }} <i class="fa fa-calendar" aria-hidden="true"></i>
+            </span>
+          </div>
 
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-
-                    <img src="{{ $blog->image }}" alt="">
-                    <p>{!! $blog->description !!} </p>
-                </div>
-
-            </div>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
         </div>
+        <div class="modal-body">
+
+          <img src="{{ $blog->image }}" alt="">
+          <p>{!! $blog->description !!} </p>
+        </div>
+
+      </div>
     </div>
+  </div>
 
   @endforeach
 
-  <nav class="container-fluid px-0">
-    <button class="navbar-toggler menux" type="button" data-toggle="collapse" data-target="#navbarMenuCollapse"
-      aria-controls="navbarMenuCollapse" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="icon icon-menu icon-menu-c">
-        <img src="{{ url('assets/images/icon.png') }}" alt="">
-        <!--<span class="bars">
-          <span class="bar1"></span>
-          <span class="bar2"></span>
-        </span>-->
-      </span>
-    </button>
-
-    <div class="collapse navbar-collapse order-lg-1" id="navbarMenuCollapse">
-      <div class="navbar-menu-wrapper">
-        <div class="nav-body">
-          <div class="nav-fullscreen-lg">
-            <ul class="navbar-nav nav">
-              <li class="nav-item">
-                <a class="nav-link" data-scroll-to aria-current="page" data-scroll href="#home"> Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-scroll-to data-scroll href="#products">Products
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-scroll-to data-scroll href="#business">Business Model</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-scroll-to data-scroll href="#exprience">Experience
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-scroll-to data-scroll href="#aourroadmap">Our road map
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-scroll-to data-scroll href="#blog">Blog
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-scroll-to data-scroll href="#contact">Contact
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </nav>
 
 
   <!-- Modal serviicio 1 -->
-  <div class="modal fade datavisualization" id="exampleModalCenter" tabindex="-1" role="dialog"
-    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal fade datavisualization" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
       <div class="modal-content">
 
@@ -347,8 +379,7 @@
                         </div>
                       </div>
                       <div class="d-block d-sm-none">
-                        <img class="d-block w-100" src="https://picsum.photos/600/400/?image=0&random"
-                          alt="First slide">
+                        <img class="d-block w-100" src="https://picsum.photos/600/400/?image=0&random" alt="First slide">
                       </div>
                     </div>
                     <div class="carousel-item">
@@ -375,8 +406,7 @@
                         </div>
                       </div>
                       <div class="d-block d-sm-none">
-                        <img class="d-block w-100" src="https://picsum.photos/600/400/?image=1&random"
-                          alt="Second slide">
+                        <img class="d-block w-100" src="https://picsum.photos/600/400/?image=1&random" alt="Second slide">
                       </div>
                     </div>
                   </div>
@@ -396,7 +426,7 @@
       </div>
     </div>
   </div>
-  
+
 
 
 
@@ -415,56 +445,53 @@
   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
   @if(isset($id))
-    <script>
-      $(document).ready(function(){
+  <script>
+    $(document).ready(function() {
 
-        var id = "{{ $id ? $id : '' }}"
-        if(id){
-          $(".blog-id"+id).modal('show')
-        }
+      var id = "{{ $id ? $id : '' }}"
+      if (id) {
+        $(".blog-id" + id).modal('show')
+      }
 
 
-      })
-    </script>
+    })
+  </script>
   @endif
 
-<script>
-
-  
-
+  <script>
     function locationChange() {
 
-        let location = $("#countrySelector").val()
+      let location = $("#countrySelector").val()
 
-        if (location == "us") {
+      if (location == "us") {
 
         $("#custom-address").html("Subsidiary of E2 SAS Colombia - 2101 City West Boulevard, Suite 100 77042 Houston Texas")
         $("#custom-phone").html("<a class='contact-main btn-inline url-phone phone' href='tel:+1 713 429 1912' itemprop='phone'>+1 713 429 1912</a>")
 
-        } else if (location == "colombia") {
+      } else if (location == "colombia") {
 
         $("#custom-address").html("E2 SAS Cra. 7 #156-78 of. 901 Bogotá D.C., Colombia")
         $("#custom-phone").html("<a class='contact-main btn-inline url-phone phone' href='tel:+57 1 487 0918' itemprop='phone'>+57 1 487 0918</a>")
 
-        }
+      }
 
     }
 
     function sendMessage() {
 
-        let email = $("#email-message").val()
-        let name = $("#name-message").val()
-        let message = $("#message-message").val()
+      let email = $("#email-message").val()
+      let name = $("#name-message").val()
+      let message = $("#message-message").val()
 
-        $("#buttonSendMessage").css("display", "none")
-        $("#spinner").css("display", "block")
+      $("#buttonSendMessage").css("display", "none")
+      $("#spinner").css("display", "block")
 
-        $.post("{{ url('/send/message') }}", {
+      $.post("{{ url('/send/message') }}", {
         "email": email,
         "name": name,
         "text": message,
         "_token": "{{ csrf_token() }}"
-        }, function(data) {
+      }, function(data) {
 
         $("#buttonSendMessage").css("display", "block")
         $("#spinner").css("display", "none")
@@ -474,17 +501,16 @@
         $("#message-message").val("")
 
         swal({
-            icon: "success",
-            text: "{{ __('messages.emailSent') }}"
+          icon: "success",
+          text: "{{ __('messages.emailSent') }}"
         })
 
-        })
+      })
 
     }
-    </script>
+  </script>
 
 
 </body>
 
 </html>
-
