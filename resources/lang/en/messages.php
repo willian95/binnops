@@ -35,7 +35,7 @@ return [
     "afterCapturing" => "After capturing field data via the laser scanning techniques, the next step includes the conversion of the Geometrical As built Model into an Intelligent Model by adding and identifying tags and other asset information. By tagging objects, components, structures, circuits and subsystems, the model shapes gain context and can be used for searching, sorting, and linking to relevant data from all other plant information systems. The result is
     an asset management environment that we call “asset virtualization.”",
     "digitalApplications" => "Digital Hub Applications",
-    "binnopsPlatform" => "Binnops Platform permits search and queries—pulling the required data from several databases and be used by several Users . Binoops Digital Hub is the foundation for collaboration, coordination and collective knowledge capture that extends across plant disciplines and to the plant’s network of service and product suppliers. See detailed usage for:",
+    "binnopsPlatform" => "Binnops Platform permits search and queries—pulling the required data from several databases and be used by several Users . Binnops Digital Hub is the foundation for collaboration, coordination and collective knowledge capture that extends across plant disciplines and to the plant’s network of service and product suppliers. See detailed usage for:",
     "revamps" => "Revamps",
     "maintenance" => "Maintenance",
     "reliability" => "Reliability",
