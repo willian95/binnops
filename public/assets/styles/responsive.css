@@ -1,4 +1,8 @@
 @media (max-width: 768px) {
+  .btn-mas:after {
+    width: 30px!important;
+    height: 30px!important;
+}
   .nav-fullscreen-lg .nav-link {
     color: #ffffff !important;
     font-size: 1.5rem;
@@ -335,6 +339,11 @@ form{
       display: none;
     }
 }
+@media (width: 375px) and (height: 576px) {
+  .back-banner {
+    height: 189vh;
+}
+}
 @media (min-width: 992px) and (max-width: 1199px) {
  
   .home-1 {
@@ -404,7 +413,61 @@ form{
 }
 }
 
-@media (min-width: 769px) and (max-width: 991px) {
+
+
+@media (min-width: 1200px) {
+}
+@media (min-width: 2000px) {
+    .home-1 {
+        font-size: 3.5rem;
+        padding: 0 9rem;
+    }
+    .p8 {
+        padding-bottom: 4rem;
+    }
+    .logo img {
+        width: 380px;
+    }
+    .item-content {
+        height: 36vh;
+    }
+    .btns-group {
+        height: auto;
+    }
+  
+    .card-body_main .wrapper {
+        height: 25vh;
+    }
+    .fullscreen-h-lg {
+        min-height: auto;
+    }
+    .fix-sect {
+        height: 36vh;
+    }
+}
+
+@media (min-width: 390px) and (max-width: 991px) {
+  .back-banner {
+    height: 130vh;
+}
+}
+@media (min-width: 414px) and (max-width: 991px) {
+  .back-banner {
+    height: 147vh;
+}
+}
+@media (min-width: 375px) and (max-width: 991px) {
+  .back-banner {
+   
+    height: 170vh;
+}
+}
+@media (width: 393px) and (height: 851px) {
+  .back-banner {
+    height: 130vh;
+}
+}
+@media (min-width: 768px) and (max-width: 991px) {
  
 .circle-container:hover .nav-tabs>li>a:hover,
 .circle-container.nav-tabs>li>a:focus .flaticon-web:before,
@@ -570,52 +633,59 @@ form{
   height: 100px;
 
 }
+.back-banner {
+  height: 112vh;
+}
+}
+@media (width: 1920px) and (height: 1080px) {
+  .card-body_main .author {
+    font-size: 2rem;
+}
+  .cards-banner_grids {
+
+    margin-top: 6rem;
+}
+  .home-1 {
+    font-size: 2.5rem;
+    padding: 0 9rem;
+}
+.p8 {
+    padding-bottom: 4rem;
+}
+.logo img {
+    width: 380px;
+}
+.item-content {
+    height: 40vh;
+}
+.demo-gallery img {
+ 
+  height: 160px;
+ 
+}
+.btns-group {
+    height: auto;
 }
 
-@media (min-width: 1200px) {
+.card-body_main .wrapper {
+    height: 25vh;
 }
-@media (min-width: 2000px) {
-    .home-1 {
-        font-size: 3.5rem;
-        padding: 0 9rem;
-    }
-    .p8 {
-        padding-bottom: 4rem;
-    }
-    .logo img {
-        width: 380px;
-    }
-    .item-content {
-        height: 36vh;
-    }
-    .btns-group {
-        height: auto;
-    }
-  
-    .card-body_main .wrapper {
-        height: 25vh;
-    }
-    .fullscreen-h-lg {
-        min-height: auto;
-    }
-    .fix-sect {
-        height: 36vh;
-    }
+.fullscreen-h-lg {
+    min-height: auto;
+}
+.fix-sect {
+    height: 36vh;
 }
 
-@media (min-width: 390px) and (max-width: 991px) {
-  .back-banner {
-    height: 130vh;
+.main-blog_item:nth-child(2n) {
+
+  padding-left: 43rem;
 }
+.main-blog_item:nth-child(2n+1) {
+  padding-right: 42rem;
 }
-@media (min-width: 414px) and (max-width: 991px) {
-  .back-banner {
-    height: 147vh;
-}
-}
-@media (min-width: 375px) and (max-width: 991px) {
-  .back-banner {
-   
-    height: 170vh;
+.txt-fix p {
+
+  font-size: 1.5rem;
 }
 }

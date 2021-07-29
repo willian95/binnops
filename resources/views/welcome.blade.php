@@ -21,9 +21,7 @@
                   </ul>-->
 
 
-                  <button class="navbar-toggler menux" type="button" data-toggle="collapse"
-                    data-target="#navbarMenuCollapse" aria-controls="navbarMenuCollapse" aria-expanded="false"
-                    aria-label="Toggle navigation">
+                  <button class="navbar-toggler menux" type="button" data-toggle="collapse" data-target="#navbarMenuCollapse" aria-controls="navbarMenuCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="icon icon-menu icon-menu-c">
                       <img src="assets/images/icon.png" alt="">
                       <!--<span class="bars">
@@ -84,8 +82,7 @@
           <div class="cover-bg bg-black"></div>
         </div>
         <main class="page-main sections-scroll scroll-anim " id="mainpage">
-          <section id="banner" class="section section-a back-banner"
-            style="background-image: url('{{ App\Models\Header::first()->image }}');">
+          <section id="banner" class="section section-a back-banner" style="background-image: url('{{ App\Models\Header::first()->image }}');">
 
             <div class="s-hero" id="home">
               <div class="s-hero__scene">
@@ -93,15 +90,20 @@
                   <div class="c-scene__container">
                     <div class="o-container">
                       <div class="c-header" id="header">
-                        <div class="c-header_heading" data-scroll data-scroll-speed="-8" data-scroll-position="top"
-                          data-scroll-target="#header" data-scroll-repeat></div>
+                        <div class="c-header_heading" data-scroll data-scroll-speed="-8" data-scroll-position="top" data-scroll-target="#header" data-scroll-repeat></div>
+
                         <div class="idioma-xs">
-                          <li class="nav-item" data-section-anchor="about">
-                            <a class="nav-link" aria-current="page" href="{{ url('/?locale=es') }}">es</a>
-                          </li>
-                          <li class="nav-item ml-0" data-section-anchor="projects">
-                            <a class="nav-link" aria-current="page" href="{{ url('/') }}">EN</a>
-                          </li>
+                          <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Select your language
+
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                              <a class="nav-link" aria-current="page" href="{{ url('/?locale=es') }}"> <img src="https://findicons.com/files/icons/282/flags/48/spain.png" alt=""> es</a>
+                              <a class="nav-link" aria-current="page" href="{{ url('/') }}"> <img src="http://findicons.com/files/icons/282/flags/48/united_states_of_america_usa.png" alt=""> EN</a>
+                            </div>
+                          </div>
+
                         </div>
                         <h1 class="p8" data-scroll>
                           <span class="c-header_title_line text-center logo">
@@ -124,8 +126,7 @@
                         </div>
 
                         <div class="text-center dflex-content ">
-                          <a data-toggle="modal" data-target=".videoo" id="play-video" class="video-play-button"
-                            href="#">
+                          <a data-toggle="modal" data-target=".videoo" id="play-video" class="video-play-button" href="#">
                             <span></span>
                           </a>
 
@@ -138,11 +139,17 @@
                           <span class="c-header_title_line -version u-white cards-banner_grids">
                             <!-------------card servicio 1 ---------------->
                             <a href="#menu1" data-scroll-to class="icon-expand menu1 " data-scroll>
-                              <span class="o-h1 animate__animated animate__backInDown" data-scroll data-scroll-speed="5"
-                                data-scroll-position="top" data-scroll-delay="0.03">
+                              <span class="o-h1 animate__animated animate__backInDown" data-scroll data-scroll-speed="5" data-scroll-position="top" data-scroll-delay="0.03">
                                 <div class="card-banner card-body_main ">
                                   <div class="wrapper " style="
                                           background: url(assets/images/img/Home/1.png)center/cover no-repeat; ">
+                                    <div id="play-video" class="video-play-button btn-mas">
+                                      <p>+</p>
+                                    </div>
+                                    <div class="text-center dflex-content ">
+
+
+                                    </div>
                                     <div class="data">
                                       <div class="content">
                                         <span class="author">{{ __("messages.assetVisualization") }}</span>
@@ -155,13 +162,15 @@
                               </span></a>
                             <!-------------card servicio 2---------------->
                             <a href="#menu2" data-scroll-to class="menu2 icon-expand" data-scroll>
-                              <span class="o-h1 animate__animated animate__backInUp" data-scroll data-scroll-speed="5"
-                                data-scroll-position="top" data-scroll-delay="0.04">
+                              <span class="o-h1 animate__animated animate__backInUp" data-scroll data-scroll-speed="5" data-scroll-position="top" data-scroll-delay="0.04">
                                 <div class="card-banner card-body_main">
                                   <div class="wrapper" style="
                                         background: url(assets/images/img/Home/3.jpg)
                                           center/cover no-repeat;
                                       ">
+                                       <div id="play-video" class="video-play-button btn-mas">
+                                      <p>+</p>
+                                    </div>
                                     <div class="data">
                                       <div class="content">
                                         <span class="author">{{ __('messages.smartTwins') }}</span>
@@ -173,14 +182,15 @@
                               </span></a>
                             <!-------------card servicio 3---------------->
                             <a href="#menu3" data-scroll-to class="menu-open-button menu3 icon-expand" data-scroll>
-                              <span class="o-h1 animate__animated animate__backInRight animated" data-scroll data-scroll
-                                data-scroll-speed="5" data-scroll-position="top" data-scroll-delay="0.05">
+                              <span class="o-h1 animate__animated animate__backInRight animated" data-scroll data-scroll data-scroll-speed="5" data-scroll-position="top" data-scroll-delay="0.05">
                                 <div class="card-banner card-body_main">
                                   <div class="wrapper" style="
                                         background: url(assets/images/img/Home/2.png)
                                           center/cover no-repeat;
                                       ">
-
+ <div id="play-video" class="video-play-button btn-mas">
+                                      <p>+</p>
+                                    </div>
                                     <div class="data">
                                       <div class="content">
                                         <span class="author">{{ __('messages.smartManagement') }}</span>
@@ -209,47 +219,33 @@
               <div class="menu-grid_item">
                 <div class="content-services">
                   <div class="section-title title-anim  section-title-nav">
-                    <h2 class="text text-stroke text-lg rellax services-txt" data-rellax-horizontal
-                      data-rellax-speed="-4" data-rellax-percentage="0.5">
+                    <h2 class="text text-stroke text-lg rellax services-txt" data-rellax-horizontal data-rellax-speed="-4" data-rellax-percentage="0.5">
                       <!--<img class="img_navs" src="assets/images/iconos/database2.svg" alt="">-->
                       {{ __("messages.assetVisualization") }}
                     </h2>
                   </div>
-                  <p class="ttile-navegation">{{ __("messages.saveMoney") }}<span class="moreviews" data-toggle="modal"
-                      data-target="#card1">{{ __("messages.viewMore") }}</span>
+                  <p class="ttile-navegation">{{ __("messages.saveMoney") }}<span class="moreviews" data-toggle="modal" data-target="#card1">{{ __("messages.viewMore") }}</span>
                   </p>
 
                   <!-------------------------------------sliders--------------------------------------------->
                   <div class="row">
                     <div class="demo-gallery">
-                      <a href="assets/images/img/Services/asset/Imagen3.jpg" data-size="1600x1600"
-                        data-med="assets/images/img/Services/asset/Imagen3.jpg" data-med-size="1024x1024"
-                        data-author="Folkert Gorter" class="demo-gallery__img--main">
+                      <a href="assets/images/img/Services/asset/Imagen3.jpg" data-size="1600x1600" data-med="assets/images/img/Services/asset/Imagen3.jpg" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
                         <img src="assets/images/img/Services/asset/Imagen3.jpg" alt="" />
                       </a>
-                      <a href="assets/images/img/Services/asset/Imagen4.png" data-size="1600x1068"
-                        data-med="assets/images/img/Services/asset/Imagen4.png" data-med-size="1024x683"
-                        data-author="Samuel Rohl">
+                      <a href="assets/images/img/Services/asset/Imagen4.png" data-size="1600x1068" data-med="assets/images/img/Services/asset/Imagen4.png" data-med-size="1024x683" data-author="Samuel Rohl">
                         <img src="assets/images/img/Services/asset/Imagen4.png" alt="" />
                       </a>
-                      <a href="assets/images/img/Services/asset/Imagen5.png" data-size="1600x1067"
-                        data-med="assets/images/img/Services/asset/Imagen5.png" data-med-size="1024x683"
-                        data-author="Ales Krivec">
+                      <a href="assets/images/img/Services/asset/Imagen5.png" data-size="1600x1067" data-med="assets/images/img/Services/asset/Imagen5.png" data-med-size="1024x683" data-author="Ales Krivec">
                         <img src="assets/images/img/Services/asset/Imagen5.png" alt="" />
                       </a>
-                      <a href="assets/images/img/Services/asset/Imagen6.png" data-size="1600x1067"
-                        data-med="assets/images/img/Services/asset/Imagen6.png" data-med-size="1024x683"
-                        data-author="Michael Hull">
+                      <a href="assets/images/img/Services/asset/Imagen6.png" data-size="1600x1067" data-med="assets/images/img/Services/asset/Imagen6.png" data-med-size="1024x683" data-author="Michael Hull">
                         <img src="assets/images/img/Services/asset/Imagen6.png" alt="" />
                       </a>
-                      <a href="assets/images/img/Services/asset/Imagen7.png" data-size="1600x1067"
-                        data-med="assets/images/img/Services/asset/Imagen7.png" data-med-size="1024x683"
-                        data-author="Michael Hull">
+                      <a href="assets/images/img/Services/asset/Imagen7.png" data-size="1600x1067" data-med="assets/images/img/Services/asset/Imagen7.png" data-med-size="1024x683" data-author="Michael Hull">
                         <img src="assets/images/img/Services/asset/Imagen7.png" alt="" />
                       </a>
-                      <a href="assets/images/img/Services/asset/Imagen9.jpg" data-size="1600x1067"
-                        data-med="assets/images/img/Services/asset/Imagen9.jpg" data-med-size="1024x683"
-                        data-author="Michael Hull">
+                      <a href="assets/images/img/Services/asset/Imagen9.jpg" data-size="1600x1067" data-med="assets/images/img/Services/asset/Imagen9.jpg" data-med-size="1024x683" data-author="Michael Hull">
                         <img src="assets/images/img/Services/asset/Imagen9.jpg" alt="" />
                       </a>
                     </div>
@@ -264,8 +260,7 @@
                       <img class="icon-demo" src="assets/images/iconos/scanner.svg" alt="">
                       {{ __("messages.terrestrialScanning") }}
                     </div>
-                    <p>{{ __("messages.asBuilt") }}.. <span class="btn-minicard moreviews" data-toggle="modal"
-                        data-target="#card-mini">{{ __("messages.viewMore") }}</span></p>
+                    <p>{{ __("messages.asBuilt") }}.. <span class="btn-minicard moreviews" data-toggle="modal" data-target="#card-mini">{{ __("messages.viewMore") }}</span></p>
 
                   </div>
                   <div class="section-navegation">
@@ -273,8 +268,7 @@
                       <img class="icon-demo" src="assets/images/iconos/around-the-world.svg" alt="">
                       {{ __("messages.aerialScanning") }}
                     </div>
-                    <p>{{ __("messages.groundScanning") }}<span class="btn-minicard moreviews" data-toggle="modal"
-                        data-target="#card-mini2">{{ __("messages.viewMore") }}</span></p>
+                    <p>{{ __("messages.groundScanning") }}<span class="btn-minicard moreviews" data-toggle="modal" data-target="#card-mini2">{{ __("messages.viewMore") }}</span></p>
 
                   </div>
                   <div class="section-navegation">
@@ -283,8 +277,7 @@
                       <img class="icon-demo" src="assets/images/iconos/database.svg" alt="">
                       {{ __("messages.assetVisualization") }}
                     </div>
-                    <p>{{ __("messages.digitalTwinsExploit") }} <span class="btn-minicard moreviews" data-toggle="modal"
-                        data-target="#card-mini3">{{ __("messages.viewMore") }}</span> </p>
+                    <p>{{ __("messages.digitalTwinsExploit") }} <span class="btn-minicard moreviews" data-toggle="modal" data-target="#card-mini3">{{ __("messages.viewMore") }}</span> </p>
 
                   </div>
                 </div>
@@ -299,8 +292,7 @@
               <div class="menu-grid_item">
                 <div class="content-services">
                   <div class="section-title title-anim  section-title-nav">
-                    <h2 class="text text-stroke text-lg rellax services-txt" data-rellax-horizontal
-                      data-rellax-speed="-4" data-rellax-percentage="0.5">
+                    <h2 class="text text-stroke text-lg rellax services-txt" data-rellax-horizontal data-rellax-speed="-4" data-rellax-percentage="0.5">
                       <!--<img class="img_navs" src="assets/images/iconos/database2.svg" alt="">-->
                       {{ __("messages.smartTwins") }}
                     </h2>
@@ -313,34 +305,22 @@
                   <!-------------------------------------sliders--------------------------------------------->
                   <div class="row">
                     <div class="demo-gallery">
-                      <a href="assets/images/img/Services/Smart DigitalTwins/Imagen11.png" data-size="1600x1600"
-                        data-med="assets/images/img/Services/Smart DigitalTwins/Imagen11.png" data-med-size="1024x1024"
-                        data-author="Folkert Gorter" class="demo-gallery__img--main">
+                      <a href="assets/images/img/Services/Smart DigitalTwins/Imagen11.png" data-size="1600x1600" data-med="assets/images/img/Services/Smart DigitalTwins/Imagen11.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
                         <img src="assets/images/img/Services/Smart DigitalTwins/Imagen11.png" alt="" />
                       </a>
-                      <a href="assets/images/img/Services/Smart DigitalTwins/Imagen12.jpg" data-size="1600x1068"
-                        data-med="assets/images/img/Services/Smart DigitalTwins/Imagen12.jpg" data-med-size="1024x683"
-                        data-author="Samuel Rohl">
+                      <a href="assets/images/img/Services/Smart DigitalTwins/Imagen12.jpg" data-size="1600x1068" data-med="assets/images/img/Services/Smart DigitalTwins/Imagen12.jpg" data-med-size="1024x683" data-author="Samuel Rohl">
                         <img src="assets/images/img/Services/Smart DigitalTwins/Imagen12.jpg" alt="" />
                       </a>
-                      <a href="assets/images/img/Services/Smart DigitalTwins/Imagen13.jpg" data-size="1600x1067"
-                        data-med="assets/images/img/Services/Smart DigitalTwins/Imagen13.jpg" data-med-size="1024x683"
-                        data-author="Ales Krivec">
+                      <a href="assets/images/img/Services/Smart DigitalTwins/Imagen13.jpg" data-size="1600x1067" data-med="assets/images/img/Services/Smart DigitalTwins/Imagen13.jpg" data-med-size="1024x683" data-author="Ales Krivec">
                         <img src="assets/images/img/Services/Smart DigitalTwins/Imagen13.jpg" alt="" />
                       </a>
-                      <a href="assets/images/img/Services/Smart DigitalTwins/Imagen14.gif" data-size="1600x1067"
-                        data-med="assets/images/img/Services/Smart DigitalTwins/Imagen14.gif" data-med-size="1024x683"
-                        data-author="Michael Hull">
+                      <a href="assets/images/img/Services/Smart DigitalTwins/Imagen14.gif" data-size="1600x1067" data-med="assets/images/img/Services/Smart DigitalTwins/Imagen14.gif" data-med-size="1024x683" data-author="Michael Hull">
                         <img src="assets/images/img/Services/Smart DigitalTwins/Imagen14.gif" alt="" />
                       </a>
-                      <a href="assets/images/img/Services/Smart DigitalTwins/Imagen15.jpg" data-size="1600x1067"
-                        data-med="assets/images/img/Services/Smart DigitalTwins/Imagen15.jpg" data-med-size="1024x683"
-                        data-author="Michael Hull">
+                      <a href="assets/images/img/Services/Smart DigitalTwins/Imagen15.jpg" data-size="1600x1067" data-med="assets/images/img/Services/Smart DigitalTwins/Imagen15.jpg" data-med-size="1024x683" data-author="Michael Hull">
                         <img src="assets/images/img/Services/Smart DigitalTwins/Imagen15.jpg" alt="" />
                       </a>
-                      <a href="assets/images/img/Services/Smart DigitalTwins/Imagen16.png" data-size="1600x1067"
-                        data-med="assets/images/img/Services/Smart DigitalTwins/Imagen16.png" data-med-size="1024x683"
-                        data-author="Michael Hull">
+                      <a href="assets/images/img/Services/Smart DigitalTwins/Imagen16.png" data-size="1600x1067" data-med="assets/images/img/Services/Smart DigitalTwins/Imagen16.png" data-med-size="1024x683" data-author="Michael Hull">
                         <img src="assets/images/img/Services/Smart DigitalTwins/Imagen16.png" alt="" />
                       </a>
                     </div>
@@ -356,8 +336,7 @@
                       <img class="icon-demo" src="assets/images/iconos/scanner.svg" alt="">
                       The Digital Hub
                     </div>
-                    <p>{{ __("messages.afterCapturing") }}<span class="btn-minicard moreviews" data-toggle="modal"
-                        data-target="#card-mini4">{{ __("messages.viewMore") }}</span>
+                    <p>{{ __("messages.afterCapturing") }}<span class="btn-minicard moreviews" data-toggle="modal" data-target="#card-mini4">{{ __("messages.viewMore") }}</span>
                     </p>
 
                   </div>
@@ -389,8 +368,7 @@
               <div class="menu-grid_item">
                 <div class="content-services">
                   <div class="section-title title-anim  section-title-nav">
-                    <h2 class="text text-stroke text-lg rellax services-txt" data-rellax-horizontal
-                      data-rellax-speed="-4" data-rellax-percentage="0.5">
+                    <h2 class="text text-stroke text-lg rellax services-txt" data-rellax-horizontal data-rellax-speed="-4" data-rellax-percentage="0.5">
                       <!--<img class="img_navs" src="assets/images/iconos/database2.svg" alt="">-->
                       Smart Data Management
                     </h2>
@@ -402,34 +380,22 @@
                   </p>
                   <div class="row">
                     <div class="demo-gallery">
-                      <a href="assets/images/img/Services/SmartDigital/Imagen19.png" data-size="1600x1600"
-                        data-med="assets/images/img/Services/SmartDigital/Imagen19.png" data-med-size="1024x1024"
-                        data-author="Folkert Gorter" class="demo-gallery__img--main">
+                      <a href="assets/images/img/Services/SmartDigital/Imagen19.png" data-size="1600x1600" data-med="assets/images/img/Services/SmartDigital/Imagen19.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
                         <img src="assets/images/img/Services/SmartDigital/Imagen19.png" alt="" />
                       </a>
-                      <a href="assets/images/img/Services/SmartDigital/Imagen20.png" data-size="1600x1068"
-                        data-med="assets/images/img/Services/SmartDigital/Imagen20.png" data-med-size="1024x683"
-                        data-author="Samuel Rohl">
+                      <a href="assets/images/img/Services/SmartDigital/Imagen20.png" data-size="1600x1068" data-med="assets/images/img/Services/SmartDigital/Imagen20.png" data-med-size="1024x683" data-author="Samuel Rohl">
                         <img src="assets/images/img/Services/SmartDigital/Imagen20.png" alt="" />
                       </a>
-                      <a href="assets/images/img/Services/SmartDigital/Imagen21.jpg" data-size="1600x1067"
-                        data-med="assets/images/img/Services/SmartDigital/Imagen21.jpg" data-med-size="1024x683"
-                        data-author="Ales Krivec">
+                      <a href="assets/images/img/Services/SmartDigital/Imagen21.jpg" data-size="1600x1067" data-med="assets/images/img/Services/SmartDigital/Imagen21.jpg" data-med-size="1024x683" data-author="Ales Krivec">
                         <img src="assets/images/img/Services/SmartDigital/Imagen21.jpg" alt="" />
                       </a>
-                      <a href="assets/images/img/Services/SmartDigital/Imagen22.jpg" data-size="1600x1067"
-                        data-med="assets/images/img/Services/SmartDigital/Imagen22.jpg" data-med-size="1024x683"
-                        data-author="Michael Hull">
+                      <a href="assets/images/img/Services/SmartDigital/Imagen22.jpg" data-size="1600x1067" data-med="assets/images/img/Services/SmartDigital/Imagen22.jpg" data-med-size="1024x683" data-author="Michael Hull">
                         <img src="assets/images/img/Services/SmartDigital/Imagen22.jpg" alt="" />
                       </a>
-                      <a href="assets/images/img/Services/SmartDigital/Imagen23.png" data-size="1600x1067"
-                        data-med="assets/images/img/Services/SmartDigital/Imagen23.png" data-med-size="1024x683"
-                        data-author="Michael Hull">
+                      <a href="assets/images/img/Services/SmartDigital/Imagen23.png" data-size="1600x1067" data-med="assets/images/img/Services/SmartDigital/Imagen23.png" data-med-size="1024x683" data-author="Michael Hull">
                         <img src="assets/images/img/Services/SmartDigital/Imagen23.png" alt="" />
                       </a>
-                      <a href="assets/images/img/Services/SmartDigital/Imagen24.png" data-size="1600x1067"
-                        data-med="assets/images/img/Services/SmartDigital/Imagen24.png" data-med-size="1024x683"
-                        data-author="Michael Hull">
+                      <a href="assets/images/img/Services/SmartDigital/Imagen24.png" data-size="1600x1067" data-med="assets/images/img/Services/SmartDigital/Imagen24.png" data-med-size="1024x683" data-author="Michael Hull">
                         <img src="assets/images/img/Services/SmartDigital/Imagen24.png" alt="" />
                       </a>
                     </div>
@@ -447,8 +413,7 @@
                       <img class="icon-demo" src="assets/images/iconos/scanner.svg" alt="">
                       {{ __("messages.iot") }}
                     </div>
-                    <p>{{ __("messages.binnopsDigital") }}<span class="btn-minicard moreviews" data-toggle="modal"
-                        data-target="#card-mini5">{{ __("messages.viewMore") }}</span></p>
+                    <p>{{ __("messages.binnopsDigital") }}<span class="btn-minicard moreviews" data-toggle="modal" data-target="#card-mini5">{{ __("messages.viewMore") }}</span></p>
                     <!---<div class="demo-gallery swiper-miniaturas">
                         <div class="swiper-wrapper">
                           <div class="swiper-slide">
@@ -502,8 +467,7 @@
                       <img class="icon-demo" src="assets/images/iconos/database.svg" alt="">
                       {{ __("messages.rpa") }}
                     </div>
-                    <p>{{ __("messages.integrateRobotizedProcess") }}<span class="btn-minicard moreviews"
-                        data-toggle="modal" data-target="#card-mini7">{{ __("messages.viewMore") }}</span></p>
+                    <p>{{ __("messages.integrateRobotizedProcess") }}<span class="btn-minicard moreviews" data-toggle="modal" data-target="#card-mini7">{{ __("messages.viewMore") }}</span></p>
                   </div>
                   <div class="section-navegation">
 
@@ -511,8 +475,7 @@
                       <img class="icon-demo" src="assets/images/iconos/database.svg" alt="">
                       Data Analytics
                     </div>
-                    <p>{{ __("messages.dataAnalyticRequired") }} <span class="btn-minicard moreviews"
-                        data-toggle="modal" data-target="#card-mini8">{{ __("messages.viewMore") }}</span></p>
+                    <p>{{ __("messages.dataAnalyticRequired") }} <span class="btn-minicard moreviews" data-toggle="modal" data-target="#card-mini8">{{ __("messages.viewMore") }}</span></p>
                   </div>
                   <div class="section-navegation">
 
@@ -520,8 +483,7 @@
                       <img class="icon-demo" src="assets/images/iconos/database.svg" alt="">
                       {{ __("messages.ia") }}
                     </div>
-                    <p>{{ __("messages.diagnosticAnalytics") }} <span class="btn-minicard moreviews" data-toggle="modal"
-                        data-target="#card-mini9">{{ __('messages.viewMore') }}</span></p>
+                    <p>{{ __("messages.diagnosticAnalytics") }} <span class="btn-minicard moreviews" data-toggle="modal" data-target="#card-mini9">{{ __('messages.viewMore') }}</span></p>
                   </div>
                   <div class="section-navegation">
 
@@ -529,8 +491,7 @@
                       <img class="icon-demo" src="assets/images/iconos/database.svg" alt="">
                       {{ __("messages.cibersecurity") }}
                     </div>
-                    <p>{{ __("messages.peopleCibersecurity") }}<span class="btn-minicard moreviews" data-toggle="modal"
-                        data-target="#card-mini10">{{ __("messages.viewMore") }}</span></p>
+                    <p>{{ __("messages.peopleCibersecurity") }}<span class="btn-minicard moreviews" data-toggle="modal" data-target="#card-mini10">{{ __("messages.viewMore") }}</span></p>
                   </div>
                 </div>
               </div>
@@ -616,9 +577,7 @@
                     <!-------------------------------------sliders--------------------------------------------->
                     <div class="row">
                       <div class="demo-gallery mt-0 galley-one">
-                        <a href="assets/images/img/BusinessModel/1.png" data-size="1600x1600"
-                          data-med="assets/images/img/BusinessModel/1.png" data-med-size="1024x1024"
-                          data-author="Folkert Gorter" class="demo-gallery__img--main">
+                        <a href="assets/images/img/BusinessModel/1.png" data-size="1600x1600" data-med="assets/images/img/BusinessModel/1.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
                           <img src="assets/images/img/BusinessModel/1.png" alt="" />
                         </a>
 
@@ -638,17 +597,10 @@
                     <!-------------------------------------sliders--------------------------------------------->
                     <div class="row mt-5">
                       <div class="demo-gallery mt-0" style="    grid-template-columns: 1fr 1fr;">
-                        <a href="https://assets.justinmind.com/wp-content/uploads/2017/08/login-forms-web-prototyping-ux-design.png"
-                          data-size="1600x1600"
-                          data-med="https://assets.justinmind.com/wp-content/uploads/2017/08/login-forms-web-prototyping-ux-design.png"
-                          data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
-                          <img
-                            src="https://assets.justinmind.com/wp-content/uploads/2017/08/login-forms-web-prototyping-ux-design.png"
-                            alt="" />
+                        <a href="https://assets.justinmind.com/wp-content/uploads/2017/08/login-forms-web-prototyping-ux-design.png" data-size="1600x1600" data-med="https://assets.justinmind.com/wp-content/uploads/2017/08/login-forms-web-prototyping-ux-design.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
+                          <img src="https://assets.justinmind.com/wp-content/uploads/2017/08/login-forms-web-prototyping-ux-design.png" alt="" />
                         </a>
-                        <a href="assets/images/img/BusinessModel/Imagen27.png" data-size="1600x1600"
-                          data-med="assets/images/img/BusinessModel/Imagen27.png" data-med-size="1024x1024"
-                          data-author="Folkert Gorter" class="demo-gallery__img--main">
+                        <a href="assets/images/img/BusinessModel/Imagen27.png" data-size="1600x1600" data-med="assets/images/img/BusinessModel/Imagen27.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
                           <img src="assets/images/img/BusinessModel/Imagen27.png" alt="" />
                         </a>
 
@@ -756,23 +708,17 @@
                 <div class="panel general-panel circle-pannel">
                   <div class="panel-heading">
                     <ul class="nav nav-tabs circle-container">
-                      <li class="active"><a data-toggle="tab" href="#tab1"><img src="assets/images/icons/touch.svg"
-                            alt=""></a><span></span></li>
-                      <li><a data-toggle="tab" href="#tab2"><img src="assets/images/icons/digital.svg"
-                            alt=""></a><span></span></li>
-                      <li><a data-toggle="tab" href="#tab3"><img src="assets/images/icons/data.svg"
-                            alt=""></a><span></span></li>
-                      <li><a data-toggle="tab" href="#tab4"><img src="assets/images/icons/database.svg"
-                            alt=""></a><span></span></li>
-                      <li><a data-toggle="tab" href="#tab5"><img src="assets/images/icons/puzzle.svg"
-                            alt=""></a><span></span></li>
+                      <li class="active"><a data-toggle="tab" href="#tab1"><img src="assets/images/icons/touch.svg" alt=""></a><span></span></li>
+                      <li><a data-toggle="tab" href="#tab2"><img src="assets/images/icons/digital.svg" alt=""></a><span></span></li>
+                      <li><a data-toggle="tab" href="#tab3"><img src="assets/images/icons/data.svg" alt=""></a><span></span></li>
+                      <li><a data-toggle="tab" href="#tab4"><img src="assets/images/icons/database.svg" alt=""></a><span></span></li>
+                      <li><a data-toggle="tab" href="#tab5"><img src="assets/images/icons/puzzle.svg" alt=""></a><span></span></li>
                     </ul>
                   </div>
                   <div class="panel-body">
                     <div class="tab-content">
 
-                      <div id="tab1" class="tab-pane in active"
-                        style="background-image: url('assets/images/img/RoadMap/DataCapture/Imagen28.png');">
+                      <div id="tab1" class="tab-pane in active" style="background-image: url('assets/images/img/RoadMap/DataCapture/Imagen28.png');">
                         <div class="mask-time">
                           <h4>Data Capture</h4>
                           <div class="row">
@@ -781,8 +727,7 @@
                         </div>
                       </div>
 
-                      <div id="tab2" class="tab-pane"
-                        style="background-image: url(assets/images/img/RoadMap/DigitalTwin/Imagen29.jpg);">
+                      <div id="tab2" class="tab-pane" style="background-image: url(assets/images/img/RoadMap/DigitalTwin/Imagen29.jpg);">
                         <div class="mask-time">
                           <h4>Digital Twin
                           </h4>
@@ -791,8 +736,7 @@
                           </div>
                         </div>
                       </div>
-                      <div id="tab3" class="tab-pane"
-                        style="background-image: url(assets/images/img/RoadMap/RealTimeDataCapture/Imagen30.png);">
+                      <div id="tab3" class="tab-pane" style="background-image: url(assets/images/img/RoadMap/RealTimeDataCapture/Imagen30.png);">
                         <div class="mask-time">
                           <h4>Real Time Data Capture
                           </h4>
@@ -801,8 +745,7 @@
                           </div>
                         </div>
                       </div>
-                      <div id="tab4" class="tab-pane"
-                        style="background-image: url(assets/images/img/RoadMap/DataAnalytics/Imagen33.png);">
+                      <div id="tab4" class="tab-pane" style="background-image: url(assets/images/img/RoadMap/DataAnalytics/Imagen33.png);">
                         <div class="mask-time">
                           <h4>Data Analytics
                           </h4>
@@ -811,8 +754,7 @@
                           </div>
                         </div>
                       </div>
-                      <div id="tab5" class="tab-pane"
-                        style="background-image: url(assets/images/img/RoadMap/ArtificialIntelligence/Imagen35.png);">
+                      <div id="tab5" class="tab-pane" style="background-image: url(assets/images/img/RoadMap/ArtificialIntelligence/Imagen35.png);">
                         <div class="mask-time">
                           <h4>Artificial Intelligence
                           </h4>
@@ -874,14 +816,10 @@
                             </div>
                             <div class="row">
                               <div class="demo-gallery">
-                                <a href="assets/images/experiencia/images/Imagen 1.JPG" data-size="1600x1600"
-                                  data-med="assets/images/experiencia/images/Imagen 1.JPG" data-med-size="1024x1024"
-                                  data-author="Folkert Gorter" class="demo-gallery__img--main">
+                                <a href="assets/images/experiencia/images/Imagen 1.JPG" data-size="1600x1600" data-med="assets/images/experiencia/images/Imagen 1.JPG" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
                                   <img src="assets/images/experiencia/images/Imagen 1.JPG" alt="" />
                                 </a>
-                                <a href="assets/images/experiencia/images/Imagen5.jpg" data-size="1600x1600"
-                                  data-med="assets/images/experiencia/images/Imagen5.jpg" data-med-size="1024x1024"
-                                  data-author="Folkert Gorter" class="demo-gallery__img--main">
+                                <a href="assets/images/experiencia/images/Imagen5.jpg" data-size="1600x1600" data-med="assets/images/experiencia/images/Imagen5.jpg" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
                                   <img src="assets/images/experiencia/images/Imagen5.jpg" alt="" />
                                 </a>
                               </div>
@@ -906,14 +844,10 @@
                             </div>
                             <div class="row">
                               <div class="demo-gallery">
-                                <a href="assets/images/experiencia/images/Imagen 3.JPG" data-size="1600x1600"
-                                  data-med="assets/images/experiencia/images/Imagen 3.JPG" data-med-size="1024x1024"
-                                  data-author="Folkert Gorter" class="demo-gallery__img--main">
+                                <a href="assets/images/experiencia/images/Imagen 3.JPG" data-size="1600x1600" data-med="assets/images/experiencia/images/Imagen 3.JPG" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
                                   <img src="assets/images/experiencia/images/Imagen 3.JPG" alt="" />
                                 </a>
-                                <a href="assets/images/experiencia/images/Imagen1.jpg" data-size="1600x1600"
-                                  data-med="assets/images/experiencia/images/Imagen1.jpg" data-med-size="1024x1024"
-                                  data-author="Folkert Gorter" class="demo-gallery__img--main">
+                                <a href="assets/images/experiencia/images/Imagen1.jpg" data-size="1600x1600" data-med="assets/images/experiencia/images/Imagen1.jpg" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
                                   <img src="assets/images/experiencia/images/Imagen1.jpg" alt="" />
                                 </a>
 
@@ -943,9 +877,7 @@
                                     data-author="Folkert Gorter" class="demo-gallery__img--main">
                                     <img class="logo-expe" src="assets/images/experiencia/Imagen2.png" alt="" />
                                   </a>--->
-                                <a href="assets/images/experiencia/Imagen6.jpg" data-size="1600x1600"
-                                  data-med="assets/images/experiencia/Imagen6.jpg" data-med-size="1024x1024"
-                                  data-author="Folkert Gorter" class="demo-gallery__img--main">
+                                <a href="assets/images/experiencia/Imagen6.jpg" data-size="1600x1600" data-med="assets/images/experiencia/Imagen6.jpg" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
                                   <img src="assets/images/experiencia/Imagen6.jpg" alt="" />
                                 </a>
                               </div>
@@ -970,14 +902,10 @@
                             </div>
                             <div class="row">
                               <div class="demo-gallery">
-                                <a href="assets/images/experiencia/images/Imagen4.png" data-size="1600x1600"
-                                  data-med="assets/images/experiencia/images/Imagen4.png" data-med-size="1024x1024"
-                                  data-author="Folkert Gorter" class="demo-gallery__img--main">
+                                <a href="assets/images/experiencia/images/Imagen4.png" data-size="1600x1600" data-med="assets/images/experiencia/images/Imagen4.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
                                   <img src="assets/images/experiencia/images/Imagen4.png" alt="" />
                                 </a>
-                                <a href="assets/images/experiencia/images/Imagen 10.JPG" data-size="1600x1600"
-                                  data-med="assets/images/experiencia/images/Imagen 10.JPG" data-med-size="1024x1024"
-                                  data-author="Folkert Gorter" class="demo-gallery__img--main">
+                                <a href="assets/images/experiencia/images/Imagen 10.JPG" data-size="1600x1600" data-med="assets/images/experiencia/images/Imagen 10.JPG" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
                                   <img src="assets/images/experiencia/images/Imagen 10.JPG" alt="" />
                                 </a>
 
@@ -1003,14 +931,10 @@
                             </div>
                             <div class="row">
                               <div class="demo-gallery">
-                                <a href="assets/images/experiencia/images/Imagen 18.JPG" data-size="1600x1600"
-                                  data-med="assets/images/experiencia/images/Imagen 18.JPG" data-med-size="1024x1024"
-                                  data-author="Folkert Gorter" class="demo-gallery__img--main">
+                                <a href="assets/images/experiencia/images/Imagen 18.JPG" data-size="1600x1600" data-med="assets/images/experiencia/images/Imagen 18.JPG" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
                                   <img src="assets/images/experiencia/images/Imagen 18.JPG" />
                                 </a>
-                                <a href="assets/images/experiencia/images/Imagen5.jpg" data-size="1600x1600"
-                                  data-med="assets/images/experiencia/images/Imagen5.jpg" data-med-size="1024x1024"
-                                  data-author="Folkert Gorter" class="demo-gallery__img--main">
+                                <a href="assets/images/experiencia/images/Imagen5.jpg" data-size="1600x1600" data-med="assets/images/experiencia/images/Imagen5.jpg" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
                                   <img src="assets/images/experiencia/images/Imagen5.jpg" />
                                 </a>
                               </div>
@@ -1032,14 +956,10 @@
                             </div>
                             <div class="row">
                               <div class="demo-gallery ">
-                                <a href="assets/images/experiencia/images/Imagen 27.jpeg" data-size="1600x1600"
-                                  data-med="assets/images/experiencia/images/Imagen 27.jpeg" data-med-size="1024x1024"
-                                  data-author="Folkert Gorter" class="demo-gallery__img--main">
+                                <a href="assets/images/experiencia/images/Imagen 27.jpeg" data-size="1600x1600" data-med="assets/images/experiencia/images/Imagen 27.jpeg" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
                                   <img src="assets/images/experiencia/images/Imagen 27.jpeg" />
                                 </a>
-                                <a href="assets/images/experiencia/images/Imagen 25.jpeg" data-size="1600x1600"
-                                  data-med="assets/images/experiencia/images/Imagen 25.jpeg" data-med-size="1024x1024"
-                                  data-author="Folkert Gorter" class="demo-gallery__img--main">
+                                <a href="assets/images/experiencia/images/Imagen 25.jpeg" data-size="1600x1600" data-med="assets/images/experiencia/images/Imagen 25.jpeg" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
                                   <img src="assets/images/experiencia/images/Imagen 25.jpeg" />
                                 </a>
                               </div>
@@ -1063,14 +983,10 @@
                             </div>
                             <div class="row">
                               <div class="demo-gallery">
-                                <a href="assets/images/experiencia/images/Imagen 15.JPG" data-size="1600x1600"
-                                  data-med="assets/images/experiencia/images/Imagen 15.JPG" data-med-size="1024x1024"
-                                  data-author="Folkert Gorter" class="demo-gallery__img--main">
+                                <a href="assets/images/experiencia/images/Imagen 15.JPG" data-size="1600x1600" data-med="assets/images/experiencia/images/Imagen 15.JPG" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
                                   <img src="assets/images/experiencia/images/Imagen 15.JPG" alt="" />
                                 </a>
-                                <a href="assets/images/experiencia/images/Imagen8.jpg" data-size="1600x1600"
-                                  data-med="assets/images/experiencia/images/Imagen8.jpg" data-med-size="1024x1024"
-                                  data-author="Folkert Gorter" class="demo-gallery__img--main">
+                                <a href="assets/images/experiencia/images/Imagen8.jpg" data-size="1600x1600" data-med="assets/images/experiencia/images/Imagen8.jpg" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
                                   <img src="assets/images/experiencia/images/Imagen8.jpg" />
                                 </a>
                               </div>
@@ -1092,14 +1008,10 @@
                             </div>
                             <div class="row">
                               <div class="demo-gallery">
-                                <a href="assets/images/experiencia/images/Imagen9.jpg" data-size="1600x1600"
-                                  data-med="assets/images/experiencia/images/Imagen9.jpg" data-med-size="1024x1024"
-                                  data-author="Folkert Gorter" class="demo-gallery__img--main">
+                                <a href="assets/images/experiencia/images/Imagen9.jpg" data-size="1600x1600" data-med="assets/images/experiencia/images/Imagen9.jpg" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
                                   <img src="assets/images/experiencia/images/Imagen9.jpg" />
                                 </a>
-                                <a href="assets/images/experiencia/images/Imagen 23.JPG" data-size="1600x1600"
-                                  data-med="assets/images/experiencia/images/Imagen 23.JPG" data-med-size="1024x1024"
-                                  data-author="Folkert Gorter" class="demo-gallery__img--main">
+                                <a href="assets/images/experiencia/images/Imagen 23.JPG" data-size="1600x1600" data-med="assets/images/experiencia/images/Imagen 23.JPG" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
                                   <img src="assets/images/experiencia/images/Imagen 23.JPG" />
                                 </a>
                               </div>
@@ -1129,9 +1041,7 @@
                             </div>
                             <div class="row">
                               <div class="demo-gallery ">
-                                <a href="assets/images/experiencia/Imagen1.jpg" data-size="1600x1600"
-                                  data-med="assets/images/experiencia/Imagen1.jpg" data-med-size="1024x1024"
-                                  data-author="Folkert Gorter" class="demo-gallery__img--main">
+                                <a href="assets/images/experiencia/Imagen1.jpg" data-size="1600x1600" data-med="assets/images/experiencia/Imagen1.jpg" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
                                   <img src="assets/images/experiencia/Imagen1.jpg" alt="" />
                                 </a>
                               </div>
@@ -1201,14 +1111,10 @@
                             </div>
                             <div class="row">
                               <div class="demo-gallery">
-                                <a href="assets/images/experiencia/images/Imagen 12.JPG" data-size="1600x1600"
-                                  data-med="assets/images/experiencia/images/Imagen 12.JPG" data-med-size="1024x1024"
-                                  data-author="Folkert Gorter" class="demo-gallery__img--main">
+                                <a href="assets/images/experiencia/images/Imagen 12.JPG" data-size="1600x1600" data-med="assets/images/experiencia/images/Imagen 12.JPG" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
                                   <img src="assets/images/experiencia/images/Imagen 12.JPG" alt="" />
                                 </a>
-                                <a href="assets/images/experiencia/images/Imagen11.jpg" data-size="1600x1600"
-                                  data-med="assets/images/experiencia/images/Imagen11.jpg" data-med-size="1024x1024"
-                                  data-author="Folkert Gorter" class="demo-gallery__img--main">
+                                <a href="assets/images/experiencia/images/Imagen11.jpg" data-size="1600x1600" data-med="assets/images/experiencia/images/Imagen11.jpg" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
                                   <img src="assets/images/experiencia/images/Imagen11.jpg" alt="" />
                                 </a>
 
@@ -1233,14 +1139,10 @@
                             </div>
                             <div class="row">
                               <div class="demo-gallery">
-                                <a href="assets/images/experiencia/images/Imagen 20.JPG" data-size="1600x1600"
-                                  data-med="assets/images/experiencia/images/Imagen 20.JPG" data-med-size="1024x1024"
-                                  data-author="Folkert Gorter" class="demo-gallery__img--main">
+                                <a href="assets/images/experiencia/images/Imagen 20.JPG" data-size="1600x1600" data-med="assets/images/experiencia/images/Imagen 20.JPG" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
                                   <img src="assets/images/experiencia/images/Imagen 20.JPG" />
                                 </a>
-                                <a href="assets/images/experiencia/images/Imagen12.jpg" data-size="1600x1600"
-                                  data-med="assets/images/experiencia/images/Imagen12.jpg" data-med-size="1024x1024"
-                                  data-author="Folkert Gorter" class="demo-gallery__img--main">
+                                <a href="assets/images/experiencia/images/Imagen12.jpg" data-size="1600x1600" data-med="assets/images/experiencia/images/Imagen12.jpg" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
                                   <img src="assets/images/experiencia/images/Imagen12.jpg" />
                                 </a>
 
@@ -1458,8 +1360,7 @@
                   @foreach(App\Models\Blog::all() as $blog)
                   <div class="col">
 
-                    <a class="item item-feature-c"
-                      href="{{ url('/time-lapse/'.$blog->slug.'/lang/'.App::currentLocale()) }}">
+                    <a class="item item-feature-c" href="{{ url('/time-lapse/'.$blog->slug.'/lang/'.App::currentLocale()) }}">
                       <div class="item-img anim-hover">
                         <img class="fit" src="assets/images/img/Home/3.jpg" alt="team member" />
                       </div>
@@ -1529,11 +1430,9 @@
                 </div>
               </div>
             </section>--->
-          <div class="c-fixed_wrapper is-inview fix-sect mt-0" data-scroll="" data-scroll-call="dynamicBackground"
-            data-scroll-repeat="" style="background-color: rgb(201, 212, 211);">
+          <div class="c-fixed_wrapper is-inview fix-sect mt-0" data-scroll="" data-scroll-call="dynamicBackground" data-scroll-repeat="" style="background-color: rgb(201, 212, 211);">
             <div class="c-fixed_target" id="fixed-target"></div>
-            <div class="c-fixed is-inview pre-footer" data-scroll="" data-scroll-sticky=""
-              data-scroll-target="#fixed-target" style="background-image: url('assets/images/card2.jpg'); ">
+            <div class="c-fixed is-inview pre-footer" data-scroll="" data-scroll-sticky="" data-scroll-target="#fixed-target" style="background-image: url('assets/images/card2.jpg'); ">
             </div>
             <div class="txt-fix">
               <div class="row ">
@@ -1552,8 +1451,7 @@
           <section id="contact" class="section section-a fullscreen-h-lg ">
 
             <!-- Begin of section body -->
-            <div class="section-body section-contact" style="padding-top: 4rem;" itemscope
-              itemtype="https://schema.org/Organization">
+            <div class="section-body section-contact" style="padding-top: 4rem;" itemscope itemtype="https://schema.org/Organization">
               <!-- content -->
               <div class="section-content container content-width anim">
                 <div class="row justify-content-between">
@@ -1564,8 +1462,7 @@
                         <div class="title-desc">
                           <!---<h2 class="display-3 anim-1 mb-4">Contact Us</h2>--->
                           <p class="anim-2">{{ __("messages.worldwideOffice") }}</p>
-                          <select class="form-select" aria-label="Default select example" onchange="locationChange()"
-                            id="countrySelector">
+                          <select class="form-select" aria-label="Default select example" onchange="locationChange()" id="countrySelector">
                             <option value="us" class="col">{{ __("messages.usOffice") }}</option>
                             <option value="colombia" class="usa">{{ __("messages.colombiaOffice") }}</option>
                           </select>
@@ -1576,16 +1473,14 @@
 
                             <div class="d-flex align-items-center">
 
-                              <a class="email email-main btn-inline" href="mailto: contact@binnops.com"
-                                itemprop="email">
+                              <a class="email email-main btn-inline" href="mailto: contact@binnops.com" itemprop="email">
                                 contact@binnops.com</a>
                               <!---<button class="btn-fab btn-white ml-3" data-toggle="modal" data-target="#messageModal">
                                   <span class="icon"><i class="ion-md-mail"></i></span>
                                 </button>--->
                             </div>
                             <div class="d-flex align-items-center" id="custom-phone">
-                              <a class="contact-main btn-inline url-phone phone" href="tel:+1 713 429 1912"
-                                itemprop="phone">
+                              <a class="contact-main btn-inline url-phone phone" href="tel:+1 713 429 1912" itemprop="phone">
                                 +1 713 429 1912</a>
                             </div>
                           </div>
@@ -1603,26 +1498,21 @@
                         </div>
                       </div>
                       <div class="col-md-5">
-                        <form id="form-message" class="form-a form-message form-message" method="post"
-                          action="ajaxserver/serverfile.php">
+                        <form id="form-message" class="form-a form-message form-message" method="post" action="ajaxserver/serverfile.php">
                           <div class="mb-3">
                             <label for="name-message" class="form-label">{{ __("messages.name") }}</label>
-                            <input type="text" class="form-control form-control-a" id="name-message"
-                              placeholder="Firstname Lastname" required />
+                            <input type="text" class="form-control form-control-a" id="name-message" placeholder="Firstname Lastname" required />
                           </div>
                           <div class="mb-3">
                             <label for="email-message" class="form-label">{{ __("messages.email") }}</label>
-                            <input type="email" class="form-control form-control-a" id="email-message"
-                              placeholder="your@email.com" required />
+                            <input type="email" class="form-control form-control-a" id="email-message" placeholder="your@email.com" required />
                           </div>
                           <div class="mb-3">
                             <label for="message-message" class="form-label">{{ __("messages.message") }}</label>
-                            <textarea class="form-control form-control-b" id="message-message"
-                              placeholder="Hello, your message" required></textarea>
+                            <textarea class="form-control form-control-b" id="message-message" placeholder="Hello, your message" required></textarea>
                           </div>
                           <div class="mt-4">
-                            <button type="button" class="btn btn-solid btn-white rounded-pill" onclick="sendMessage()"
-                              id="buttonSendMessage">
+                            <button type="button" class="btn btn-solid btn-white rounded-pill" onclick="sendMessage()" id="buttonSendMessage">
                               <span class="text">{{ __("messages.sendMessage") }}</span>
                             </button>
 
@@ -1723,8 +1613,7 @@
 </div>
 
 <!-- Modal -->
-<div class="modal fade" id="card1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
-  aria-hidden="true">
+<div class="modal fade" id="card1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered  modal-lg" role="document">
     <div class="modal-content modal_cards-styles">
       <button type="button" class="close text-right mr-3 mt-2" data-dismiss="modal" aria-label="Close">
@@ -1740,8 +1629,7 @@
   </div>
 </div>
 <!-- Modal -->
-<div class="modal fade" id="card2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
-  aria-hidden="true">
+<div class="modal fade" id="card2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered  modal-lg" role="document">
     <div class="modal-content modal_cards-styles">
       <button type="button" class="close text-right mr-3 mt-2" data-dismiss="modal" aria-label="Close">
@@ -1758,8 +1646,7 @@
   </div>
 </div>
 <!-- Modal -->
-<div class="modal fade" id="card3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
-  aria-hidden="true">
+<div class="modal fade" id="card3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered  modal-lg" role="document">
     <div class="modal-content modal_cards-styles">
       <button type="button" class="close text-right mr-3 mt-2" data-dismiss="modal" aria-label="Close">
@@ -1778,8 +1665,7 @@
   </div>
 </div>
 <!-- Modal -->
-<div class="modal fade" id="card3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
-  aria-hidden="true">
+<div class="modal fade" id="card3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered  modal-lg" role="document">
     <div class="modal-content">
       <button type="button" class="close text-right mr-3 mt-2" data-dismiss="modal" aria-label="Close">
@@ -1794,8 +1680,7 @@
   </div>
 </div>
 <!-- Modal -->
-<div class="modal fade" id="card-mini" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
-  aria-hidden="true">
+<div class="modal fade" id="card-mini" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered  modal-lg" role="document">
     <div class="modal-content modal_cards-styles">
       <button type="button" class="close text-right mr-3 mt-2" data-dismiss="modal" aria-label="Close">
@@ -1810,8 +1695,7 @@
     </div>
   </div>
   <!-- Modal -->
-  <div class="modal fade" id="card-mini2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
-    aria-hidden="true">
+  <div class="modal fade" id="card-mini2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered  modal-lg" role="document">
       <div class="modal-content modal_cards-styles">
         <button type="button" class="close text-right mr-3 mt-2" data-dismiss="modal" aria-label="Close">
@@ -1830,8 +1714,7 @@
   </div>
 </div>
 <!-- Modal -->
-<div class="modal fade" id="card-mini3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
-  aria-hidden="true">
+<div class="modal fade" id="card-mini3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered  modal-lg" role="document">
     <div class="modal-content modal_cards-styles">
       <button type="button" class="close text-right mr-3 mt-2" data-dismiss="modal" aria-label="Close">
@@ -1847,8 +1730,7 @@
   </div>
 </div>
 <!-- Modal -->
-<div class="modal fade" id="card-mini4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
-  aria-hidden="true">
+<div class="modal fade" id="card-mini4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered  modal-lg" role="document">
     <div class="modal-content modal_cards-styles">
       <button type="button" class="close text-right mr-3 mt-2" data-dismiss="modal" aria-label="Close">
@@ -1868,8 +1750,7 @@
   </div>
 </div>
 <!-- Modal -->
-<div class="modal fade" id="card-mini5" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
-  aria-hidden="true">
+<div class="modal fade" id="card-mini5" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered  modal-lg" role="document">
     <div class="modal-content modal_cards-styles">
       <button type="button" class="close text-right mr-3 mt-2" data-dismiss="modal" aria-label="Close">
@@ -1889,8 +1770,7 @@
   </div>
 </div>
 <!-- Modal -->
-<div class="modal fade" id="card-mini6" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
-  aria-hidden="true">
+<div class="modal fade" id="card-mini6" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered  modal-lg" role="document">
     <div class="modal-content modal_cards-styles">
       <button type="button" class="close text-right mr-3 mt-2" data-dismiss="modal" aria-label="Close">
@@ -1913,8 +1793,7 @@
   </div>
 </div>
 <!-- Modal -->
-<div class="modal fade" id="card-mini7" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
-  aria-hidden="true">
+<div class="modal fade" id="card-mini7" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered  modal-lg" role="document">
     <div class="modal-content modal_cards-styles">
       <button type="button" class="close text-right mr-3 mt-2" data-dismiss="modal" aria-label="Close">
@@ -1935,8 +1814,7 @@
   </div>
 </div>
 <!-- Modal -->
-<div class="modal fade" id="card-mini8" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
-  aria-hidden="true">
+<div class="modal fade" id="card-mini8" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered  modal-lg" role="document">
     <div class="modal-content modal_cards-styles">
       <button type="button" class="close text-right mr-3 mt-2" data-dismiss="modal" aria-label="Close">
@@ -1957,8 +1835,7 @@
   </div>
 </div>
 <!-- Modal -->
-<div class="modal fade" id="card-mini9" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
-  aria-hidden="true">
+<div class="modal fade" id="card-mini9" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered  modal-lg" role="document">
     <div class="modal-content modal_cards-styles">
       <button type="button" class="close text-right mr-3 mt-2" data-dismiss="modal" aria-label="Close">
@@ -1979,8 +1856,7 @@
   </div>
 </div>
 <!-- Modal -->
-<div class="modal fade" id="card-mini10" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
-  aria-hidden="true">
+<div class="modal fade" id="card-mini10" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered  modal-lg" role="document">
     <div class="modal-content modal_cards-styles">
       <button type="button" class="close text-right mr-3 mt-2" data-dismiss="modal" aria-label="Close">
@@ -2001,8 +1877,7 @@
   </div>
 </div>
 <!-- Modal -->
-<div class="modal fade" id="engineering" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
-  aria-hidden="true">
+<div class="modal fade" id="engineering" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered  modal-lg" role="document">
     <div class="modal-content modal_cards-styles">
       <button type="button" class="close text-right mr-3 mt-2" data-dismiss="modal" aria-label="Close">
@@ -2017,9 +1892,7 @@
         <p>{{ __("messages.enginneringDescription3") }}</p>
         <div class="row">
           <div class="demo-gallery galley-one">
-            <a href="assets/images/img/Services/Smart DigitalTwins/LinkinEngineering/Imagen36.png" data-size="1600x1600"
-              data-med="assets/images/img/Services/Smart DigitalTwins/LinkinEngineering/Imagen36.png"
-              data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
+            <a href="assets/images/img/Services/Smart DigitalTwins/LinkinEngineering/Imagen36.png" data-size="1600x1600" data-med="assets/images/img/Services/Smart DigitalTwins/LinkinEngineering/Imagen36.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
               <img src="assets/images/img/Services/Smart DigitalTwins/LinkinEngineering/Imagen36.png" alt="" />
             </a>
 
@@ -2031,8 +1904,7 @@
   </div>
 </div>
 <!-- Modal -->
-<div class="modal fade" id="revamps" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
-  aria-hidden="true">
+<div class="modal fade" id="revamps" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered  modal-lg" role="document">
     <div class="modal-content modal_cards-styles">
       <button type="button" class="close text-right mr-3 mt-2" data-dismiss="modal" aria-label="Close">
@@ -2047,9 +1919,7 @@
 
         <div class="row">
           <div class="demo-gallery galley-one">
-            <a href="assets/images/img/Services/Smart DigitalTwins/Revamps/Imagen43.jpg" data-size="1600x1600"
-              data-med="assets/images/img/Services/Smart DigitalTwins/Revamps/Imagen43.jpg" data-med-size="1024x1024"
-              data-author="Folkert Gorter" class="demo-gallery__img--main">
+            <a href="assets/images/img/Services/Smart DigitalTwins/Revamps/Imagen43.jpg" data-size="1600x1600" data-med="assets/images/img/Services/Smart DigitalTwins/Revamps/Imagen43.jpg" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
               <img src="assets/images/img/Services/Smart DigitalTwins/Revamps/Imagen43.jpg" alt="" />
             </a>
           </div>
@@ -2059,8 +1929,7 @@
   </div>
 </div>
 <!-- Modal -->
-<div class="modal fade" id="maintenace" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
-  aria-hidden="true">
+<div class="modal fade" id="maintenace" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered  modal-lg" role="document">
     <div class="modal-content modal_cards-styles">
       <button type="button" class="close text-right mr-3 mt-2" data-dismiss="modal" aria-label="Close">
@@ -2075,19 +1944,13 @@
         </p>
         <div class="row">
           <div class="demo-gallery">
-            <a href="assets/images/img/Services/Smart DigitalTwins/Maintenance/Imagen40.png" data-size="1600x1600"
-              data-med="assets/images/img/Services/Smart DigitalTwins/Maintenance/Imagen40.png"
-              data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
+            <a href="assets/images/img/Services/Smart DigitalTwins/Maintenance/Imagen40.png" data-size="1600x1600" data-med="assets/images/img/Services/Smart DigitalTwins/Maintenance/Imagen40.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
               <img src="assets/images/img/Services/Smart DigitalTwins/Maintenance/Imagen40.png" alt="" />
             </a>
-            <a href="assets/images/img/Services/Smart DigitalTwins/Maintenance/Imagen41.png" data-size="1600x1600"
-              data-med="assets/images/img/Services/Smart DigitalTwins/Maintenance/Imagen41.png"
-              data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
+            <a href="assets/images/img/Services/Smart DigitalTwins/Maintenance/Imagen41.png" data-size="1600x1600" data-med="assets/images/img/Services/Smart DigitalTwins/Maintenance/Imagen41.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
               <img src="assets/images/img/Services/Smart DigitalTwins/Maintenance/Imagen41.png" alt="" />
             </a>
-            <a href="assets/images/img/Services/Smart DigitalTwins/Maintenance/Imagen42.png" data-size="1600x1600"
-              data-med="assets/images/img/Services/Smart DigitalTwins/Maintenance/Imagen42.png"
-              data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
+            <a href="assets/images/img/Services/Smart DigitalTwins/Maintenance/Imagen42.png" data-size="1600x1600" data-med="assets/images/img/Services/Smart DigitalTwins/Maintenance/Imagen42.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
               <img src="assets/images/img/Services/Smart DigitalTwins/Maintenance/Imagen42.png" alt="" />
             </a>
           </div>
@@ -2098,8 +1961,7 @@
   </div>
 </div>
 <!-- Modal -->
-<div class="modal fade" id="reliabulity" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
-  aria-hidden="true">
+<div class="modal fade" id="reliabulity" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered  modal-lg" role="document">
     <div class="modal-content modal_cards-styles">
       <button type="button" class="close text-right mr-3 mt-2" data-dismiss="modal" aria-label="Close">
@@ -2111,19 +1973,13 @@
         </p>
         <div class="row">
           <div class="demo-gallery">
-            <a href="assets/images/img/Services/Smart DigitalTwins/fabrication/Imagen37.png" data-size="1600x1600"
-              data-med="assets/images/img/Services/Smart DigitalTwins/fabrication/Imagen37.png"
-              data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
+            <a href="assets/images/img/Services/Smart DigitalTwins/fabrication/Imagen37.png" data-size="1600x1600" data-med="assets/images/img/Services/Smart DigitalTwins/fabrication/Imagen37.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
               <img src="assets/images/img/Services/Smart DigitalTwins/fabrication/Imagen37.png" alt="" />
             </a>
-            <a href="assets/images/img/Services/Smart DigitalTwins/fabrication/Imagen38.png" data-size="1600x1600"
-              data-med="assets/images/img/Services/Smart DigitalTwins/fabrication/Imagen38.png"
-              data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
+            <a href="assets/images/img/Services/Smart DigitalTwins/fabrication/Imagen38.png" data-size="1600x1600" data-med="assets/images/img/Services/Smart DigitalTwins/fabrication/Imagen38.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
               <img src="assets/images/img/Services/Smart DigitalTwins/fabrication/Imagen38.png" alt="" />
             </a>
-            <a href="assets/images/img/Services/Smart DigitalTwins/fabrication/Imagen39.png" data-size="1600x1600"
-              data-med="assets/images/img/Services/Smart DigitalTwins/fabrication/Imagen39.png"
-              data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
+            <a href="assets/images/img/Services/Smart DigitalTwins/fabrication/Imagen39.png" data-size="1600x1600" data-med="assets/images/img/Services/Smart DigitalTwins/fabrication/Imagen39.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
               <img src="assets/images/img/Services/Smart DigitalTwins/fabrication/Imagen39.png" alt="" />
             </a>
           </div>
@@ -2134,8 +1990,7 @@
   </div>
 </div>
 <!-- Modal -->
-<div class="modal fade" id="operations" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
-  aria-hidden="true">
+<div class="modal fade" id="operations" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered  modal-lg" role="document">
     <div class="modal-content modal_cards-styles">
       <button type="button" class="close text-right mr-3 mt-2" data-dismiss="modal" aria-label="Close">
@@ -2151,14 +2006,10 @@
         </p>
         <div class="row">
           <div class="demo-gallery">
-            <a href="assets/images/img/Services/Smart DigitalTwins/Operations/Imagen44.png" data-size="1600x1600"
-              data-med="assets/images/img/Services/Smart DigitalTwins/Operations/Imagen44.png" data-med-size="1024x1024"
-              data-author="Folkert Gorter" class="demo-gallery__img--main">
+            <a href="assets/images/img/Services/Smart DigitalTwins/Operations/Imagen44.png" data-size="1600x1600" data-med="assets/images/img/Services/Smart DigitalTwins/Operations/Imagen44.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
               <img src="assets/images/img/Services/Smart DigitalTwins/Operations/Imagen44.png" alt="" />
             </a>
-            <a href="assets/images/img/Services/Smart DigitalTwins/Operations/Imagen45.jpg" data-size="1600x1600"
-              data-med="assets/images/img/Services/Smart DigitalTwins/Operations/Imagen45.jpg" data-med-size="1024x1024"
-              data-author="Folkert Gorter" class="demo-gallery__img--main">
+            <a href="assets/images/img/Services/Smart DigitalTwins/Operations/Imagen45.jpg" data-size="1600x1600" data-med="assets/images/img/Services/Smart DigitalTwins/Operations/Imagen45.jpg" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
               <img src="assets/images/img/Services/Smart DigitalTwins/Operations/Imagen45.jpg" alt="" />
             </a>
           </div>
@@ -2169,8 +2020,7 @@
   </div>
 </div>
 
-<div class="modal fade" id="integrity" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
-  aria-hidden="true">
+<div class="modal fade" id="integrity" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered  modal-lg" role="document">
     <div class="modal-content modal_cards-styles">
       <button type="button" class="close text-right mr-3 mt-2" data-dismiss="modal" aria-label="Close">
@@ -2190,8 +2040,7 @@
   </div>
 </div>
 <!----VIDEO----->
-<div class="modal fade" id="#videohome" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
-  aria-hidden="true">
+<div class="modal fade" id="#videohome" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered  modal-lg" role="document">
     <div class="modal-content modal_cards-styles">
       <button type="button" class="close text-right mr-3 mt-2" data-dismiss="modal" aria-label="Close">
@@ -2209,17 +2058,14 @@
 </div>
 
 
-<div class="modal fade bd-example-modal-lg videoo" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
-  aria-hidden="true">
+<div class="modal fade bd-example-modal-lg videoo" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
       <span aria-hidden="true">&times;</span>
     </button>
     <div class="modal-content">
 
-      <iframe width="100%" height="500" src="{{ App\Models\Video::first()->link }}" title="YouTube video player"
-        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
+      <iframe width="100%" height="500" src="{{ App\Models\Video::first()->link }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
   </div>
 </div>
@@ -2261,7 +2107,7 @@
       "name": name,
       "text": message,
       "_token": "{{ csrf_token() }}"
-    }, function (data) {
+    }, function(data) {
 
       $("#buttonSendMessage").css("display", "block")
       $("#spinner").css("display", "none")
