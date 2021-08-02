@@ -68,36 +68,102 @@ return [
     "dataAnalytics" => "Data Analytics",
     "iaTitle" => "Artificial Intelligence",
     "experienceTitle" => "Experience",
-    "experienceDescription" => "Binnops have executed over 100 Laser Scanning projects and produced more than 75 3D Intelligent Models ( Digital Twins ) , including the updating of engineering information, the capturing of static and dynamic data from sensors, PLC’s or data bases and the production of dash boards with rich and intelligent data linked to the asset components.",
-    "experienceDescription2" => " Binnops owns its own sets of laser equipment, lidar equipment, drones, and software platforms that allows the efficient production of rich data using reverse engineering techniques and required to improve efficiency in Assets Management Binnops employs over 50 engineers, designers, technicians and data science engineers to implement digital transformation process in Industrial and Commercial Assets.",
-    "ecoPetrolRefineryTitle" => "Ecopetrol Refinery UOP II Process Plant",
-    "ecoPetrolRefineryDescription" => "Laser Scanning and construction of a Digital Twin for all the structural Steel, Process piping, Instruments, and mechanical equipment of the entire unit located at Barrancabermeja Refinery.",
-    "suncorMackayTitle" => "Suncor Mackay River Steam Generation Plant.",
-    "suncorMackayDescription" => "Cloud Point Data Processing, data registration, geometrical model generation, Updating of As built P&ID’s, reconstruction of data bases and creation of the Intelligent Model for a Steam generation facility located in Alberta Canada.",
-    "embassyTitle" => "United States Embassy",
-    "embassyDescription" => "Laser Scanning, data Cleaning and Data Registration of all the State Department Complex and Consular Services located in Bogota.",
-    "ecoPetrolRefineryTitle2" => "Ecopetrol Refinery UOP I Process Plant",
-    "ecoPetrolRefineryDescription2" => "Laser Scanning and construction of a Digital Twin for all the structural Steel, Process piping, Instruments, and mechanical
-    equipment of the entire unit located at Barrancabermeja Refinery.",
-    "ecoPetrolCrudeUnitTitle" => "Ecopetrol – Reficar Refinery Crude Unit ",
-    "ecoPetrolCrudeUnitDescription" => "Laser Scanning and construction of a Digital Twin in SP3D for all the structural Steel, Process piping, Instruments, and
-    mechanical equipment of the Crude Unit located at Reficar Refinery in Cartagena, Colombia.",
-    "reficarPlantTitle" => "Ecopetrol - Reficar Plant Pipe Racks.",
-    "reficarPlantDescription" => "Laser Scanning and construction of a Digital Twin for main Pipe Racks serving main Plants at Reficar Refinery in Cartagena,
+    "experienceDescription" => "Binnops have executed over 100 Laser Scanning projects and
+    produced more than 75 3D Intelligent Models ( Digital Twins ) ,
+    including the updating of engineering information, the capturing of
+    static and dynamic data from sensors, PLC’s or data bases and the
+    production of dashboards with rich and intelligent data linked to the
+    asset components.",
+    "experienceDescription2" => " Binnops owns its own sets of laser equipment, lidar equipment, drones,
+    and software platforms that allows the efficient production of rich data
+    using reverse engineering techniques and required to improve
+    efficiency in Assets Management. Binnops employs over 50 engineers, designers, technicians and data
+    science engineers to implement digital transformation process in
+    Industrial and Commercial Assets.",
+    "ecoPetrolRefineryTitle" => "Refinery Process Plant",
+    "ecoPetrolRefineryDescription" => "Laser Scanning and construction of a
+    Digital Twin for all the structural Steel,
+    Process piping, Instruments, and
+    mechanical equipment of the entire UOP I
+    unit of the Ecopetrol Refinery in
+    Barrancabermeja, Colombia",
+    "suncorMackayTitle" => "Steam Generation Plant.",
+    "suncorMackayDescription" => "Point cloud processing, data registration,
+    generation of geometric models, updating
+    of 750 P&ID's, production of Intelligent
+    P & ID's plans in as built condition,
+    database construction, intelligent model
+    construction on Bentley AutoPlant
+    platform and generation of 6,000
+    isometrics for eight plants and their well
+    pad systems at Suncor's Vapor Injection
+    complex in Canada.",
+    "embassyTitle" => "Government Building",
+    "embassyDescription" => "Laser Scanning, data Cleaning and Data Registration of a
+    50,000 square meter complex Complex of Consular Services
+    units and the Embassy of United States",
+    "ecoPetrolRefineryTitle2" => "Process Plant",
+    "ecoPetrolRefineryDescription2" => "Laser Scanning and construction
+    of a Digital Twin for all the
+    structural Steel, Process piping,
+    Instruments, and mechanical
+    equipment of the UOP II unit of
+    the Ecopetol Refinery in
+    Barrancabermeja, Colombia.",
+    "ecoPetrolCrudeUnitTitle" => "Crude Unit Process",
+    "ecoPetrolCrudeUnitDescription" => "Laser Scanning and construction
+    of a Digital Twin in Hexagon
+    Smart Plant 3D (SP3D) for all
+    the structural Steel, Process
+    piping, Instruments, and
+    mechanical equipment of the
+    Crude Unit located in the
+    Reficar Refinery in Cartagena,
     Colombia.",
-    "takulaComplexTitle" => "Chevron Takula Complex",
-    "takulaComplexDescription" => "Cloud Point Data Processing, data registration, geometrical model generation, Updating of As built P&ID’s , for an Offshore plant located
-    in the Angola Sea in Africa.",
-    "processingFacilityTitle" => "Rubiales CPF 1 Central Processing Facility",
-    "processingFacilityDescription" => "Cloud Point Data Processing, data registration, geometrical model generation, Updating of As built P&ID’s , reconstruction of data bases and
-    creation of the Intelligent Model in PDMS for an Oil Processing Plant located in a remote area of Colombia.",
-    "processPlantTitle" => "Chemical Process Plant – Brinsa SA",
-    "processPlantDescription1" => "Laser Scanning , Underground Scanning and 3D Modeling of Process Piping and Mechanical equipment for a Chemical Process Plant located in Colombia.",
-    "processPlantDescription2" =>  "Scanning of a distribution and Pumping Systems as as georeferencing of key process components using Lidar mounted over a drone.",
-    "steamGenerationTitle" => "Industrial Services and Steam Generation Plant",
-    "steamGenerationDescription" => "Laser Scanning and construction of a Digital Twin in SP3D for all the structural Steel, Process piping, Instruments, and mechanical equipment of the Industrial Services Complex located at Reficar Refinery in Cartagena, Colombia.",
-    "pipeRacksTitle" => "Pipe Racks Geometrical Modeling Shell Refinery",
-    "pipeRacksDescription" => "Cloud Point Data Processing, data registration, geometrical model generation for 55 Kms of Pipe racks at Shell Refinery located in United States.",
+    "reficarPlantTitle" => "Process Pipe Racks",
+    "reficarPlantDescription" => "Laser Scanning and construction
+    of a Digital Twin for +3 km of
+    4-levels Pipe Racks of units of
+    the Cartagena Refinery in
+    Colombia.",
+    "takulaComplexTitle" => "OffShore Platform",
+    "takulaComplexDescription" => "Cloud Point Data Processing, data
+    registration, geometrical model
+    generation, Updating of P & ID’s of a
+    Offshore plant gas processing located in
+    the Angola Sea in Africa",
+    "processingFacilityTitle" => "Separation Facility
+    and CPF",
+    "processingFacilityDescription" => "Laser Scanning, Underground Scanning,
+    Cloud Point Data Processing, data registration,
+    450 P&ID’s Updating and geometrical model
+    generation on Aveva PDMS software for
+    Separation Plant in the Eastern plains of
+    Colombia.",
+    "processPlantTitle" => "Chemical Process Plant",
+    "processPlantDescription1" => "Laser Scanning , Underground Scanning and Digital Twins of
+    Process Pipes and Mechanical equipment for a Chemical
+    Process Plant located in Cajicá, Colombia.",
+    "processPlantDescription2" =>  "Scanning of a distribution and Pumping Systems as well as
+    georeferencing of components and equipment through using
+    Lidar mounted over a drone.",
+    "steamGenerationTitle" => "Industrial Services and
+    Steam Generation Plant.",
+    "steamGenerationDescription" => "Laser Scanning and construction of
+    a Digital Twin in SP3D for all the
+    structural Steel, Process piping,
+    Instruments, and mechanical
+    equipment of the Industrial Services
+    Complex located in the Reficar
+    Refinery in Cartagena, Colombia.",
+    "pipeRacksTitle" => "Pipe Racks
+    Geometrical
+    Modeling",
+    "pipeRacksDescription" => "Cloud Point Data Processing, data
+    registration, geometrical model generation
+    for 55 Km of Process Pipe racks in 5 levels
+    for a petroleum refinery located in Texas.
+    U.S.",
     "contact" => "Contact",
     "contactUs" => "Contact us",
     "reach" => "We’ll reach you in less than 1 hour if you don’t get a response immediately! We take business opportunities very seriously!",
