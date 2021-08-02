@@ -57,7 +57,7 @@ return [
     company. OSHA 1910 calls on companies to meet standards of safety for workers and the local environment. Binnops Digital Process facilitate these efforts in important arenas while delivering the operational excellence that distinguishes world-class companies.",
     "byProjects" => "By projects",
     "binnopsOffers" => "Binnops Offers the individual activities associated to Laser Scanning, Models Production, Data Capture and Analysis on a Project Basis under a Lump Sum Price and based on a detailed scope of work. Individual services will include Field Data Capturing, Engineering data Updating ; 3D model Production ; IoT & Data Analytics.",
-    "daas" => "by DAAS",
+    "daas" => "By Data as a Service",
     "dataasservice" => "Data as a Service",
     "sellingData" => "Binnops also offers a modern business option by selling Data as a Service. Asset Visualization and Digital Twins can be enjoyed by accessing
     the Data via web while paying a recurrent fee per month.",

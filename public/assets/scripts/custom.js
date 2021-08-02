@@ -642,3 +642,6 @@ $( document ).ready(function() {
 $(".nav-link").click(function () {
   $("#navbarMenuCollapse").removeClass("show");
 });
+$(".digitalhover").hover(function () {
+  $(this).addClass("height");
+});

@@ -925,7 +925,7 @@ body {
     color: rgb(255 255 255);
     padding-left: 0;
     padding-right: 0;
-    text-transform: uppercase;
+    text-transform: initial;
 }
 .navbar-a .navbar-nav .nav-link.dropdown-toggle {
     padding-right: 2em !important;

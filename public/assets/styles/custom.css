@@ -1010,7 +1010,7 @@ position: relative;
 .menux{
   position: fixed!important;
   right: 20px;
-  top: 20rem;
+  bottom: 4rem;
   margin: 0;
   padding: 0!important;
   z-index: 999;
@@ -2408,7 +2408,7 @@ color: #000;
 }
 
 .section-contact .text-left{
-  z-index: 9999;
+  z-index: 1;
 }
 .child-slider  img {
   height: 350px;
@@ -2951,4 +2951,16 @@ justify-content: center;
 .form-label {
    
     color: #fff!important;
+}
+.idioma-xs .dropdown-toggle::before, .idioma-xs .dropdown-toggle::after {
+
+    right: 9px;
+    }
+    .and:hover{
+      color: #12162d !important;
+    }
+.height p{
+  height: 175px !important;
+  opacity:1;
+  color: #12152a;
 }

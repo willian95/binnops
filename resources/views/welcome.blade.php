@@ -340,7 +340,7 @@
                     </p>
 
                   </div>
-                  <div class="section-navegation section-navegation-height section-navegation-height-modif">
+                  <div class="section-navegation section-navegation-height section-navegation-height-modif digitalhover">
 
                     <div class="demo-box">
                       <img class="icon-demo" src="assets/images/iconos/drone.svg" alt="">
@@ -351,7 +351,7 @@
                       <span data-toggle="modal" data-target="#revamps">{{ __("messages.revamps") }},</span>
                       <span data-toggle="modal" data-target="#maintenace">{{ __("messages.maintenance") }},</span>
                       <span data-toggle="modal" data-target="#reliabulity">{{ __("messages.reliability") }},</span>
-                      <span>&</span>
+                      <span class="and">&</span>
                       <span data-toggle="modal" data-target="#operations">{{ __("messages.operations") }}.</span>
                     </p>
 
@@ -588,7 +588,7 @@
                   <li class="pricing-table__item pricing-table__item--popular item-card_size">
                     <h3 class="pricing-table__title">{{ __("messages.daas") }}</h3>
                     <p class="pricing-table__description">
-                      <span class="span-style">{{ __("messages.dataasservice") }} </span>
+                      <!---<span class="span-style">{{ __("messages.dataasservice") }} </span>--->
                       <span class="pricing-table__tagline mb-0 pb-0 mt-1">
                         {{ __("messages.sellingData") }}
                       </span>
@@ -597,9 +597,9 @@
                     <!-------------------------------------sliders--------------------------------------------->
                     <div class="row mt-5">
                       <div class="demo-gallery mt-0" style="    grid-template-columns: 1fr 1fr;">
-                        <a href="https://assets.justinmind.com/wp-content/uploads/2017/08/login-forms-web-prototyping-ux-design.png" data-size="1600x1600" data-med="https://assets.justinmind.com/wp-content/uploads/2017/08/login-forms-web-prototyping-ux-design.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
+                       <!--- <a href="https://assets.justinmind.com/wp-content/uploads/2017/08/login-forms-web-prototyping-ux-design.png" data-size="1600x1600" data-med="https://assets.justinmind.com/wp-content/uploads/2017/08/login-forms-web-prototyping-ux-design.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
                           <img src="https://assets.justinmind.com/wp-content/uploads/2017/08/login-forms-web-prototyping-ux-design.png" alt="" />
-                        </a>
+                        </a>-->
                         <a href="assets/images/img/BusinessModel/Imagen27.png" data-size="1600x1600" data-med="assets/images/img/BusinessModel/Imagen27.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
                           <img src="assets/images/img/BusinessModel/Imagen27.png" alt="" />
                         </a>
@@ -1468,7 +1468,7 @@
                           </select>
                           <div id="info-col">
                             <p id="custom-address" class="direction">
-                              Subsidiary of E2 SAS Colombia - 2101 City West Boulevard, Suite 100 77042 Houston Texas
+                              Suite 100 77042 Houston Texas
                             </p>
 
                             <div class="d-flex align-items-center">
@@ -1479,10 +1479,10 @@
                                   <span class="icon"><i class="ion-md-mail"></i></span>
                                 </button>--->
                             </div>
-                            <div class="d-flex align-items-center" id="custom-phone">
+                            <!---<div class="d-flex align-items-center" id="custom-phone">
                               <a class="contact-main btn-inline url-phone phone" href="tel:+1 713 429 1912" itemprop="phone">
                                 +1 713 429 1912</a>
-                            </div>
+                            </div>-->
                           </div>
                           <div id="info-usa">
 
@@ -1694,6 +1694,8 @@
 
     </div>
   </div>
+
+</div>
   <!-- Modal -->
   <div class="modal fade" id="card-mini2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered  modal-lg" role="document">
@@ -1712,7 +1714,6 @@
 
     </div>
   </div>
-</div>
 <!-- Modal -->
 <div class="modal fade" id="card-mini3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered  modal-lg" role="document">
@@ -1976,8 +1977,8 @@
             <a href="assets/images/img/Services/Smart DigitalTwins/fabrication/Imagen37.png" data-size="1600x1600" data-med="assets/images/img/Services/Smart DigitalTwins/fabrication/Imagen37.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
               <img src="assets/images/img/Services/Smart DigitalTwins/fabrication/Imagen37.png" alt="" />
             </a>
-            <a href="assets/images/img/Services/Smart DigitalTwins/fabrication/Imagen38.png" data-size="1600x1600" data-med="assets/images/img/Services/Smart DigitalTwins/fabrication/Imagen38.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
-              <img src="assets/images/img/Services/Smart DigitalTwins/fabrication/Imagen38.png" alt="" />
+            <a href="assets/images/img/Services/Smart DigitalTwins/fabrication/Imagen38.jpg" data-size="1600x1600" data-med="assets/images/img/Services/Smart DigitalTwins/fabrication/Imagen38.jpg" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
+              <img src="assets/images/img/Services/Smart DigitalTwins/fabrication/Imagen38.jpg" alt="" />
             </a>
             <a href="assets/images/img/Services/Smart DigitalTwins/fabrication/Imagen39.png" data-size="1600x1600" data-med="assets/images/img/Services/Smart DigitalTwins/fabrication/Imagen39.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
               <img src="assets/images/img/Services/Smart DigitalTwins/fabrication/Imagen39.png" alt="" />
@@ -2065,7 +2066,7 @@
     </button>
     <div class="modal-content">
 
-      <iframe width="100%" height="500" src="{{ App\Models\Video::first()->link }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="100%" height="500" src="{{ App\Models\Video::first()->link }}?autoplay=1&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
   </div>
 </div>
@@ -2081,7 +2082,7 @@
 
     if (location == "us") {
 
-      $("#custom-address").html("Subsidiary of E2 SAS Colombia - 2101 City West Boulevard, Suite 100 77042 Houston Texas")
+      $("#custom-address").html(" Suite 100 77042 Houston Texas")
       $("#custom-phone").html("<a class='contact-main btn-inline url-phone phone' href='tel:+1 713 429 1912' itemprop='phone'>+1 713 429 1912</a>")
 
     } else if (location == "colombia") {
