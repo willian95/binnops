@@ -1010,15 +1010,25 @@ position: relative;
 .menux{
   position: fixed!important;
   right: 20px;
-  bottom: 4rem;
+  bottom: 1rem;
   margin: 0;
   padding: 0!important;
   z-index: 999;
-  width: 80px;
-}
+  font-size: .9rem;
+  font-weight: bold;
+
+  display: flex;
+flex-direction: column;
+background: #fff;
+border-radius: 50% !important;
+height: 90px;
+width: 90px;
+box-shadow: 0px 0px 10px #14162d42;
+justify-content: center;
+}/*
 .navbar-a .navbar-toggler{
   width: 80px!important;
-}
+}*/
 .icon {
 
   width: auto!important;
@@ -1060,11 +1070,11 @@ position: relative;
   position: absolute;
   background: red;
 }
-
+/*
 .icon-menu-c{
   border-radius: 50%!important;
   box-shadow: 0px 0px 10px #14162d42;
-}
+}*/
 .items-exp{
   font-size: 22px;
   margin: 25px 0;
@@ -2814,7 +2824,7 @@ object-fit: contain!important;
   text-align: center;
 }
 .icon-menu-c img{
-  width: 100%;
+  width: 45%;
 }
 .circle-pannel{
   display: none;

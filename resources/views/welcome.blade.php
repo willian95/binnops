@@ -23,12 +23,13 @@
 
                   <button class="navbar-toggler menux" type="button" data-toggle="collapse" data-target="#navbarMenuCollapse" aria-controls="navbarMenuCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="icon icon-menu icon-menu-c">
-                      <img src="assets/images/icon.png" alt="">
+                      <img src="assets/images/iso.png" alt="">
                       <!--<span class="bars">
                       <span class="bar1"></span>
                       <span class="bar2"></span>
                     </span>-->
                     </span>
+                    Menu
                   </button>
 
                   <div class="collapse navbar-collapse order-lg-1" id="navbarMenuCollapse">
@@ -1497,6 +1498,7 @@
                           <img src="assets/images/certifications/Logo_for_client_1110074.png" alt="">
                         </div>
                       </div>
+                      <h1></h1>
                       <div class="col-md-5">
                         <form id="form-message" class="form-a form-message form-message" method="post" action="ajaxserver/serverfile.php">
                           <div class="mb-3">
