@@ -63,9 +63,20 @@ return [
     "dataAnalytics" => "Análisis de Datos",
     "iaTitle" => "Inteligencia Artificial",
     "experienceTitle" => "Experiencia",
-    "experienceDescription" => "Binnops ha ejecutado más de 100 proyectos de Escaneo Láser y ha producido más de 75 Modelos Inteligentes 3D (Gemelos Digitales) , incluyendo la actualización de la información de ingeniería, la captura de datos estáticos y dinámicos de sensores, PLC's o bases de datos y la producción de Dashboard con datos inteligentes vinculados a los componentes de los activos. ",
-    "experienceDescription2" => "Binnops posee sus propios equipos láser, lidar, drones, y plataformas de software que permiten la producción eficiente de datos inteligentes, utilizando técnicas de ingeniería inversa que mejoran la eficiencia en la Gestión de Activos. Binnops emplea más de 50 ingenieros, diseñadores, técnicos y científicos de datos para implementar su proceso de transformación digital. ",
-    "ecoPetrolRefineryTitle" => "Planta de Procesos Refineria de Ecopetrol UOP II",
+    "experienceDescription" => "Binnops ha ejecutado más de 100 proyectos de Escaneo Láser y ha
+    producido más de 75 Modelos Inteligentes 3D (Gemelos Digitales) ,
+    incluyendo la actualización de la información de ingeniería, la captura
+    de datos estáticos y dinámicos de sensores, PLC's o bases de datos y la
+    producción de Dashboards con datos inteligentes vinculados a los
+    componentes de los activos. ",
+    "experienceDescription2" => "Binnops posee sus propios equipos láser, lidar, drones, y plataformas
+    de software que permiten la producción eficiente de datos inteligentes,
+    utilizando técnicas de ingeniería inversa que mejoran la eficiencia en
+    la Gestión de Activos. Binnops emplea más de 50 ingenieros, diseñadores, técnicos y
+    científicos de datos para implementar su proceso de transformación
+    digita. ",
+    "ecoPetrolRefineryTitle" => "Planta de Proceso de
+    Crudo",
     "ecoPetrolRefineryDescription" => "Laser Scanning and construction of a Digital Twin for all the structural Steel, Process piping, Instruments, and mechanical equipment of the entire unit located at Barrancabermeja Refinery.",
     "ecoPetrolRefineryTitle2" => "Ecopetrol Refinery UOP I Process Plant",
     "ecoPetrolRefineryDescription2" => "Laser Scanning and construction of a Digital Twin for all the structural Steel, Process piping, Instruments, and mechanical

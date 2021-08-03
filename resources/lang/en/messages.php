@@ -41,10 +41,10 @@ return [
     collaboration, coordination and collective knowledge capture that extends across plant
     disciplines and to the plant’s network of service and product suppliers. See detailed usage
     for:",
-    "revamps" => "BIM &amp; 4D;",
+    "revamps" => "BIM & 4D",
     "maintenance" => "Maintenance",
     "reliability" => "Upgrades",
-    "operations" => "Operations &amp; Maintenance",
+    "operations" => "Operations & Maintenance",
     "oneKey" => "One key breakthrough in the industrial world is Data analytics capabilities generated on existing
     platforms and different applications for many knowledge domains.",
     "iot" => "Internet de las cosas (IoT)",
@@ -238,7 +238,7 @@ return [
     set proper levels of alarming and communications strategies to make sure that correction actions visualized over the Smart Digital Twin are effectively executed.",
     "iaDescription2" => "When ML&DL techniques are adopted, there is a very accelerated return that is reflected in the reduction of unplanned downtime, increased efficiency and the automation of the control for dangerous and expensive tasks. This maximizes investments by reducing costs and minimizing risks. It is part of our value offer to adapt to any existing analytics application on critical systems, processes or assets and collaborate along with our customers to build the proper layers and conditions of required Data in order to take the most out of the predictive and prescriptive available capabilities.",
     "cibersecurityDescription" => "By creating virus attack and digital failure simulations, a digital twin can help the operator recognize potential cyber breaches and attacks and take the correct action to minimize the impact on the organization. The digital twin is vulnerable to attacks in the same way as the asset it mirrors and needs to be protected as well, whether by asynchronous connections, the use of AI as anomaly detectors, firewalls, or other means. In the digital twin journey, leaders must work on becoming learning leaders who creates environment of trust. Therefore, a more adversarial mindset is needed by engineers when developing systems. They must approach their own system like hackers, especially when protecting brownfield sites, thus, security becomes the cornerstone within the new operational business model to protect its three main components such as the data content, visualization and the model per se",
-    "enginneringTitle" => "Engineering &amp; Construction;",
+    "enginneringTitle" => "Engineering & Construction;",
     "enginneringDescription1" => "Design and Construction of new plants and Infrastructure is done using interconnected
     software and disciplines in a 3D CAD environment. However, changes taking place during
     construction, or data coming from third parties and from vendors is not updated or linked to
@@ -267,7 +267,7 @@ return [
     identifiable conditions and therefore generating several errors and project overruns.
     Planning of the revamp done based on real geodesical condition and with data centralized
     via a digital twin generates exponential benefits to the project.Binnops Digital Hub allows different project stakeholders to communicate via web in a
-    simple and efficient way while increasing creativity, planning &amp; tracking capabilities, errors
+    simple and efficient way while increasing creativity, planning & tracking capabilities, errors
     identification and project savings.",
     "operationsDescription1" => "The usage of Digital Twins to visualize asset health indicators or real time data of critical
     equipment and systems is the norm to increase plant efficiencies, reduce plants down time
