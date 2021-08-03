@@ -35,21 +35,39 @@ return [
     "afterCapturing" => "After capturing field data via the laser scanning techniques, the next step includes the conversion of the Geometrical As built Model into an Intelligent Model by adding and identifying tags and other asset information. By tagging objects, components, structures, circuits and subsystems, the model shapes gain context and can be used for searching, sorting, and linking to relevant data from all other plant information systems. The result is
     an asset management environment that we call “asset virtualization.”",
     "digitalApplications" => "Digital Hub Applications",
-    "binnopsPlatform" => "Binnops Platform permits search and queries—pulling the required data from several databases and be used by several Users . Binnops Digital Hub is the foundation for collaboration, coordination and collective knowledge capture that extends across plant disciplines and to the plant’s network of service and product suppliers. See detailed usage for:",
-    "revamps" => "Revamps",
+    "binnopsPlatform" => "Binnops Platform permits search and queries—pulling the required data from several
+
+    databases and be used by several Users . Binnops Digital Hub is the foundation for
+    collaboration, coordination and collective knowledge capture that extends across plant
+    disciplines and to the plant’s network of service and product suppliers. See detailed usage
+    for:",
+    "revamps" => "BIM &amp; 4D;",
     "maintenance" => "Maintenance",
-    "reliability" => "Reliability",
-    "operations" => "Operations",
-    "oneKey" => "One key breakthrough in the industrial world is Data analytics capabilities generated on existing platforms and different applications for many knowledge domains.",
+    "reliability" => "Upgrades",
+    "operations" => "Operations &amp; Maintenance",
+    "oneKey" => "One key breakthrough in the industrial world is Data analytics capabilities generated on existing
+    platforms and different applications for many knowledge domains.",
     "iot" => "Internet de las cosas (IoT)",
-    "binnopsDigital" => "The Binnops digital hub integrates Internet of things (IoT) services to capture Data from any mobile or stationary type of Asset (or even people) and ingest it in real time within cloud-based architectures",
+    "binnopsDigital" => "At any Asset level (Location, process or even individual sensors or instruments) and
+    connected to any Database from available applications (Processes, operations,
+    maintenance, etc.), Data can be transferred and structured directly into cloud IoT solutions
+    and provide the Binnops digital hub with flexible Dashboards.",
     "rpa" => "Robotized Process Automation ( RPA )",
-    "integrateRobotized" => "The Binnops digital hub integrates Robotized Process Automation (RPA) servicessystems and limitations of human beings when processing Data under typical 2D visual formats. The Binnops digital hub combines current state-of-the-art analytics and very creative 3D visualization capabilities over transformed, interconnected and analyzed Data. It takes advantage of how easy Data is interpreted and analyzed when shown like human brain naturally absorbs information in real world: 3D. We integrate the value chain of Smart Data Management services into Digital Twins by merging following services:",
-    "integrateRobotizedProcess" => "The Binnops digital hub integrates Robotized Process Automation (RPA) services to deal with great quantities of activities that require to be performed repeatedly within limited lengths of time. Many use cases related to rapid Data documentation, required reports, and key performance
-    indicators’ calculation are typical prospects.",
+    "integrateRobotized" => "The Binnops digital hub integrates Robotized Process Automation (RPA) services to deal
+    with great quantities of activities that require to be performed repeatedly within limited
+    lengths of time. Many use cases related to rapid Data documentation, required reports, and
+    key performance indicators’ calculation are typical prospects.",
+    "integrateRobotizedProcess" => "The Binnops digital hub integrates Robotized Process Automation (RPA) services to deal
+    with great quantities of activities that require to be performed repeatedly within limited
+    lengths of time. Many use cases related to rapid Data documentation, required reports, and
+    key performance indicators’ calculation are typical prospects..",
     "dataAnalyticRequired" => "The Binnops digital hub is able to evolve the Data analytics required by customers going from very basics to the most advanced levels. Despite the progress in the analytics scale (Descriptive, Diagnostic, Predictive and Prescriptive) depends on organizational culture, existing personnel capabilities and level of maturity of Data infrastructure, we propose a Road Map that pushes analytics capabilities’ implementation at a proper pace.",
     "ia" => "Artificial Intelligence : ( AI ) ",
-    "diagnosticAnalytics" => "From a Diagnostic analytics level on, the Binnops digital hub integrates Machine and Deep Learning capabilities to implement preventive, predictive and prescriptive analytics’ routines on critical systems, processes or assets. In such cases, when critical variables must be automatically monitored, controlled and even corrected, we work along with customers to set proper levels of alarming and communications strategies to make sure that correction actions visualized over the Smart Digital Twin are effectively executed",
+    "diagnosticAnalytics" => "From a Diagnostic analytics level on, the Binnops digital hub integrates Machine and Deep
+    Learning capabilities to implement preventive, predictive and prescriptive analytics’ routines
+    on critical systems, processes or assets. In such cases, when critical variables must be
+    automatically monitored, controlled and even corrected, we work along with customers to
+    set proper levels of alarming and communications strategies to make sure that correction",
     "cibersecurity" => "Cibersecurity",
     "peopleCibersecurity" => "People are the first and last line of cyber security defense. While you will never stop all cyber-attacks, a digital twin can be effectively applied as a training simulator and in testing to move to a more proactive and predictive approach to detecting cyber compromises",
     "businessModel" => "Business Model",
@@ -180,9 +198,14 @@ return [
     "assetVisualization2" => "Geodesical Information and Virtual Reality allows the Owners to visit the plant and therefore reducing operational risk, physical displacements while saving time and improving decision making. Cloud Point data is stitched to 4K reality for an easy to access and easy to use solution.",
     "smarTwinsDescription1" => "Engineering data and as built conditions of the asset are linked to each component for immediate access to valuable information.",
     "smarTwinsDescription2" => "The 3D Model of the Asset is built in a reverse way and based on cloud point data previously collected from the field. The models are produced using commercial software platforms such as SP3D, Cadworx, Autoplant, Revit, E3D etc. Upon population and building of completion of all the engineering databases , the geometrical or the intelligent model gets uploaded onto a web based platform for easy navigation and data management.",
-    "smartDataDescription1" => "However, Data governance and its visual assimilation remains as a challenge due to tremendous amount of
-    available information, complexity of layers and opened silos of Data coming from in-field-interconnected",
-    "smartDataDescription2" => "systems and limitations of human beings when processing Data under typical 2D visual formats. The Binnops digital hub combines current state-of-the-art analytics and very creative 3D visualization capabilities over transformed, interconnected and analyzed Data. It takes advantage of how easy Data is interpreted and analyzed when shown like human brain naturally absorbs information in real world: 3D. We integrate the value chain of Smart Data Management services into Digital Twins by merging following services:",
+    "smartDataDescription1" => "However, Data governance and its
+    visual assimilation remains as a challenge due to tremendous amount of available information,
+    complexity of layers and opened silos of Data coming from in-field-interconnected systems and
+    limitations of human beings when processing Data under typical 2D visual formats. The Binnops
+    digital hub combines current state-of-the-art analytics and takes advantage of how easy Data is
+    interpreted when absorbed like in real world: 3D.",
+    "smartDataDescription2" => "We integrate the value chain of Smart Data Management services into Digital Twins by merging
+    following services:",
     "terrestrialScanningDescription1" => "The process is similar to conventional surveying in which scans are taken from multiple perspectives, each from known or calculated geographical coordinates.",
     "terrestrialScanningDescription2" => "Modeling software can combine the scans into a coherent “as-is” model or point cloud. Where CAD data exist for equipment and systems, it can be imported and integrated into the model. Otherwise, software is used to convert the point cloud data derived from laser scanning into 3D objects. The result is a visual, navigable, multi-perspective 3D virtual model that accurately and precisely reflects the actual facilities.",
     "aerialScanningDescription" => "Cloud Point Data and 4K Photography of the Asset gets uploaded in Binnops Visualization Portal for easy-to-use navigation. Clients can access in a remote way and without the need of any software. Client users can access simultaneously the asset and navigate virtually with other team members. Simulations about plant modifications, management assessments, planning and many other functionalities can be implemented with the virtual navigation.",
@@ -190,32 +213,70 @@ return [
     "digitalHubDescription2" => "Management of change is a very important aspect of any 3D virtual model because much of the model’s benefit results from model precision and its representation of the actual production assets and facilities. Therefore, the 3D virtual model software must be capable of accepting updates at any time via new laser scans, altered CAD information and direct model changes to reflect field conditions. Furthermore, changes must be automatically propagated (or inherited) to views, documents and integrated systems to ensure that all asset information and the 3D virtual model accurately reflect the plant.The Binnops Digital Hub permits that the Digital Intelligent Twin with detailed precision and dimensions be navigable by a common user and without the need of complex and
     expensive software. The Hub support the creation of any number of sub-views that isolate and emphasize individual processes, equipment and work tasks.",
     "digitalHubDescription3" => "It should be possible to layer these views (show two or more together) for more precise planning, documentation, and communication of work tasks in the appropriate detail and context. Also, it has the ability to incorporate 3D views of dynamic assets such as cranes and scaffolding that may be temporarily deployed in the plant.",
-    "iotDescription1" => "At any Asset level (Location, process or even individual sensors or instruments) and connected to any Database from available applications (Processes, operations, maintenance, etc.), Data can be transferred to structured repositories through sophisticated communication technologies to be visualized and analyzed by analytics platforms. Thus, IoT solutions provide the Binnops digital hub with flexible Dashboards from any knowledge domain: Operations, maintenance, reliability, integrity, safety, quality assurance, management, business, etc",
-    "iotDescription2" => "Also, IoT solutions contribute to decision-making processes under a 3D and a one-single-point of collaborative environment among all enterprise areas over the Digital Twin. It is part of our value offer to adapt to any existing IoT infrastructure and co-create along with our customers any content for dashboards under our ever-evolving users’ visual experience",
-    "rpaDescription1" => "We work along with customers to identify a map of critical processes on both phases: Building and operating the Smart Digital Twin so that acquired Data (by IoT, manual gathering or another integration of Databases) can be processed at an accelerated pace. The functionalities that bots can perform range from copy and paste, data extraction in documents (OCR), data extraction on the web, performing calculations in Excel tables, email analysis and extraction of unstructured data. Bots are basically dedicated to learn, imitate and perform processes made by human beings based on certain rules",
-    "rpaDescription2" => "When building Smart Digital Twins, thousands of engineering or process documents such as datasheets, plans, reports, among others can be processed, analyzed, and classified in matter of minutes through RPA. Also, when operating Smart Digital Twins (Just as it is made in the physical real Asset or process), Bots have the ability of performing Data gathering and interacting with any software or application in the way humans would, with the advantage of operating 24/7 and no fatigue pressure",
+    "iotDescription1" => "At any Asset level (Location, process or even individual sensors or instruments) and
+    connected to any Database from available applications (Processes, operations,
+    maintenance, etc.), Data can be transferred and structured directly into cloud IoT solutions
+    and provide the Binnops digital hub with flexible Dashboards.",
+    "iotDescription2" => "Also, IoT solutions contribute to decision-making processes under a 3D and a one-single-
+    point of collaborative environment among all enterprise areas over the Digital Twin.",
+    "rpaDescription1" => "The Binnops digital hub integrates Robotized Process Automation (RPA) services to deal
+    with great quantities of activities that require to be performed repeatedly within limited
+    lengths of time. Many use cases related to rapid Data documentation, required reports, and
+    key performance indicators’ calculation are typical prospects.",
+    "rpaDescription2" => "When building Smart Digital Twins, thousands of engineering or process documents such
+    as datasheets, plans, reports, among others can be processed, analyzed, and classified in
+    matter of minutes through RPA. Also, when operating Smart Digital Twins (Just as it is
+    made in the physical real Asset or process), Bots have the ability of performing Data
+    gathering and interacting with any software or application in the way humans would, with
+    the advantage of operating 24/7 and no fatigue pressure.",
     "dataAnalyticsDescription1" => "Once Data is transferred to structured repositories in the cloud through defined gathering methods (by IoT, manual gathering or another integration of Databases), it is available to be analyzed at the level set by the defined Data governance and analytics level. Also, results can be visualized within our intuitive immediate and language-independent way over the Smart Digital Twin to accelerate conclusions on any analyzed system, process or asset and support the decision-making processes. We can use colors or 3D visual effects to reflect the desired or not desired consequences of the analysis",
     "dataAnalyticsDescription2" => "The Binnops digital hub integrates analytics platforms with sophisticated mathematical models that deal with the appropriate amount of Data and level of analytics to lead to better operational, maintenance, production, financial strategies, among others. The advanced mathematical techniques can optimize such strategies, thus allowing to minimize costs and maximize targeted benefits",
-    "iaDescription1" => "Self-learning analytics capabilities are embedded in the Binnops digital hub through interconnection of Databases with platforms designed under state-of-the-art algorithms, that literally learn from the systems, processes or assets they act on. The use colors or 3D visual effects to reflect the desired or not desired consequences can anticipate failures",
+    "iaDescription1" => "From a Diagnostic analytics level on, the Binnops digital hub integrates Machine and Deep
+    Learning capabilities to implement preventive, predictive and prescriptive analytics’ routines
+    on critical systems, processes or assets. In such cases, when critical variables must be
+    automatically monitored, controlled and even corrected, we work along with customers to
+    set proper levels of alarming and communications strategies to make sure that correction actions visualized over the Smart Digital Twin are effectively executed.",
     "iaDescription2" => "When ML&DL techniques are adopted, there is a very accelerated return that is reflected in the reduction of unplanned downtime, increased efficiency and the automation of the control for dangerous and expensive tasks. This maximizes investments by reducing costs and minimizing risks. It is part of our value offer to adapt to any existing analytics application on critical systems, processes or assets and collaborate along with our customers to build the proper layers and conditions of required Data in order to take the most out of the predictive and prescriptive available capabilities.",
     "cibersecurityDescription" => "By creating virus attack and digital failure simulations, a digital twin can help the operator recognize potential cyber breaches and attacks and take the correct action to minimize the impact on the organization. The digital twin is vulnerable to attacks in the same way as the asset it mirrors and needs to be protected as well, whether by asynchronous connections, the use of AI as anomaly detectors, firewalls, or other means. In the digital twin journey, leaders must work on becoming learning leaders who creates environment of trust. Therefore, a more adversarial mindset is needed by engineers when developing systems. They must approach their own system like hackers, especially when protecting brownfield sites, thus, security becomes the cornerstone within the new operational business model to protect its three main components such as the data content, visualization and the model per se",
-    "enginneringTitle" => "Engineering",
-    "enginneringDescription1" => "The process industries have completely adopted 3D technology in computer-aided design (CAD) systems for initial plant design and engineering. However, the models and documentation created in these processes do not serve operating and maintenance tasks over the productive life of the assets. This is because the “as-designed” CAD representations often deviate from “as built” or field conditions and, over time, become less representative of the actual plant and equipment. (The 3D virtual models typically do not exist, and or are not updated as modifications are made to process equipment, nor is
-    it cost-effective to maintain these CAD models.) ",
-    "enginneringDescription2" => "Clients can walk the scanned images of the as-built model and identify discrepancies in existing process and instrumentation diagrams (P&IDs). P&IDs can be corrected and made suitable for engineering work at a fraction of the labor otherwise required for field inspection, redlining and updating. Reducing staff exposure to the operating plant is an additional important safety benefit.",
+    "enginneringTitle" => "Engineering &amp; Construction;",
+    "enginneringDescription1" => "Design and Construction of new plants and Infrastructure is done using interconnected
+    software and disciplines in a 3D CAD environment. However, changes taking place during
+    construction, or data coming from third parties and from vendors is not updated or linked to
+    the design model, and therefore preventing the generation of the As Built condition. ",
+    "enginneringDescription2" => "The usage of digital twin mounted over Binnops Web Platform, allows the Clients to achieve
+    exponential benefits by keeping changes under control while the data gets centralized
+    through the digital twin avoiding extra costs, errors and contractual claims.",
     "enginneringDescription3" => "With accurate 3D virtual models, many engineering tasks can be transformed from a field exercise with paper and pencil to an office task where field conditions can be explored, accurate measurements taken and general productivity dramatically improved.",
-    "revampsDescription" => "Plant turnarounds are distinct projects that often involve significant numbers of internal staff, contractors and suppliers. A typical turnaround consists of many work packages that have to be planned, coordinated and executed on a tight schedule.",
-    "revampsDescription2" => "The 3D virtual model of the affected facilities provided tremendous value by enhancing communications and ensuring team familiarity with tasks and their environment. Timeconsuming walkthroughs are only taken as a final confirmation of the plans.",
+    "revampsDescription" => "Transition between the design ideas and the physical construction phase generates several
+    deviations that can be reduced by implementing BIM (Building Information Management)
+    techniques. Such BIM activities are easily implemented through the Binnops Digital Hub.
+    Construction errors, project delays, materials waste and projects claims can be easily
+    reduced by centralizing models and data in central location for a unique assessment of the
+    project stakeholders.",
+    "revampsDescription2" => "TConstruction schedules can be linked and simulated in a 4D environment representing a
+    true logic and a real project progress. Project delays can then be visualized physically and
+    therefore generating more creativity while implementing project recovery actions.",
     "maintencanceDescription1" => "Applications of the 3D virtual model for plant maintenance are many and varied, and the impact on best practices is significant. Maintenance personnel are able to quickly locate lines, equipment and instrumentation, and familiarize themselves with the location before going to the field to perform their work. Work orders are precisely linked to the target equipment or system and, through that connection, to the most current asset data. The model is a natural tool for organizing and visualizing maintenance history, operational data, test results and analysis.",
     "maintenanceDescription2" => "Sharing Databases with Enterprise Asset Managament or Asset Performance Management software is another
     breakthrough in the evolving Digital Twin industry as they are able to complement Data coming directly from
     field with historical information of all actions taken over the assets under the interactive and intuitive
     visual way of the 3D experience. The combination of multiple sources gives a new border for the governance
     of Data used to set Asset Management strategies throughout their lifecycle.",
-    "reliabilityDescription" => "One of the most challenging constraints in the modern world of reliability are the accuracy of Data and governance of the every time more advanced language of dynamic equipment. Unleashing all the information from critical equipment introduces the engineers in a very complex world as Data is so abundant that giving governance is very difficult nowadays. Smart Digital Twins approach these challenges through the merge of technologies like IoT (Internet of Things) that allow Reliability analysts get not only accurate Data but also organized layers of information from equipment when consuming such Data under 3D environments, just by clicking on the asset of interest. Also, the interconnection of Digital Twins to analytics platforms with predictive and prescriptive levels may save a lot of time when configuration of results, beyond complex mathematical processes, show results under simple visual colored or simulated effects. This help engineers prioritize where resources really should be invested and avoid failures when systems are able to predict under complex systems above individual equipment.",
-    "operationsDescription1" => "There are many opportunities to utilize the 3D virtual model in the operations department. For example, in the offsite area, determining the optimal routing for an ad hoc oil movement had relied on memory and potentially lengthy multiday site walks and investigation. With the 3D virtual model, routings are easily defined and, more importantly, the routings can often be optimally lined up and determined in just minutes.",
-    "operationsDescription2" => "Operating procedures can be more easily created and reviewed because the model provides a true “in plant” perspective at the user’s desktop. Familiarizing personnel with facilities and procedures is greatly simplified. Procedures and training materials can be linked and accessed from within the 3D virtual model and an isolated view can be shown. Safety procedures, including isolation device locations, can be documented in full 3D and full context. HAZOP analysis can be performed with greater clarity and with accurate asset documentation. Location of persistent alarms can be visualized in their physical
-    context. Creating work orders is a much more precise activity because the virtual model provides an easy way to tie the work order to the equipment piece of interest instead of at the process unit level. The virtual model also provides a 3D common basis for communication between operations and maintenance.",
+    "reliabilityDescription" => "Planning of plants modifications and upgrades are generally done over existing data that
+    does not reflect the As Built Condition. Activities planning gets done over non real and non-
+    identifiable conditions and therefore generating several errors and project overruns.
+    Planning of the revamp done based on real geodesical condition and with data centralized
+    via a digital twin generates exponential benefits to the project.Binnops Digital Hub allows different project stakeholders to communicate via web in a
+    simple and efficient way while increasing creativity, planning &amp; tracking capabilities, errors
+    identification and project savings.",
+    "operationsDescription1" => "The usage of Digital Twins to visualize asset health indicators or real time data of critical
+    equipment and systems is the norm to increase plant efficiencies, reduce plants down time
+    and increase the profitability of the operation. Data and signals, processed information,
+    self-generated alarms, and many other functionalities can be visualized directly over
+    Binnops Web Digital Hub.",
+    "operationsDescription2" => "Maintenance and Operations personal can then manage their Mechanical Integrity and
+    Reliability assessments in a simple and friendly environment reducing their time spent in
+    searching data while allocating more time to improve operations.",
     "integrityTitle" => "Integridad",
     "integrityDescription1" => "A common practice in process industries is to document inspection circuits using 2D isometric drawings with manual placement of the thickness monitoring locations (TMLs) and corrosion monitoring locations (CMLs) for stationary equipment. In parallel, an “inspection” database is kept with inspection dates, and other data for each circuit. The challenges in coordinating and maintaining accuracy under this system should be obvious. In contrast, inspection circuits documented in a 3D virtual model can be subset into individual views with TMLs and CMLs clearly called out in their exact geospatial location while linked dynamically to the source data.",
     "integrityDescription2" => " With such “active isometrics,” personnel can virtually walk the area before inspections, adding or subtracting detail to under- stand what they are dealing with. The model accuracy enables scaffolding design and other preliminary set-up work. And since the 3D virtual model always shows true placement and measurements, so do the isometric circuits. This avoids the possible and time-consuming inconvenience of inaccurate inspection circuit documentation. Plus, since the Smart Digital Twin allows the repository of results of inspections at every exact point which generates and accurate trend or avoid mistakes",

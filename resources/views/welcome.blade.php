@@ -350,7 +350,7 @@
                     <p class="content__items-modal">{{ __("messages.binnopsPlatform") }}<br>
                       <span data-toggle="modal" data-target="#engineering">{{ __("messages.enginneringTitle") }},</span>
                       <span data-toggle="modal" data-target="#revamps">{{ __("messages.revamps") }},</span>
-                      <span data-toggle="modal" data-target="#maintenace">{{ __("messages.maintenance") }},</span>
+                      <!--<span data-toggle="modal" data-target="#maintenace">{{ __("messages.maintenance") }},</span>-->
                       <span data-toggle="modal" data-target="#reliabulity">{{ __("messages.reliability") }},</span>
                       <span class="and">&</span>
                       <span data-toggle="modal" data-target="#operations">{{ __("messages.operations") }}.</span>
@@ -470,7 +470,7 @@
                     </div>
                     <p>{{ __("messages.integrateRobotizedProcess") }}<span class="btn-minicard moreviews" data-toggle="modal" data-target="#card-mini7">{{ __("messages.viewMore") }}</span></p>
                   </div>
-                  <div class="section-navegation">
+                  <div class="section-navegation section-navegation-height">
 
                     <div class="demo-box">
                       <img class="icon-demo" src="assets/images/iconos/database.svg" alt="">
@@ -478,7 +478,7 @@
                     </div>
                     <p>{{ __("messages.dataAnalyticRequired") }} <span class="btn-minicard moreviews" data-toggle="modal" data-target="#card-mini8">{{ __("messages.viewMore") }}</span></p>
                   </div>
-                  <div class="section-navegation">
+                  <div class="section-navegation section-navegation-height">
 
                     <div class="demo-box">
                       <img class="icon-demo" src="assets/images/iconos/database.svg" alt="">
@@ -1850,8 +1850,8 @@
         <p>{{ __("messages.iaDescription1") }}
         </p>
 
-        <p> {{ __("messages.iaDescription2") }}
-        </p>
+       <!--- <p> {{ __("messages.iaDescription2") }}
+        </p>-->
 
       </div>
 
@@ -1892,7 +1892,7 @@
 
         <p>{{ __("messages.enginneringDescription2") }} </p>
 
-        <p>{{ __("messages.enginneringDescription3") }}</p>
+       <!-- <p>{{ __("messages.enginneringDescription3") }}</p>-->
         <div class="row">
           <div class="demo-gallery galley-one">
             <a href="assets/images/img/Services/Smart DigitalTwins/LinkinEngineering/Imagen36.png" data-size="1600x1600" data-med="assets/images/img/Services/Smart DigitalTwins/LinkinEngineering/Imagen36.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
