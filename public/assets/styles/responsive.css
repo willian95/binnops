@@ -29,6 +29,11 @@
 }
   .navbar-a .navbar-toggler {
     width: 50px!important;
+    height: 50px;
+}
+.menux {
+
+  font-size: .6rem;
 }
   .text-right{
     display: none;
@@ -327,7 +332,24 @@ form{
   height: auto;
  
 }
+.dropdown-toggle {
 
+  font-size: .8rem;
+}
+.idioma-xs a {
+
+  font-size: .8rem;
+}
+.idioma-xs img {
+  width: 18px;
+  margin-right: 0rem;
+}
+.idioma-xs {
+
+  justify-content: center;
+  align-items: center;
+  
+}
 }
 
 @media (width: 375px) and (height: 812px) {

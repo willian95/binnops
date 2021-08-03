@@ -28,23 +28,40 @@ return [
     "viewMore" => "Ver más",
     "terrestrialScanning" => "Escaneo Láser Terrestre",
     "asBuilt" => "El camino hacia un modelo virtual en 3D 'as-built' de las instalaciones y los activos de la planta es sorprendentemente fácil. Si aún no se tiene un modelo de diseño 3D, se utiliza la tecnología de escaneo láser u otras técnicas para recopilar información de campo",
-    "aerialScanning" => "Escaneo Aéreo con Drones",
+    "aerialScanning" => "Escaneo Laser con Drones",
     "groundScanning" => "El escaneo terrestre de grandes superficies se puede realizar mediante el uso de Lidar y otros instrumentos ópticos montados sobre drones para producir datos de nubes de puntos. Los datos recopilados se procesan para generar condiciones geográficas, curvas de nivel, mapas y modelos digitales del terreno en 3D",
     "digitalTwinsExploit" => "Los Gemelos Digitales aprovechan el sistema visual humano para proporcionar una forma intuitiva, inmediata e independiente de mostrar los datos. Es una herramienta esencial para comprender la información",
-    "binnopsDevelops" => "Binnops desarrolla e implementa la base de su transformación digital mediante la construcción de Gemelos Digitales Inteligente; que permiten la visualización avanzada de la ingeniería, las renovaciones, los mantenimientos, la confiabilidad y las operaciones de planta",
+    "binnopsDevelops" => "Binnops desarrolla e implementa la base de su transformación digital mediante la construcción de Gemelos
+    Digitales Inteligentes; que permiten la visualización avanzada de la ingeniería, los upgradres o modificaciones,
+    los mantenimientos, la confiabilidad, la integridad y las operaciones de planta. Los datos de ingeniería y las
+    condiciones de construcción del activo están vinculados a cada componente para el acceso inmediato a
+    información valiosa.",
     "afterCapturing" => "Después de capturar datos de campo a través de las técnicas de escaneo láser, el siguiente paso incluye la conversión del modelo geométrico “As built” en un modelo inteligente agregando e identificando etiquetas y otras informaciones de interés de los activos. Al etiquetar objetos, componentes, estructuras, circuitos y subsistemas, las formas del modelo ganan contexto y se pueden usar para buscar, clasificar y vincular a datos relevantes de todos los demás sistemas de información de la planta. El resultado es un entorno de gestión de activos que llamamos 'Asset Virtualization'.",
     "digitalApplications" => "Aplicaciones Digital Hub",
-    "binnopsPlatform" => "Binnops Platform permits search and queries—pulling the required data from several databases and be used by several Users . Binoops Digital Hub is the foundation for collaboration, coordination and collective knowledge capture that extends across plant disciplines and to the plant’s network of service and product suppliers. See detailed usage for:",
-    "revamps" => "Renovaciones",
-    "maintenance" => "Mantenimiento",
-    "reliability" => "Confiabilidad ",
-    "operations" => "Operaciones",
+    "binnopsPlatform" => "Nuestra plataforma permite consultas, extrayendo los datos requeridos de varias bases de
+    datos. Binnops Digital Hub es la base para la colaboración, la coordinación y la captura de
+    conocimiento colectivo que se extiende a través de las diferentes disciplinas, la red de
+    servicios y proveedores de productos de la planta. Consulte el uso detallado de:",
+    "revamps" => "BIM & 4D",
+    "maintenance" => "Maintenance",
+    "reliability" => "Upgrades",
+    "operations" => "Mantenimiento y Operaciones.",
     "oneKey" => "Un avance clave en el mundo industrial es la capacidad de análisis de datos generada en las plataformas existentes y las diferentes aplicaciones para muchos dominios del conocimiento",
     "iot" => "Internet of Things ( IoT )",
-    "binnopsDigital" => "Binnops Digital Hub integra servicios de Internet de las cosas (IoT) para capturar datos de cualquier tipo de activo móvil o fijo (o incluso de personas) y la ingesta en tiempo real dentro de arquitecturas basadas en la nube",
+    "binnopsDigital" => "Binnops Digital Hub integra servicios de Internet de las cosas (IoT) para capturar datos de
+    cualquier tipo de activo móvil o fijo (o incluso de personas) y la ingesta en tiempo real
+    dentro de arquitecturas basadas en la nube. A cualquier nivel de activo (ubicación, proceso
+    o incluso sensores o instrumentos individuales) y conectados a cualquier base de datos de
+    aplicaciones disponibles (procesos, operaciones, mantenimiento, etc.), los datos pueden
+    ser transferidos a Binnops Digital Hub y visualizados en Dashboards especializados dentro
+    del ambiente 3D.",
     "rpa" => "Automatización Robotizada de Procesos (RPA)",
     "integrateRobotized" => "Binnops Digital Hub integra servicios de automatización de procesos robotizados (RPA) para hacer frente a grandes cantidades de actividades que requieren ser realizadas repetidamente en períodos de tiempo limitados. Muchos casos de uso relacionados con la documentación rápida de datos, los informes necesarios y el cálculo de indicadores clave de rendimiento son perspectivas típicas.",
-    "integrateRobotizedProcess" => "Binnops Digital Hub integra servicios de automatización de procesos robotizados (RPA) para hacer frente a grandes cantidades de actividades que requieren ser realizadas repetidamente en períodos de tiempo limitados. Muchos casos de uso relacionados con la documentación rápida de datos, los informes necesarios y el cálculo de indicadores clave de rendimiento son perspectivas típicas. ",
+    "integrateRobotizedProcess" => "Binnops Digital Hub integra servicios de automatización de procesos robotizados (RPA)
+    para hacer frente a grandes cantidades de actividades que requieren ser realizadas
+    repetidamente en períodos de tiempo limitados. Muchos casos de uso relacionados con la
+    documentación rápida de datos, los informes necesarios y el cálculo de indicadores clave
+    de rendimiento son perspectivas típicas. ",
     "dataAnalyticRequired" => "Binnops Digital Hub es capaz de hacer evolucionar la Analítica de Datos requerida por los clientes yendo desde lo más básico hasta los niveles más avanzados. A pesar de que el progreso en la escala de analítica (descriptiva, diagnóstica, predictiva y prescriptiva) depende de la cultura organizacional, las capacidades del personal existente y el nivel de madurez de la infraestructura de datos, proponemos una hoja de ruta que impulsa la implementación de las capacidades de analítica a un ritmo adecuado.",
     "diagnosticAnalytics" => "A partir de un nivel de análisis de diagnóstico, Binnops Digital Hub integra capacidades de Machine y Deep Learning para implementar rutinas de análisis preventivo, predictivo y prescriptivo en sistemas, procesos o activos críticos. En estos casos, cuando las variables críticas deben ser monitorizadas, controladas e incluso corregidas de forma automática, trabajamos junto con nuestros clientes para establecer niveles adecuados de alarma y estrategias de comunicación para asegurarnos que las acciones de corrección visualizadas en el Gemelo Digital Inteligente se ejecutan de forma efectiva",
     "cibersecurity" => "Ciberseguridad",
@@ -83,9 +100,14 @@ return [
     y equipos mecánicos de toda la unidad
     UOP I de la Refinería de Ecopetrol en
     Barrancabermeja, Colombia",
-    "ecoPetrolRefineryTitle2" => "Ecopetrol Refinery UOP I Process Plant",
-    "ecoPetrolRefineryDescription2" => "Laser Scanning and construction of a Digital Twin for all the structural Steel, Process piping, Instruments, and mechanical
-    equipment of the entire unit located at Barrancabermeja Refinery.",
+    "ecoPetrolRefineryTitle2" => "Planta de Procesos",
+    "ecoPetrolRefineryDescription2" => "Escaneo láser y construcción de
+    un Gemelo Digital para toda la
+    estructura metálica, tuberías de
+    proceso, instrumentos y equipos
+    mecánicos de la unidad UOP II
+    de la Refinería de Ecopetrol en
+    Barrancabermeja Colombia.",
     "suncorMackayTitle" => "Planta de Generación de
     Vapor.",
     "suncorMackayDescription" => "Procesamiento de nube de puntos,
@@ -104,17 +126,59 @@ return [
     "embassyDescription" => "Escaneo láser, limpieza de datos y registro de datos de complejo
     de 50.000 metros cuadrados de unidades de servicios consulares
     y Embajada del Gobierno de Estados Unidos.",
-    "reficarPlantTitle" => "Racks de Tuberías Planta Ecopetrol - Reficar.",
-    "reficarPlantDescription" => "Escaneo láser y construcción de Gemelo Digital para los principales racks de tuberías que sirven a las plantas de la Refinería de Reficar en Cartagena, Colombia.",
-    "takulaComplexTitle" => "Complejo Chevron Takula. ",
-    "takulaComplexDescription" => "Procesamiento de nubes de puntos, registro de datos, generación de Gemelos Digitales, actualización de P&ID's As built, planta en alta mar ubicada en Angola, África.",
-    "processingFacilityTitle" => "Facilidad de Procesamiento Central Rubiales CPF 1 ",
-    "processingFacilityDescription" => "Procesamiento de nube de puntos, registro de datos, generación de Gemelos Digitales, actualización de P&ID's As built, reconstrucción de bases de datos y creación del Modelo Inteligente en PDMS para planta Procesadora de Petróleo ubicada Puerto Gaitan, Colombia",
-    "processPlantTitle" => "Planta de Procesos Químicos - Brinsa SA",
-    "processPlantDescription1" => "Escaneo Láser, Escaneo Subterráneo y Gemelos Digitales de Tuberías de Proceso y Equipos Mecánicos para una Planta de Procesos Químicos ubicada en Cajicá, Colombia. ",
+    "reficarPlantTitle" => "Planta de Procesos",
+    "reficarPlantDescription" => "Escaneo láser y construcción de
+    un Gemelo Digital para toda la
+    estructura metálica, tuberías de
+    proceso, instrumentos y equipos
+    mecánicos de la unidad UOP II
+    de la Refinería de Ecopetrol en
+    Barrancabermeja Colombia.",
+    "takulaComplexTitle" => "Plataforma OffShore",
+    "takulaComplexDescription" => "Procesamiento de nubes de puntos,
+    registro de datos, generación de twin
+    digital , actualización de P&ID’s de
+    planta de procesamiento de gas en mar
+    abierro sobre la costa de Angola.",
+    "processingFacilityTitle" => "Facilidad de
+    Separacion y CPF ",
+    "processingFacilityDescription" => "Escaneo laser, escaneo subterraneo,
+    procesamiento de nube de puntos, registro de
+    datos, actualizacion de 450 P&ID’s y
+    construccion de gemelo digital sobre
+    plataforma PDMS de Aveva para planta de
+    Separacion en los Llanos Orientales en
+    Colombia.",
+    "processPlantTitle" => "Planta de Procesos Químicos",
+    "processPlantDescription1" => "Escaneo Láser, Escaneo Subterráneo y Gemelos Digitales de
+    Tuberías de Proceso y Equipos Mecánicos para una Planta de
+    Procesos Químicos ubicada en Cajicá, Colombia.
+    
+    Escaneo de un sistema de distribución y bombeo, así como la
+    georreferenciación de los componentes y equipos mediante el
+    uso de lidar montado sobre Drones. ",
     "processPlantDescription2" => "Escaneo de un sistema de distribución y bombeo, así como la georreferenciación de los componentes clave del proceso utilizando Lidar montado sobre un dron.",
     "steamGenerationTitle" => "Planta de Servicios Industriales y Generación de Vapor.",
     "steamGenerationDescription" => "Escaneo láser y construcción de un Gemelo Digital en SP3D para todo la estructura metálica, tuberías de proceso, instrumentos y equipos mecánicos del Complejo de Servicios Industriales ubicado en la Refinería de Reficar en Cartagena, Colombia.",
+    "pipeRacksTitle" => "PModelado
+    Geométrico de Racks
+    de Tuberías",
+    "pipeRacksDescription" => "Procesamiento de nube de puntos, registro
+    de datos, construccion de modelo
+    geometrico de mas de 55 kms de racks de
+    tuberias de proceso en 5 niveles para
+    refineria de petroleo ubicada en Texas. US",
+    "ecoPetrolCrudeUnitTitle" => "Planta de Servicios
+    Industriales y Generación
+    de Vapor.",
+    "ecoPetrolCrudeUnitDescription" => "Escaneo láser y construcción de un
+    Gemelo Digital en Intergraph SP3D
+    para todo la estructura metálica,
+    tuberías de proceso, instrumentos y
+    equipos mecánicos del Complejo de
+    Servicios Industriales ubicado en la
+    Refinería de Reficar en Cartagena,
+    Colombia.",
     "contact" => "Contácto",
     "contactUs" => "Contáctanos",
     "reach" => "Te contáctaremos en menos de 1 hora si no recibes una respuesta inmediatamente! Nosotros tomamos las oportunidades muy seriamente!",
@@ -129,9 +193,13 @@ return [
     "home" => "Inicio",
     "products" => "Productos",
     "assetVisualization2" => "La Información geodésica y la realidad virtual permiten a los propietarios visitar la planta y en consecuencia reducir el riesgo operativo, los desplazamientos físicos, ahorrando tiempo y mejorando la toma de decisiones. Los datos de las nubes de puntos se ligan a las fotografías 4K para ofrecer una solución de fácil acceso y uso.",
-    "smarTwinsDescription1" => "Los datos de ingeniería y las condiciones de construcción del activo están vinculados a cada componente para el acceso inmediato a información valiosa.",
+    "smarTwinsDescription1" => "El modelo 3D del activo se construye de forma inversa y se basa en datos de nubes de puntos recopilados
+    previamente en el campo. Los modelos se producen utilizando plataformas de software comerciales como
+    Intergraph SP3D, Cadworx, Bentley Autoplant / OpenPlant, Autodek Revit, Autodesk Plant 3D, Aveva E3D,
+    Dassault Catia, entre otros.",
     "smarTwinsDescription2" => "El modelo 3D del activo se construye de forma inversa y se basa en datos de nubes de puntos recopilados previamente en el campo. Los modelos se producen utilizando plataformas de software comerciales como Intergraph SP3D, Cadworx, Bentley Autoplant / OpenPlant, Autodek Revit, Autodesk Plant 3D, Aveva E3D: Dassault Catia, entre otros.",
-    "smartDataDescription1" => "Sin embargo, la gestión de los datos y su asimilación visual sigue siendo un reto debido a la enorme cantidad de información disponible, la complejidad de las capas y los silos abiertos de datos procedentes de sistemas interconectados",
+    "smartDataDescription1" => "Integramos la cadena de valor de los servicios de gestión de datos inteligentes en Gemelos Digitales
+    mediante la fusión de los siguientes servicios:",
     "smartDataDescription2" => "en el campo y las limitaciones de los seres humanos a la hora de procesar los datos en los formatos visuales típicos de 2D. Binnops Digital Hub combina la analítica actual de última generación y unas capacidades de visualización 3D muy creativas sobre datos transformados, interconectados y analizados. Aprovecha la facilidad con la que los datos se interpretan y analizan cuando se muestran como el cerebro humano absorbe naturalmente la información en el mundo real: en 3D. Integramos la cadena de valor de los servicios de gestión de datos inteligentes en Gemelos Digitales mediante la fusión de los siguientes servicios:",
     "terrestrialScanningDescription1" => "El proceso es similar a la topografía convencional en la que los escaneos se toman desde múltiples perspectivas, cada una desde coordenadas geográficas conocidas o calculadas.",
     "terrestrialScanningDescription2" => "El software de modelado puede combinar los escaneos en un modelo coherente 'as-is' o una nube de puntos. Cuando existen datos CAD para equipos y sistemas, se pueden importar e integrar en el modelo. De lo contrario, se utiliza software para convertir los datos de la nube de puntos derivados del escaneo láser en objetos 3D. El resultado es un modelo virtual 3D visual, navegable y de múltiples perspectivas que refleja con precisión y exactitud las instalaciones reales.",
@@ -141,24 +209,67 @@ return [
     "digitalHubDescription2" => "La gestión del cambio es un aspecto muy importante de cualquier modelo virtual 3D, porque gran parte del beneficio del modelo resulta de la precisión de este y la representación de los activos en estado actual. Por lo tanto, el software del modelo virtual 3D es capaz de aceptar actualizaciones en cualquier momento a través de nuevos escaneos láser, información CAD alterada y cambios directos del modelo para reflejar las condiciones del campo. Además, los cambios se adicionan automáticamente a las vistas, los documentos y los sistemas integrados para garantizar que toda la información de los activos y el modelo virtual 3D reflejen con precisión la planta. Binnops Digital Hub permite que el Gemelo Digital Inteligente sea navegable por un usuario común, sin la necesidad de un software complejo y costoso. El Hub admite la creación de cualquier número de sub-vistas que aíslan y enfatizan procesos, equipos y tareas de trabajo individuales.",
     "digitalHubDescription3" => "También, es posible superponer estas vistas (mostrar dos o más juntas) para una planificación, documentación y comunicación más precisas de las tareas de trabajo en el contexto y los detalles adecuados. Además, tiene la capacidad de incorporar vistas en 3D de activos dinámicos como grúas y andamios que pueden desplegarse temporalmente en la planta.",
     "iotDescription1" => "A cualquier nivel de activo (ubicación, proceso o incluso sensores o instrumentos individuales) y conectados a cualquier base de datos de aplicaciones disponibles (procesos, operaciones, mantenimiento, etc.), los datos pueden ser transferidos a repositorios estructurados a través de sofisticadas tecnologías de comunicación para ser visualizados y analizados por plataformas de análisis. Así, las soluciones de IoT proporcionan a Binnops Digital Hub cuadros de mando flexibles de cualquier dominio de conocimiento: operaciones, mantenimiento, confiabilidad, integridad, seguridad, garantía de calidad, gestión, negocio, etc.",
-    "rpaDescription1" => "Trabajamos junto con los clientes para identificar un mapa de procesos críticos en ambas fases: Construir y operar el Gemelo Digital Inteligente para que los datos adquiridos (por IoT, recolección manual u otra integración de bases de datos) puedan ser procesados a un ritmo acelerado. Las funcionalidades que pueden realizar los bots van desde copiar y pegar, extracción de datos en documentos (OCR), extracción de datos en la web, realización de cálculos en tablas de Excel, análisis de correos electrónicos y extracción de datos no estructurados. Los bots se dedican básicamente a aprender, imitar y realizar procesos realizados por seres humanos en base a ciertas reglas.",
-    "rpaDescription2" => "Al construir el Gemelo Digital Inteligente, miles de documentos de ingeniería o de procesos como hojas de datos, planos, informes, entre otros, pueden ser procesados, analizados y clasificados en cuestión de minutos a través de RPA. Además, al operar los Gemelos Digitales Inteligentes (tal como se hace en el Activo o proceso real físico), los bots tienen la capacidad de realizar la recolección de datos e interactuar con cualquier software o aplicación de la manera en que lo harían los humanos, con la ventaja de operar 24/7 y sin presión de fatiga.",
+    "rpaDescription1" => "Binnops Digital Hub integra servicios de automatización de procesos robotizados (RPA)
+    para hacer frente a grandes cantidades de actividades que requieren ser realizadas
+    repetidamente en períodos de tiempo limitados. Muchos casos de uso relacionados con la
+    documentación rápida de datos, los informes necesarios y el cálculo de indicadores clave
+    de rendimiento son perspectivas típicas.",
+    "rpaDescription2" => "Al construir el Gemelo Digital Inteligente, miles de documentos de ingeniería o de procesos
+    como hojas de datos, planos, informes, entre otros, pueden ser procesados, analizados y
+    clasificados en cuestión de minutos a través de RPA. Además, al operar los Gemelos
+    Digitales Inteligentes (tal como se hace en el Activo o proceso real físico), los bots tienen la
+    capacidad de realizar la recolección de datos e interactuar con cualquier software o
+    aplicación de la manera en que lo harían los humanos, con la ventaja de operar 24/7 y sin
+    presión de fatiga.",
     "dataAnalyticsDescription1" => "Una vez que los datos se transfieren a repositorios estructurados en la nube a través de métodos de recopilación definidos (por IoT, recopilación manual u otra integración de bases de datos), están disponibles para ser analizados al nivel establecido por la gobernanza de datos y el nivel de análisis definidos. Además, los resultados pueden ser visualizados dentro de nuestra forma intuitiva, inmediata e independiente del lenguaje sobre el gemelo digital inteligente para acelerar las conclusiones sobre cualquier sistema, proceso o activo analizado y apoyar los procesos de toma de decisiones. Podemos utilizar colores o efectos visuales 3D para reflejar las consecuencias deseadas o no del análisis.",
     "dataAnalyticsDescription2" => "Binnops Digital Hub integra plataformas de análisis con sofisticados modelos matemáticos que tratan la cantidad de datos y el nivel de análisis adecuados para conducir a mejores estrategias operativas, de mantenimiento, de producción y financieras, entre otras. Las técnicas matemáticas avanzadas pueden optimizar dichas estrategias, permitiendo así minimizar los costes y maximizar los beneficios previstos.",
     "iaDescription1" => "Las capacidades analíticas de autoaprendizaje están integradas en Binnops Digital Hub mediante la interconexión de bases de datos con plataformas diseñadas bajo algoritmos de última generación, que literalmente aprenden de los sistemas, procesos o activos sobre los que actúan. El uso de colores o efectos visuales 3D para reflejar las consecuencias deseadas o no deseadas puede anticipar los fallos.",
     "iaDescription2" => "Cuando se adoptan las técnicas de ML&DL, se produce un retorno muy acelerado que se refleja en la reducción de los tiempos de inactividad no planificados, el aumento de la eficiencia y la automatización del control de tareas peligrosas y costosas. Esto maximiza las inversiones al reducir los costes y minimizar los riesgos. Forma parte de nuestra oferta de valor adaptarse a cualquier aplicación analítica existente en sistemas, procesos o activos críticos y colaborar a nuestros clientes para construir las capas y condiciones adecuadas de Datos requeridas para sacar el máximo partido a las capacidades predictivas y prescriptivas disponibles.",
     "cibersecurityDescription" => "Al crear simulaciones de ataques de virus y fallos digitales, un Gemelo Digital puede ayudar al operador a reconocer posibles violaciones y ataques cibernéticos con el fin de tomar las medidas correctas para minimizar el impacto en la organización. El Gemelo Digital es vulnerable a los ataques de la misma manera que el activo que refleja y también necesita ser protegido, ya sea mediante conexiones asíncronas, uso de IA como detectores de anomalías, Firewalls u otros medios. En la ruta del Gemelo Digital, las compañías deben trabajar para convertirse en líderes de aprendizaje que apunten siempre generar un entorno de confianza. Por lo tanto, es necesario que los ingenieros adopten una mentalidad más adversa a la hora de desarrollar sistemas. Deben acercarse a su propio sistema como si fueran hackers, especialmente cuando se trata de proteger los sitios de la zona industrial, por lo que la seguridad se convierte en la piedra angular dentro del nuevo modelo de negocio operativo para proteger sus tres componentes principales, como el contenido de los datos, la visualización y el modelo en sí.",
-    "enginneringTitle" => "Ingeniería",
-    "enginneringDescription1" => "Las industrias de procesos han adoptado completamente la tecnología 3D en los sistemas de diseño asistido por computadora (CAD) para el diseño y la ingeniería iniciales de la planta. Sin embargo, los modelos y documentación creados en estos procesos no sirven para tareas de operación y mantenimiento durante la vida productiva de los activos. Esto se debe a que las representaciones CAD 'as-designed' a menudo se desvían de las condiciones del campo o 'as built' y con el tiempo se vuelven menos representativas de la planta y de los equipos reales. Los modelos virtuales 3D normalmente no existen o no se actualizan a medida que se realizan modificaciones en los equipos de proceso, ni es rentable mantener estos modelos CAD.",
-    "enginneringDescription2" => "Los clientes pueden recorrer las imágenes escaneadas del modelo construido e identificar discrepancias en los diagramas de proceso e instrumentación existentes (P&ID). Los P&ID pueden corregirse y adecuarse a los trabajos de ingeniería por una fracción del trabajo que de otro modo se requeriría para la inspección en el campo, el reajuste y la actualización. La reducción de la exposición del personal a la planta en funcionamiento es una importante ventaja adicional en materia de seguridad.",
+    "enginneringTitle" => "Ingeniería
+    y Construcción",
+    "enginneringDescription1" => "Las industrias de procesos han adoptado completamente la tecnología 3D en los sistemas
+    de diseño asistido por computadora (CAD) para el diseño y la construcción. Los cambios
+    que ocurren durante la construcción, y o la data generada por Vendors y Terceros, no son
+    actualizados y por lo tanto la transformación de la condición de Diseño a la condición As
+    Built no ocurre generando graves problemas a la posterior Operación.",
+    "enginneringDescription2" => "El trabajo con Modelos Digitales sobre una Plataforma Digital sin uso de Software
+    especializado y via Web, permite una centralización única de la información técnica y una
+    única fuente de búsqueda eliminando el tiempo perdido, ineficiencias y errores por uso de
+    información no actualizada.",
     "enginneringDescription3" => "Con modelos 3D precisos, muchas tareas de ingeniería pueden pasar de ser un ejercicio de campo con papel y lápiz a una tarea de oficina en la que se pueden explorar las condiciones de campo, tomar medidas precisas y mejorar drásticamente la productividad general.",
-    "revamps" => "Renovaciones y cambios",
-    "revampsDescription" => "Los cambios de planta son proyectos distintos que a menudo involucran a un número significativo de personal interno, contratistas y proveedores. Un cambio típico consiste en la ejecución de muchas actividades de trabajo que deben planificarse, coordinarse y ejecutarse en un horario ajustado.",
-    "revampsDescription2" => "El modelo 3D de las instalaciones afectadas, aporta un gran valor al mejorar las comunicaciones y garantizar la familiaridad del equipo con las tareas y su entorno. Los recorridos, que llevan mucho tiempo, solo se realizan como confirmación final de los planes.",
+    "revamps" => "BIM & 4D",
+    "revampsDescription" => "La materialización de las ideas de diseño hacia la etapa de construcción se puede
+    implementar de manera más eficiente reduciendo los errores de construcción y extra-
+    costos, mediante la simulación de las diferentes disciplinas del proyecto a través de un
+    modelo digital que permita identificar antes de que ocurra el error, las desviaciones,
+    interferencias y problemas contractuales.",
+    "revampsDescription2" => "La Plataforma Web de Binnops, permite efectuar estas tareas de Ingeniería de la
+    construcción de una manera fácil, simple y eficiente al vincular a través de una sola
+    plataforma los diferentes modelos y la data de diferentes fuentes. Los Cronogramas de
+    obra pueden ser construidos mediante la vinculación de cada actividad con su respectivo
+    elemento en el Modelo permitiendo obtener una lógica correcta en la ejecución, y o una
+    visualización apropiada de los retrasos o problemas de obra",
     "maintencanceDescription1" => "Los usos del modelo 3D para el mantenimiento en las plantas industriales son varios, y el impacto en las mejores prácticas es significativo. El personal de mantenimiento puede localizar rápidamente las líneas, los equipos y la instrumentación para familiarizarse con la ubicación antes de ir al campo a realizar su trabajo. Las órdenes de trabajo están vinculadas con precisión al equipo o sistema de destino y, a través de esa conexión, a los datos más actuales de los activos. El modelo 3D es una herramienta natural para organizar y visualizar el historial de mantenimiento, los datos operativos, los resultados de las pruebas y los análisis. ",
     "maintenanceDescription2" => "Compartir bases de datos con el software Enterprise Asset Management o Asset Performance Management es otro gran avance en la industria de los Gemelos Digitales en evolución, ya que pueden complementar los datos que provienen directamente del campo con información histórica de todas las acciones tomadas sobre los activos bajo la forma visual interactiva e intuitiva de la experiencia 3D. La combinación de múltiples fuentes brinda una nueva frontera para la gobernanza de los datos que se utilizan para establecer estrategias de gestión de activos a lo largo de su ciclo de vida.",
-    "reliabilityDescription" => "Una de las limitaciones más difíciles en el mundo moderno de la confiabilidad es la precisión de los datos y la gestión del lenguaje cada vez más avanzado de los equipos dinámicos. Liberar toda la información de los equipos críticos introduce a los ingenieros en un mundo muy complejo, ya que los datos son tan abundantes que para darles gobierno es muy difícil hoy en día. Los Gemelos Digitales Inteligentes abordan estos retos mediante la fusión de tecnologías como el IoT (Internet de las Cosas) que permiten a los analistas de confiabilidad obtener no sólo datos precisos sino también capas organizadas de información de los equipos al consumir dichos datos bajo entornos 3D, con sólo hacer clic en el activo de interés. Asimismo, la interconexión de los Gemelos Digitales a las plataformas de analítica con niveles predictivos y prescriptivos puede ahorrar mucho tiempo cuando se configura los resultados, más allá de los complejos procesos matemáticos, muestran los resultados bajo simples efectos visuales coloreados o simulados. Esto ayuda a los ingenieros a priorizar dónde deben invertirse realmente los recursos y evitar fallos cuando los sistemas son capaces de predecir bajo sistemas complejos por encima de los equipos individuales.",
-    "operationsDescription1" => "Hay muchas oportunidades de utilizar el modelo virtual 3D en el departamento de operaciones. Por ejemplo, en el área fuera del sitio, la determinación de la ruta óptima para un movimiento de petróleo se había basado en la memoria y en caminatas e investigaciones potencialmente largas de varios días. Con el modelo virtual en 3D, las rutas se definen fácilmente y, lo que es más importante, a menudo se pueden alinear y determinar de forma óptima en cuestión de minutos. ",
+    "reliabilityDescription" => "Los Planes de mejoras y modificaciones en plantas existentes generalmente son hechos
+    sobre información no existente y / o No As Built, generando graves errores en la planeación
+    y en las actividades de campo. Un adecuado plan de ejecución debería incluir el
+    levantamiento de la condición as built y la planeación de las actividades sobre un modelo
+    digital real navegable por el personal involucrado en el proyecto.El modelo 3D levantado con tecnología láser y debidamente digitalizado y navegable sobre
+    la Plataforma Binnops, aporta un gran valor al mejorar las comunicaciones, planear contra
+    la realidad existente, encontrar interferencias, controlar adecuadamente el avance y la
+    ejecución y eliminar los potenciales errores y extra costos.",
+    "operationsDescription1" => "Los usos de Gemelos Digitales para el mantenimiento eficiente y la reducción de paradas
+    no planeadas en las plantas industriales a través del monitoreo en tiempo real de sistemas
+    y activos críticos es una tendencia irreversible. El personal de mantenimiento puede
+    localizar rápidamente las líneas, los equipos y la instrumentación y encontrar o generar
+    data vital para optimizar las tareas de Integridad y Confiablidad por medio de sistemas de
+    alarmas y análisis especializado. El acceso e intercambiabilidad de bases de datos y / o a
+    información crítica generada por sensores y visualizada a través de Dash-Boards sobre la
+    
+    plataforma de Binnops en Tiempo Real, aumenta exponencialmente la eficiencia en la
+    Operación y en el mantenimiento de la Planta.",
     "operationsDescription2" => "Los procedimientos operativos pueden crearse y revisarse más fácilmente porque el modelo ofrece una verdadera perspectiva 'in plant' en el escritorio del usuario. La familiarización del personal con las instalaciones y los procedimientos se simplifica enormemente. Los procedimientos y materiales de capacitación se pueden vincular y acceder desde dentro del modelo virtual 3D con la capacidad de mostrar una vista aislada. Los procedimientos de seguridad, incluida la ubicación de los dispositivos de aislamiento, pueden documentarse en 3D y en todo su contexto. El análisis HAZOP puede realizarse con mayor claridad y con una documentación precisa de los activos. La ubicación de las alarmas persistentes puede visualizarse en su contexto físico. La creación de órdenes de trabajo es una actividad mucho más precisa porque el modelo virtual proporciona una manera fácil de vincular la misma a la pieza del equipo de interés en lugar de a nivel de la unidad de proceso. El modelo virtual también proporciona una base común en 3D para la comunicación entre operaciones y mantenimiento. ",
     "integrityTitle" => "Integridad",
     "integrityDescription1" => "Una práctica habitual en las industrias de proceso es documentar los circuitos de inspección mediante dibujos isométricos en 2D con la colocación manual de los lugares de control de espesores (TML) y los lugares de control de la corrosión (CML) para los equipos fijos. Paralelamente, se mantiene una base de datos de 'inspección' con las fechas de inspección y otros datos de cada circuito. Las dificultades para coordinar y mantener la precisión con este sistema deberían ser obvias. Por el contrario, los circuitos de inspección documentados en un modelo virtual 3D pueden subdividirse en vistas individuales con los TML y CML claramente indicados en su ubicación geoespacial exacta mientras se vinculan dinámicamente a los datos de origen.",

@@ -1641,7 +1641,7 @@
         <h3 class="titles-modals">{{ __("messages.smartTwins") }}</h3>
         <p>{{ __("messages.binnopsDevelops") }}</p>
         <p>{{ __("messages.smarTwinsDescription1") }}</p>
-        <p> {{ __("messages.smarTwinsDescription2") }} </p>
+      <!---  <p> {{ __("messages.smarTwinsDescription2") }} </p>-->
       </div>
 
     </div>
@@ -1659,7 +1659,7 @@
         <p>{{ __("messages.oneKey") }}</p>
         <p>{{ __("messages.smartDataDescription1") }}
         </p>
-        <p>{{ __("messages.smartDataDescription2") }}</p>
+      <!--  <p>{{ __("messages.smartDataDescription2") }}</p>-->
 
       </div>
 
@@ -2004,9 +2004,9 @@
         <p>{{ __("messages.operationsDescription1") }}
         </p>
 
-        <p>
+        <!---<p>
           {{ __("messages.operationsDescription2") }}
-        </p>
+        </p>-->
         <div class="row">
           <div class="demo-gallery">
             <a href="assets/images/img/Services/Smart DigitalTwins/Operations/Imagen44.png" data-size="1600x1600" data-med="assets/images/img/Services/Smart DigitalTwins/Operations/Imagen44.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
