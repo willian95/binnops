@@ -77,14 +77,33 @@ return [
     digita. ",
     "ecoPetrolRefineryTitle" => "Planta de Proceso de
     Crudo",
-    "ecoPetrolRefineryDescription" => "Laser Scanning and construction of a Digital Twin for all the structural Steel, Process piping, Instruments, and mechanical equipment of the entire unit located at Barrancabermeja Refinery.",
+    "ecoPetrolRefineryDescription" => "Escaneo láser y construcción de un
+    Gemelo Digital para todo la estructura
+    metálica, tuberías de proceso, instrumentos
+    y equipos mecánicos de toda la unidad
+    UOP I de la Refinería de Ecopetrol en
+    Barrancabermeja, Colombia",
     "ecoPetrolRefineryTitle2" => "Ecopetrol Refinery UOP I Process Plant",
     "ecoPetrolRefineryDescription2" => "Laser Scanning and construction of a Digital Twin for all the structural Steel, Process piping, Instruments, and mechanical
     equipment of the entire unit located at Barrancabermeja Refinery.",
-    "suncorMackayTitle" => "Planta de Generación de Vapor Suncor Mackay River.",
-    "suncorMackayDescription" => "Procesamiento de nube de puntos, registro de datos, generación de modelos geométricos, actualización de P&ID's As built, reconstrucción de bases de datos y creación del Modelo Inteligente para una instalación de generación de vapor ubicada en Alberta Canadá.",
-    "embassyTitle" => "Embajada de Estados Unidos",
-    "embassyDescription" => "Escaneo láser, limpieza de datos y registro de datos de todo el complejo del Departamento de Estado y los servicios consulares ubicados en Bogotá, Colombia.",
+    "suncorMackayTitle" => "Planta de Generación de
+    Vapor.",
+    "suncorMackayDescription" => "Procesamiento de nube de puntos,
+    registro de datos, generación de modelos
+    geométricos, actualización de 750
+    P&ID’s , produccion de planos P&ID’s
+    Inteligentes en condicion as built,
+    construccion de base de datos ,
+    construccion de modelo inteligente sobre
+    plataforma AutoPlant de Bentley y
+    generacion de 6.000 isometricos para
+    ocho plantas y sus sistemas de well pads
+    en complejo de Inyeccion de Vapor de
+    Suncor en Canada.",
+    "embassyTitle" => "Edificio Gubernamental",
+    "embassyDescription" => "Escaneo láser, limpieza de datos y registro de datos de complejo
+    de 50.000 metros cuadrados de unidades de servicios consulares
+    y Embajada del Gobierno de Estados Unidos.",
     "reficarPlantTitle" => "Racks de Tuberías Planta Ecopetrol - Reficar.",
     "reficarPlantDescription" => "Escaneo láser y construcción de Gemelo Digital para los principales racks de tuberías que sirven a las plantas de la Refinería de Reficar en Cartagena, Colombia.",
     "takulaComplexTitle" => "Complejo Chevron Takula. ",
