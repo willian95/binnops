@@ -88,7 +88,7 @@
 
                   <button class="navbar-toggler menux" type="button" data-toggle="collapse" data-target="#navbarMenuCollapse" aria-controls="navbarMenuCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="icon icon-menu icon-menu-c">
-                      <img src="{{ url('assets/images/icon.png') }}" alt="">
+                      <img src="{{ url('assets/images/iso.png') }}" alt="">
                       <!--<span class="bars">
                       <span class="bar1"></span>
                       <span class="bar2"></span>
@@ -180,7 +180,7 @@
 
             <div class="c-fixed_wrapper is-inview fix-sect mt-5" data-scroll="" data-scroll-call="dynamicBackground" data-scroll-repeat="" style="background-color: rgb(201, 212, 211);">
             <div class="c-fixed_target" id="fixed-target"></div>
-            <div class="c-fixed is-inview pre-footer" data-scroll="" data-scroll-sticky="" data-scroll-target="#fixed-target" style="background-image: url('assets/images/card2.jpg'); ">
+            <div class="c-fixed is-inview pre-footer" data-scroll="" data-scroll-sticky="" data-scroll-target="#fixed-target" style="background-image: url('{{ url('assets/images/card2.jpg') }}'); ">
             </div>
             <div class="txt-fix">
               <div class="row ">

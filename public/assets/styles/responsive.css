@@ -741,3 +741,9 @@ form{
       height: 36vh;
   }
 }
+@media (width: 375px) and (max-width:680px) {
+  .back-banner {
+
+    height: 160vh;
+}
+}
