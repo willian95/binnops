@@ -457,34 +457,7 @@ form{
 
 @media (min-width: 1200px) {
 }
-@media (min-width: 2000px) {
-    .home-1 {
-        font-size: 3.5rem;
-        padding: 0 9rem;
-    }
-    .p8 {
-        padding-bottom: 4rem;
-    }
-    .logo img {
-        width: 380px;
-    }
-    .item-content {
-        height: 36vh;
-    }
-    .btns-group {
-        height: auto;
-    }
-  
-    .card-body_main .wrapper {
-        height: 25vh;
-    }
-    .fullscreen-h-lg {
-        min-height: auto;
-    }
-    .fix-sect {
-        height: 36vh;
-    }
-}
+
 
 @media (min-width: 390px) and (max-width: 991px) {
   .back-banner {
@@ -736,4 +709,35 @@ form{
     height: 120vh;
 }
 
+}
+@media (min-width: 2000px) {
+  .home-1 {
+      font-size: 3.5rem;
+      padding: 0 9rem;
+  }
+  .p8 {
+      padding-bottom: 4rem;
+  }
+  .logo img {
+      width: 380px;
+  }
+  .item-content {
+      height: auto;
+  }
+  .back-banner {
+    height: 84vh;
+}
+  .btns-group {
+      height: auto;
+  }
+
+  .card-body_main .wrapper {
+      height: 25vh;
+  }
+  .fullscreen-h-lg {
+      min-height: auto;
+  }
+  .fix-sect {
+      height: 36vh;
+  }
 }
