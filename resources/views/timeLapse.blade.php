@@ -60,6 +60,8 @@
     <div data-scroll-section="">
       <section class="viewport">
         <div id="scroll-container" class="scroll-container">
+          <a href="{{ url('/') }}" class="volverinicio"><i class="fa fa-arrow-left" aria-hidden="true"></i>
+ Volver al inicio</a>
           <div class="idioma-xs">
             <li class="nav-item" data-section-anchor="about">
               <a class="nav-link" aria-current="page" href="{{ url('/?locale=es') }}">es</a>
@@ -71,10 +73,10 @@
           <header class="navbar-top navbar navbar-a navbar-expand-lg">
 
             <nav class="container-fluid px-0">
-              <div class="collapse navbar-collapse order-lg-1">
-                <div class="navbar-menu-wrapper">
-                  <div class="nav-body">
-                    <!---<ul class="navbar-nav nav-menu-top">
+            <div class="collapse navbar-collapse order-lg-1">
+              <div class="navbar-menu-wrapper">
+                <div class="nav-body">
+                  <!---<ul class="navbar-nav nav-menu-top">
                     <li class="nav-item" data-section-anchor="about">
                       <a class="nav-link" aria-current="page" href="{{ url('/?locale=es') }}">es</a>
                     </li>
@@ -84,61 +86,62 @@
                   </ul>-->
 
 
-                    <button class="navbar-toggler menux" type="button" data-toggle="collapse" data-target="#navbarMenuCollapse" aria-controls="navbarMenuCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="icon icon-menu icon-menu-c">
-                        <img src="{{ url('assets/images/icon.png') }}" alt="">
-                        <!--<span class="bars">
+                  <button class="navbar-toggler menux" type="button" data-toggle="collapse" data-target="#navbarMenuCollapse" aria-controls="navbarMenuCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="icon icon-menu icon-menu-c">
+                      <img src="{{ url('assets/images/icon.png') }}" alt="">
+                      <!--<span class="bars">
                       <span class="bar1"></span>
                       <span class="bar2"></span>
                     </span>-->
-                      </span>
-                    </button>
+                    </span>
+                    Menu
+                  </button>
 
-                    <div class="collapse navbar-collapse order-lg-1" id="navbarMenuCollapse">
-                      <div class="navbar-menu-wrapper">
-                        <div class="nav-body">
-                          <div class="nav-fullscreen-lg">
-                            <ul class="navbar-nav nav">
-                              <li class="nav-item">
-                                <a class="nav-link" data-scroll-to aria-current="page" data-scroll href="#home"> {{
+                  <div class="collapse navbar-collapse order-lg-1" id="navbarMenuCollapse">
+                    <div class="navbar-menu-wrapper">
+                      <div class="nav-body">
+                        <div class="nav-fullscreen-lg">
+                          <ul class="navbar-nav nav">
+                            <li class="nav-item">
+                              <a class="nav-link" data-scroll-to aria-current="page" data-scroll href="#home"> {{
                                 __("messages.home") }}</a>
-                              </li>
-                              <!---<li class="nav-item">
+                            </li>
+                            <!---<li class="nav-item">
                 <a class="nav-link" data-scroll-to data-scroll href="#products">{{ __("messages.products")  }}
                 </a>
               </li>-->
-                              <li class="nav-item">
-                                <a class="nav-link" data-scroll-to data-scroll href="#business">{{
+                            <li class="nav-item">
+                              <a class="nav-link" data-scroll-to data-scroll href="#business">{{
                                 __("messages.businessModel") }}</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" data-scroll-to data-scroll href="#exprience">{{
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" data-scroll-to data-scroll href="#exprience">{{
                                 __("messages.experienceTitle") }}
-                                </a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" data-scroll-to data-scroll href="#aourroadmap">{{
+                              </a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" data-scroll-to data-scroll href="#aourroadmap">{{
                                 __("messages.transformationRoadMap") }}
-                                </a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" data-scroll-to data-scroll href="#blog">Blog
-                                </a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" data-scroll-to data-scroll href="#contact">{{ __("messages.contact")
+                              </a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" data-scroll-to data-scroll href="#blog">Blog
+                              </a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" data-scroll-to data-scroll href="#contact">{{ __("messages.contact")
                                 }}
-                                </a>
-                              </li>
-                            </ul>
-                          </div>
+                              </a>
+                            </li>
+                          </ul>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </nav>
+            </div>
+          </nav>
           </header>
           <div class="nav-dot-menu"></div>
           <div class="cover-page">
@@ -173,7 +176,27 @@
 
               </div>
             </section>
-            <section id="contact" class="section section-a fullscreen-h-lg pt-10">
+
+
+            <div class="c-fixed_wrapper is-inview fix-sect mt-5" data-scroll="" data-scroll-call="dynamicBackground" data-scroll-repeat="" style="background-color: rgb(201, 212, 211);">
+            <div class="c-fixed_target" id="fixed-target"></div>
+            <div class="c-fixed is-inview pre-footer" data-scroll="" data-scroll-sticky="" data-scroll-target="#fixed-target" style="background-image: url('assets/images/card2.jpg'); ">
+            </div>
+            <div class="txt-fix">
+              <div class="row ">
+                <div class="col-md-12 flex-contact">
+                  <h2 class="display-3 anim-1 mb-4">Contact Us</h2>
+                  <p>We’ll reach you in less than 1 hour
+                    if you don’t get a response
+                    immediately! We take business
+                    opportunities very seriously!
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+            <section id="contact" class="section section-a fullscreen-h-lg ">
 
               <!-- Begin of section body -->
               <div class="section-body section-contact" style="padding-top: 4rem;" itemscope itemtype="https://schema.org/Organization">

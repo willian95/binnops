@@ -169,7 +169,7 @@
                                         background: url(assets/images/img/Home/3.jpg)
                                           center/cover no-repeat;
                                       ">
-                                       <div id="play-video" class="video-play-button btn-mas">
+                                    <div id="play-video" class="video-play-button btn-mas">
                                       <p>+</p>
                                     </div>
                                     <div class="data">
@@ -189,7 +189,7 @@
                                         background: url(assets/images/img/Home/2.png)
                                           center/cover no-repeat;
                                       ">
- <div id="play-video" class="video-play-button btn-mas">
+                                    <div id="play-video" class="video-play-button btn-mas">
                                       <p>+</p>
                                     </div>
                                     <div class="data">
@@ -404,7 +404,7 @@
                         <img src="assets/images/img/Services/SmartDigital/Imagen24.png" alt="" />
                       </a>
 
-                       
+
                     </div>
                   </div>
                   <!-------------------------------------sliders--------------------------------------------->
@@ -609,8 +609,8 @@
                     </p>
                     <!-------------------------------------sliders--------------------------------------------->
                     <div class="row mt-5">
-                      <div class="demo-gallery mt-0" >
-                      <a href="assets/images/img/BusinessModel/Screenshot_1.png" data-size="1600x1600" data-med="assets/images/img/BusinessModel/Screenshot_1.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
+                      <div class="demo-gallery mt-0">
+                        <a href="assets/images/img/BusinessModel/Screenshot_1.png" data-size="1600x1600" data-med="assets/images/img/BusinessModel/Screenshot_1.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
                           <img src="assets/images/img/BusinessModel/Screenshot_1.png" alt="" />
                         </a>
                         <a href="assets/images/img/BusinessModel/Imagen27.png" data-size="1600x1600" data-med="assets/images/img/BusinessModel/Imagen27.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
@@ -1512,7 +1512,7 @@
                           <img src="assets/images/certifications/Logo_for_client_1110074.png" alt="">
                         </div>
                       </div>
-             
+
                       <div class="col-md-5">
                         <form id="form-message" class="form-a form-message form-message" method="post" action="ajaxserver/serverfile.php">
                           <div class="mb-3">
@@ -1655,7 +1655,7 @@
         <h3 class="titles-modals">{{ __("messages.smartTwins") }}</h3>
         <p>{{ __("messages.binnopsDevelops") }}</p>
         <p>{{ __("messages.smarTwinsDescription1") }}</p>
-      <!---  <p> {{ __("messages.smarTwinsDescription2") }} </p>-->
+        <!---  <p> {{ __("messages.smarTwinsDescription2") }} </p>-->
       </div>
 
     </div>
@@ -1673,7 +1673,7 @@
         <p>{{ __("messages.oneKey") }}</p>
         <p>{{ __("messages.smartDataDescription1") }}
         </p>
-      <!--  <p>{{ __("messages.smartDataDescription2") }}</p>-->
+        <!--  <p>{{ __("messages.smartDataDescription2") }}</p>-->
 
       </div>
 
@@ -1707,40 +1707,40 @@
         <p>{{ __("messages.terrestrialScanningDescription1") }} </p>
         <p> {{ __("messages.terrestrialScanningDescription2") }} </p>
 
-        
-        <div class="demo-gallery ">
-            <a href="assets/images/new/Services/Assetvisualization/service2/image21.png" data-size="1600x1600" data-med="assets/images/new/Services/Assetvisualization/service2/image21.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
-              <img src="assets/images/new/Services/Assetvisualization/service2/image21.png" alt="" />
-            </a>
-            <a href="assets/images/new/Services/Assetvisualization/service2/Imagen2.jpg" data-size="1600x1600" data-med="assets/images/new/Services/Assetvisualization/service2/Imagen2.jpg" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
-              <img src="assets/images/new/Services/Assetvisualization/service2/Imagen2.jpg" alt="" />
-            </a>
-            <a href="assets/images/new/Services/Assetvisualization/service2/Imagen3.png" data-size="1600x1600" data-med="assets/images/new/Services/Assetvisualization/service2/Imagen3.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
-              <img src="assets/images/new/Services/Assetvisualization/service2/Imagen3.png" alt="" />
-            </a>
 
-          </div>
+        <div class="demo-gallery ">
+          <a href="assets/images/new/Services/Assetvisualization/service2/image21.png" data-size="1600x1600" data-med="assets/images/new/Services/Assetvisualization/service2/image21.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
+            <img src="assets/images/new/Services/Assetvisualization/service2/image21.png" alt="" />
+          </a>
+          <a href="assets/images/new/Services/Assetvisualization/service2/Imagen2.jpg" data-size="1600x1600" data-med="assets/images/new/Services/Assetvisualization/service2/Imagen2.jpg" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
+            <img src="assets/images/new/Services/Assetvisualization/service2/Imagen2.jpg" alt="" />
+          </a>
+          <a href="assets/images/new/Services/Assetvisualization/service2/Imagen3.png" data-size="1600x1600" data-med="assets/images/new/Services/Assetvisualization/service2/Imagen3.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
+            <img src="assets/images/new/Services/Assetvisualization/service2/Imagen3.png" alt="" />
+          </a>
+
+        </div>
       </div>
 
     </div>
   </div>
 
 </div>
-  <!-- Modal -->
-  <div class="modal fade" id="card-mini2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered  modal-lg" role="document">
-      <div class="modal-content modal_cards-styles">
-        <button type="button" class="close text-right mr-3 mt-2" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-        <div class="modal-body">
-          <h3 class="titles-modals"> {{ __("messages.aerialScanning") }}</h3>
+<!-- Modal -->
+<div class="modal fade" id="card-mini2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered  modal-lg" role="document">
+    <div class="modal-content modal_cards-styles">
+      <button type="button" class="close text-right mr-3 mt-2" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+      <div class="modal-body">
+        <h3 class="titles-modals"> {{ __("messages.aerialScanning") }}</h3>
 
-          <p>{{ __("messages.aerialScanningDescription") }} </p>
-          <p>{{ __("messages.aerialScanningDescription") }} </p>
+        <p>{{ __("messages.aerialScanningDescription") }} </p>
+        <p>{{ __("messages.aerialScanningDescription") }} </p>
 
 
-          <div class="row">
+        <div class="row">
           <div class="demo-gallery ">
             <a href="assets/images/new/Services/Assetvisualization/service1/Imagen4.jpg" data-size="1600x1600" data-med="assets/images/new/Services/Assetvisualization/service1/Imagen4.jpg" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
               <img src="assets/images/new/Services/Assetvisualization/service1/Imagen4.jpg" alt="" />
@@ -1754,13 +1754,13 @@
 
           </div>
         </div>
-        </div>
-
-     
       </div>
 
+
     </div>
+
   </div>
+</div>
 <!-- Modal -->
 <div class="modal fade" id="card-mini3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered  modal-lg" role="document">
@@ -1774,17 +1774,17 @@
         <p>{{ __("messages.aerialScanningDescription") }}</p>
 
         <div class="demo-gallery ">
-            <a href="assets/images/new/Services/Assetvisualization/service3/Imagen4.png" data-size="1600x1600" data-med="assets/images/new/Services/Assetvisualization/service3/Imagen4.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
-              <img src="assets/images/new/Services/Assetvisualization/service3/Imagen4.png" alt="" />
-            </a>
-            <a href="assets/images/new/Services/Assetvisualization/service1/Imagen6.png" data-size="1600x1600" data-med="assets/images/new/Services/Assetvisualization/service3/Imagen6.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
-              <img src="assets/images/new/Services/Assetvisualization/service3/Imagen6.png" alt="" />
-            </a>
-            <a href="assets/images/new/Services/Assetvisualization/service3/Imagen7.png" data-size="1600x1600" data-med="assets/images/new/Services/Assetvisualization/service3/Imagen7.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
-              <img src="assets/images/new/Services/Assetvisualization/service3/Imagen7.png" alt="" />
-            </a>
+          <a href="assets/images/new/Services/Assetvisualization/service3/Imagen4.png" data-size="1600x1600" data-med="assets/images/new/Services/Assetvisualization/service3/Imagen4.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
+            <img src="assets/images/new/Services/Assetvisualization/service3/Imagen4.png" alt="" />
+          </a>
+          <a href="assets/images/new/Services/Assetvisualization/service1/Imagen6.png" data-size="1600x1600" data-med="assets/images/new/Services/Assetvisualization/service3/Imagen6.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
+            <img src="assets/images/new/Services/Assetvisualization/service3/Imagen6.png" alt="" />
+          </a>
+          <a href="assets/images/new/Services/Assetvisualization/service3/Imagen7.png" data-size="1600x1600" data-med="assets/images/new/Services/Assetvisualization/service3/Imagen7.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
+            <img src="assets/images/new/Services/Assetvisualization/service3/Imagen7.png" alt="" />
+          </a>
 
-          </div>
+        </div>
       </div>
 
     </div>
@@ -1807,17 +1807,17 @@
         <p> {{ __("messages.digitalHubDescription3") }}</p>
 
         <div class="demo-gallery ">
-        <a href="assets/images/new/Services/smart/1/Imagen7.jpg" data-size="1600x1600" data-med="assets/images/new/Services/smart/1/Imagen7.jpg" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
-          <img src="assets/images/new/Services/smart/1/Imagen7.jpg" alt="" />
-        </a>
-        <a href="assets/images/new/Services/smart/1/Imagen8.png" data-size="1600x1600" data-med="assets/images/new/Services/smart/1/Imagen8.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
-          <img src="assets/images/new/Services/smart/1/Imagen8.png" alt="" />
-        </a>
-        <a href="assets/images/new/Services/smart/1/Imagen9.png" data-size="1600x1600" data-med="assets/images/new/Services/smart/1/Imagen9.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
-          <img src="assets/images/new/Services/smart/1/Imagen9.png" alt="" />
-        </a>
+          <a href="assets/images/new/Services/smart/1/Imagen7.jpg" data-size="1600x1600" data-med="assets/images/new/Services/smart/1/Imagen7.jpg" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
+            <img src="assets/images/new/Services/smart/1/Imagen7.jpg" alt="" />
+          </a>
+          <a href="assets/images/new/Services/smart/1/Imagen8.png" data-size="1600x1600" data-med="assets/images/new/Services/smart/1/Imagen8.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
+            <img src="assets/images/new/Services/smart/1/Imagen8.png" alt="" />
+          </a>
+          <a href="assets/images/new/Services/smart/1/Imagen9.png" data-size="1600x1600" data-med="assets/images/new/Services/smart/1/Imagen9.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
+            <img src="assets/images/new/Services/smart/1/Imagen9.png" alt="" />
+          </a>
 
-          </div>
+        </div>
       </div>
 
     </div>
@@ -1848,9 +1848,9 @@
           <a href="assets/images/new/Services/data/iot/Imagen4.png" data-size="1600x1600" data-med="assets/images/new/Services/data/iot/Imagen4.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
             <img src="assets/images/new/Services/data/iot/Imagen4.png" alt="" />
           </a>
-       
 
-          </div>
+
+        </div>
       </div>
 
     </div>
@@ -1895,16 +1895,16 @@
         <p> {{ __("messages.rpaDescription2") }}
         </p>
         <div class="demo-gallery ">
-            <a href="assets/images/new/Services/data/Robotized/1.png" data-size="1600x1600" data-med="assets/images/new/Services/data/Robotized/1.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
+          <a href="assets/images/new/Services/data/Robotized/1.png" data-size="1600x1600" data-med="assets/images/new/Services/data/Robotized/1.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
             <img src="assets/images/new/Services/data/Robotized/1.png" alt="" />
-            </a>
-            <a href="assets/images/new/Services/data/Robotized/2.png" data-size="1600x1600" data-med="assets/images/new/Services/data/Robotized/2.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
+          </a>
+          <a href="assets/images/new/Services/data/Robotized/2.png" data-size="1600x1600" data-med="assets/images/new/Services/data/Robotized/2.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
             <img src="assets/images/new/Services/data/Robotized/2.png" alt="" />
-            </a>
-            <a href="assets/images/new/Services/data/Robotized/3.png" data-size="1600x1600" data-med="assets/images/new/Services/data/Robotized/3.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
+          </a>
+          <a href="assets/images/new/Services/data/Robotized/3.png" data-size="1600x1600" data-med="assets/images/new/Services/data/Robotized/3.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
             <img src="assets/images/new/Services/data/Robotized/3.png" alt="" />
-            </a>
-          </div>
+          </a>
+        </div>
       </div>
 
     </div>
@@ -1926,14 +1926,14 @@
         <p> {{ __("messages.dataAnalyticsDescription2") }}
         </p>
         <div class="demo-gallery ">
-            <a href="assets/images/new/Services/data/DataAnalytics/Imagen1.png" data-size="1600x1600" data-med="assets/images/new/Services/data/DataAnalytics/Imagen1.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
+          <a href="assets/images/new/Services/data/DataAnalytics/Imagen1.png" data-size="1600x1600" data-med="assets/images/new/Services/data/DataAnalytics/Imagen1.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
             <img src="assets/images/new/Services/data/DataAnalytics/Imagen1.png" alt="" />
-            </a>
-            <a href="assets/images/new/Services/data/DataAnalytics/Imagen2.png" data-size="1600x1600" data-med="assets/images/new/Services/data/DataAnalytics/Imagen2.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
+          </a>
+          <a href="assets/images/new/Services/data/DataAnalytics/Imagen2.png" data-size="1600x1600" data-med="assets/images/new/Services/data/DataAnalytics/Imagen2.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
             <img src="assets/images/new/Services/data/DataAnalytics/Imagen2.png" alt="" />
-            </a>
+          </a>
 
-          </div>
+        </div>
       </div>
 
     </div>
@@ -1952,17 +1952,17 @@
         <p>{{ __("messages.iaDescription1") }}
         </p>
 
-       <!--- <p> {{ __("messages.iaDescription2") }}
+        <!--- <p> {{ __("messages.iaDescription2") }}
         </p>-->
         <div class="demo-gallery ">
-            <a href="assets/images/new/Services/data/ArtificialIntelligence/Imagen1.png" data-size="1600x1600" data-med="assets/images/new/Services/data/ArtificialIntelligence/Imagen1.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
+          <a href="assets/images/new/Services/data/ArtificialIntelligence/Imagen1.png" data-size="1600x1600" data-med="assets/images/new/Services/data/ArtificialIntelligence/Imagen1.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
             <img src="assets/images/new/Services/data/ArtificialIntelligence/Imagen1.png" alt="" />
-            </a>
-            <a href="assets/images/new/Services/data/ArtificialIntelligence/Imagen3.png" data-size="1600x1600" data-med="assets/images/new/Services/data/ArtificialIntelligence/Imagen3.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
+          </a>
+          <a href="assets/images/new/Services/data/ArtificialIntelligence/Imagen3.png" data-size="1600x1600" data-med="assets/images/new/Services/data/ArtificialIntelligence/Imagen3.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
             <img src="assets/images/new/Services/data/ArtificialIntelligence/Imagen3.png" alt="" />
-            </a>
+          </a>
 
-          </div>
+        </div>
       </div>
 
     </div>
@@ -1983,12 +1983,12 @@
         </p>
 
         <div class="demo-gallery demo-gallery-one">
-  <a href="assets/images/new/Services/data/Cibersecurity/Imagen1.png" data-size="1600x1600" data-med="assets/images/new/Services/data/Cibersecurity/Imagen1.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
-  <img src="assets/images/new/Services/data/Cibersecurity/Imagen1.png" alt="" />
-  </a>
- 
+          <a href="assets/images/new/Services/data/Cibersecurity/Imagen1.png" data-size="1600x1600" data-med="assets/images/new/Services/data/Cibersecurity/Imagen1.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
+            <img src="assets/images/new/Services/data/Cibersecurity/Imagen1.png" alt="" />
+          </a>
 
-</div>
+
+        </div>
 
       </div>
 
@@ -2008,12 +2008,12 @@
 
         <p>{{ __("messages.enginneringDescription2") }} </p>
 
-       <!-- <p>{{ __("messages.enginneringDescription3") }}</p>-->
+        <!-- <p>{{ __("messages.enginneringDescription3") }}</p>-->
         <div class="row">
           <div class="demo-gallery ">
             <a href="assets/images/new/Services/smart/digital/Engineering/Imagen10.jpg" data-size="1600x1600" data-med="assets/images/new/Services/smart/digital/Engineering/Imagen10.jpg" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
-                <img src="assets/images/new/Services/smart/digital/Engineering/Imagen10.jpg" alt="" />
-              </a>
+              <img src="assets/images/new/Services/smart/digital/Engineering/Imagen10.jpg" alt="" />
+            </a>
             <a href="assets/images/new/Services/smart/digital/Engineering/Imagen11.png" data-size="1600x1600" data-med="assets/images/new/Services/smart/digital/Engineering/Imagen11.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
               <img src="assets/images/new/Services/smart/digital/Engineering/Imagen11.png" alt="" />
             </a>
@@ -2051,8 +2051,8 @@
         <p> {{ __("messages.revampsDescription2") }} </p>
 
         <div class="row">
-        <div class="demo-gallery ">
-            
+          <div class="demo-gallery ">
+
             <a href="assets/images/new/Services/smart/digital/bim/Imagen16.png" data-size="1600x1600" data-med="assets/images/new/Services/smart/digital/bim/Imagen16.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
               <img src="assets/images/new/Services/smart/digital/bim/Imagen16.png" alt="" />
             </a>
@@ -2113,7 +2113,7 @@
         </p>
         <div class="row">
           <div class="demo-gallery">
-          <a href="assets/images/new/Services/smart/digital/Upgrades/Imagen19.png" data-size="1600x1600" data-med="assets/images/new/Services/smart/digital/Upgrades/Imagen19.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
+            <a href="assets/images/new/Services/smart/digital/Upgrades/Imagen19.png" data-size="1600x1600" data-med="assets/images/new/Services/smart/digital/Upgrades/Imagen19.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
               <img src="assets/images/new/Services/smart/digital/Upgrades/Imagen19.png" alt="" />
             </a>
             <a href="assets/images/new/Services/smart/digital/Upgrades/Imagen20.png" data-size="1600x1600" data-med="assets/images/new/Services/smart/digital/Upgrades/Imagen20.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
@@ -2146,23 +2146,23 @@
         </p>-->
         <div class="row">
           <div class="demo-gallery">
-          <a href="assets/images/new/Services/smart/digital/Operations/AIM_Screens_and_Dashboards.png" data-size="1600x1600" data-med="assets/images/new/Services/smart/digital/Operations/AIM_Screens_and_Dashboards.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
-            <img src="assets/images/new/Services/smart/digital/Operations/AIM_Screens_and_Dashboards.png" alt="" />
+            <a href="assets/images/new/Services/smart/digital/Operations/AIM_Screens_and_Dashboards.png" data-size="1600x1600" data-med="assets/images/new/Services/smart/digital/Operations/AIM_Screens_and_Dashboards.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
+              <img src="assets/images/new/Services/smart/digital/Operations/AIM_Screens_and_Dashboards.png" alt="" />
             </a>
             <a href="assets/images/new/Services/smart/digital/Operations/Imagen5.png" data-size="1600x1600" data-med="assets/images/new/Services/smart/digital/Operations/Imagen5.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
-            <img src="assets/images/new/Services/smart/digital/Operations/Imagen5.png" alt="" />
+              <img src="assets/images/new/Services/smart/digital/Operations/Imagen5.png" alt="" />
             </a>
             <a href="assets/images/new/Services/smart/digital/Operations/Imagen22.png" data-size="1600x1600" data-med="assets/images/new/Services/smart/digital/Operations/Imagen22.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
-            <img src="assets/images/new/Services/smart/digital/Operations/Imagen22.png" alt="" />
+              <img src="assets/images/new/Services/smart/digital/Operations/Imagen22.png" alt="" />
             </a>
             <a href="assets/images/new/Services/smart/digital/Operations/Imagen24.png" data-size="1600x1600" data-med="assets/images/new/Services/smart/digital/Operations/Imagen24.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
-            <img src="assets/images/new/Services/smart/digital/Operations/Imagen24.png" alt="" />
+              <img src="assets/images/new/Services/smart/digital/Operations/Imagen24.png" alt="" />
             </a>
             <a href="assets/images/new/Services/smart/digital/Operations/Imagen28.png" data-size="1600x1600" data-med="assets/images/new/Services/smart/digital/Operations/Imagen28.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
-            <img src="assets/images/new/Services/smart/digital/Operations/Imagen28.png" alt="" />
+              <img src="assets/images/new/Services/smart/digital/Operations/Imagen28.png" alt="" />
             </a>
             <a href="assets/images/new/Services/smart/digital/Operations/Imagen29.png" data-size="1600x1600" data-med="assets/images/new/Services/smart/digital/Operations/Imagen29.png" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
-            <img src="assets/images/new/Services/smart/digital/Operations/Imagen29.png" alt="" />
+              <img src="assets/images/new/Services/smart/digital/Operations/Imagen29.png" alt="" />
             </a>
           </div>
         </div>

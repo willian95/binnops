@@ -5648,3 +5648,9 @@ body.scrolled .hero-a .hero-footer {
 }
 
 /* */
+.volverinicio{
+    position: absolute;
+    padding: .4rem 2rem;
+    font-weight: bold;
+    color: #1b1919;
+}
