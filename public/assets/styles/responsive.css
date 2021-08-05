@@ -1,4 +1,8 @@
 @media (max-width: 768px) {
+  btn-mas:before {
+  
+    background: transparent;
+  }
   .btn-mas:after {
     width: 30px!important;
     height: 30px!important;
@@ -103,14 +107,23 @@
     .experience-main .demo-gallery {
         display: block;
     }
- 
+    .section-a .title-desc p {
+   
+      margin-bottom: 0;
+  }
     .certifications {
         text-align: center;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        margin: 3rem 0;
+        margin: 0rem 0;
     }
+    .footer-page {
+      display: none;
+  }
+  .section-a .section-body {
    
+    padding-bottom: 0;
+}
     .experience-main .galley-one img, .pricing-table__item .galley-one img {
       width: 100%;
   }
@@ -169,15 +182,20 @@ form{
   position: absolute;
 }
 .mask-time{
-  position: absolute;
+  /*position: absolute;
   background: #14162d52;
   width: 100%;
   height: 100%;
   left: 0;
-  z-index: 0;
+  z-index: 0;*/
 }
 .mask-time h4{
   margin-top: 4rem;
+  position: absolute;
+  bottom: -3rem;
+  text-align: center;
+  width: 100%;
+  font-weight: 700;
 }
 .circle-pannel {
   position: relative;
@@ -192,7 +210,7 @@ form{
   max-width: 300px;
   max-height: 300px;
   text-align: center;
-  overflow: hidden;
+  /*overflow: hidden;*/
   margin-left: auto;
   margin-right: auto;
   margin-top: 2rem;
@@ -478,10 +496,15 @@ form{
     height: 147vh;
 }
 }
+/*
 @media (min-width: 375px) and (max-width: 991px) {
   .back-banner {
-   
-    height: 170vh;
+    height: 145vh;
+}
+}*/
+@media (width: 375px) and (height: 667px){
+  .back-banner {
+    height: 162vh;
 }
 }
 @media (width: 393px) and (height: 851px) {
@@ -707,4 +730,10 @@ form{
 
   font-size: 1.5rem;
 }
+}
+@media (width: 414px) and (height: 896px) {
+  .back-banner {
+    height: 120vh;
+}
+
 }
