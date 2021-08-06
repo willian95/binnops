@@ -652,7 +652,7 @@ form{
   height: 112vh;
 }
 }
-@media (width: 1920px) and (height: 1080px) {
+@media (min-width: 1950px) and (max-width: 1980px) {
   .card-body_main .author {
     font-size: 2rem;
 }
@@ -704,6 +704,7 @@ form{
   font-size: 1.5rem;
 }
 }
+
 @media (width: 414px) and (height: 896px) {
   .back-banner {
     height: 120vh;
