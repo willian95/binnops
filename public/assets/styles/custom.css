@@ -1871,6 +1871,7 @@ div.middle{
   height: 100vh;
   width: 100%;
   position: relative;
+  background-repeat: no-repeat;
 }
 .back-banner::before{
   content: "";

@@ -652,14 +652,11 @@ form{
   height: 112vh;
 }
 }
-@media (width: 1920px) and (height: 1080px) {
+@media (min-width: 1000px) and (height: 1080px) {
   .card-body_main .author {
     font-size: 2rem;
 }
-  .cards-banner_grids {
-
-    margin-top: 6rem;
-}
+ 
   .home-1 {
     font-size: 2.5rem;
     padding: 0 9rem;
@@ -778,7 +775,7 @@ form{
       height: auto;
   }
   .back-banner {
-    height: 84vh;
+    height: 123vh;
 }
   .btns-group {
       height: auto;
