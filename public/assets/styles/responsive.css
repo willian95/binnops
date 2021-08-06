@@ -652,7 +652,7 @@ form{
   height: 112vh;
 }
 }
-@media (min-width: 1920px) and (max-width: 1080px) {
+@media (width: 1920px) and (height: 1080px) {
   .card-body_main .author {
     font-size: 2rem;
 }
