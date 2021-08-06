@@ -652,6 +652,58 @@ form{
   height: 112vh;
 }
 }
+@media (min-width: 1920px) and (max-width: 1080px) {
+  .card-body_main .author {
+    font-size: 2rem;
+}
+  .cards-banner_grids {
+
+    margin-top: 6rem;
+}
+  .home-1 {
+    font-size: 2.5rem;
+    padding: 0 9rem;
+}
+.p8 {
+    padding-bottom: 4rem;
+}
+.logo img {
+    width: 380px;
+}
+.item-content {
+    height: 40vh;
+}
+.demo-gallery img {
+ 
+  height: 160px;
+ 
+}
+.btns-group {
+    height: auto;
+}
+
+.card-body_main .wrapper {
+    height: 25vh;
+}
+.fullscreen-h-lg {
+    min-height: auto;
+}
+.fix-sect {
+    height: 36vh;
+}
+
+.main-blog_item:nth-child(2n) {
+
+  padding-left: 43rem;
+}
+.main-blog_item:nth-child(2n+1) {
+  padding-right: 42rem;
+}
+.txt-fix p {
+
+  font-size: 1.5rem;
+}
+}
 @media (min-width: 1950px) and (max-width: 1980px) {
   .card-body_main .author {
     font-size: 2rem;
