@@ -47,7 +47,7 @@ return [
     "operations" => "Operations & Maintenance",
     "oneKey" => "One key breakthrough in the industrial world is Data analytics capabilities generated on existing
     platforms and different applications for many knowledge domains.",
-    "iot" => "Internet de las cosas (IoT)",
+    "iot" => "Internet of things (IoT)",
     "binnopsDigital" => "At any Asset level (Location, process or even individual sensors or instruments) and
     connected to any Database from available applications (Processes, operations,
     maintenance, etc.), Data can be transferred and structured directly into cloud IoT solutions

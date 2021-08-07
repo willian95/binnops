@@ -47,7 +47,7 @@ return [
     "reliability" => "Upgrades",
     "operations" => "Mantenimiento y Operaciones.",
     "oneKey" => "Un avance clave en el mundo industrial es la capacidad de análisis de datos generada en las plataformas existentes y las diferentes aplicaciones para muchos dominios del conocimiento",
-    "iot" => "Internet of Things ( IoT )",
+    "iot" => "Internet de las cosas ( IoT )",
     "binnopsDigital" => "Binnops Digital Hub integra servicios de Internet de las cosas (IoT) para capturar datos de
     cualquier tipo de activo móvil o fijo (o incluso de personas) y la ingesta en tiempo real
     dentro de arquitecturas basadas en la nube. A cualquier nivel de activo (ubicación, proceso
