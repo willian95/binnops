@@ -159,7 +159,7 @@
                 </h1>
               </div>
               <div class="main-blog container">
-                @foreach(App\Models\Blog::all() as $blog)
+                @foreach(App\Models\Blog::orderBy("id", "asc")->get() as $blog)
                 <div class="main-blog_item " data-toggle="modal" data-target=".blog-id{{ $blog->id }}" data-scroll data-scroll-speed="5" data-scroll-position="top" data-scroll-delay="0.05">
                   <div class="main-blog_txt">
                     <p>{{ $blog->title }}</p>
