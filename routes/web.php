@@ -17,7 +17,8 @@ use App\Http\Controllers\BlogController;
 |
 */
 
-Route::get('/', [IndexController::class, "index"]);
+Route::view('/', "comingSoon");
+Route::get('/front-test', [IndexController::class, "index"]);
 Route::get('/blog/{slug}', [IndexController::class, "index"]);
 
 Route::post("/send/message", [SendEmailController::class, "sendEmail"]);

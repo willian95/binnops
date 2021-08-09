@@ -101,7 +101,7 @@
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                               <a class="nav-link" aria-current="page" href="{{ url('/?locale=es') }}"> <img src="https://findicons.com/files/icons/282/flags/48/spain.png" alt=""> es</a>
-                              <a class="nav-link" aria-current="page" href="{{ url('/') }}"> <img src="http://findicons.com/files/icons/282/flags/48/united_states_of_america_usa.png" alt=""> EN</a>
+                              <a class="nav-link" aria-current="page" href="{{ url('/') }}"> <img src="https://findicons.com/files/icons/282/flags/48/united_states_of_america_usa.png" alt=""> EN</a>
                             </div>
                           </div>
 
