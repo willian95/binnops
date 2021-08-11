@@ -2869,6 +2869,7 @@ justify-content: center;
 }
 .txt-fix h2, .txt-fix p{
   color: #fff;
+  font-size: 1.3rem;
 }
 .language-selector__container select {
   background-color: white;

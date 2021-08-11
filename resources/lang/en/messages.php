@@ -71,6 +71,7 @@ return [
     "cibersecurity" => "Cibersecurity",
     "peopleCibersecurity" => "People are the first and last line of cyber security defense. While you will never stop all cyber-attacks, a digital twin can be effectively applied as a training simulator and in testing to move to a more proactive and predictive approach to detecting cyber compromises",
     "businessModel" => "Business Model",
+    "parrafobusinessModel"=> "Value Proposition. Our Digital Hub introduces a fundamental and significant change (a breakthrough) in the way people perform work. Because the industry workforce is aging, the capture, documentation and transfer of their know-how using asset virtualization is essential. Future plant workers will greatly benefit from this knowledge and thrive in a more modern 3D virtual model environment.",
     "plantOwners" => "Plant owners and operators also must consider that environ- mental issues and corporate responsibility are in the governmental spotlight. Regulations requires internal awareness and proper controls over information and processes that relate to the business’s financial health, including asset documentation. Corporate Governance draws attention to leadership’s role in making safety in industrial processes and equipment “a core value” of any
     company. OSHA 1910 calls on companies to meet standards of safety for workers and the local environment. Binnops Digital Process facilitate these efforts in important arenas while delivering the operational excellence that distinguishes world-class companies.",
     "byProjects" => "By projects",
@@ -285,7 +286,7 @@ return [
     "learnMore" => "Learn more"
 
 
-    
+
 
 
 

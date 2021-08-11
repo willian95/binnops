@@ -512,13 +512,13 @@
                   About
                 </h2>
               </div>
-              
+
               <div class="">
-            
+
                 <div class="section-content container content-width anim p30">
                   <div class="row">
                     <div class="col-12 col-lg-12 text-left">
-                  
+
                       <div class="title-desc xl-text-size">
                         <p class="anim-1 inline-text p-blue " data-anim-visible="by-letter">
                           Lorem ipsum dolor sit amet consectetur adipisicing e
@@ -533,7 +533,7 @@
                   </div>
                 </div>
               </div>
-           
+
             </section>--->
 
           <section id="business" class="section section-a with-overflow section-white_content ">
@@ -556,12 +556,10 @@
                   </div>
                   <div class="col-md-12">
                     <p class="anim-2 title-blue">
-                      Value Proposition. Our Digital Hub introduces a fundamental and significant change (a
-                      breakthrough) in the way people perform work.
 
-                      Because the industry workforce is aging, the capture, documentation and transfer of their
-                      know-how using asset virtualization is essential. Future plant workers will greatly benefit from
-                      this knowledge and thrive in a more modern 3D virtual model environment. <span class="viewmore">
+                    {{ __("messages.parrafobusinessModel") }}
+
+               <span class="viewmore">
                         {{ __("messages.viewMore") }}</span>
                     </p>
 
@@ -1090,7 +1088,7 @@
                                   Verificación de esfuerzos, análisis de golpe de ariete y surges permitidos en tiempo
                                   y presión teniendo en cuenta las condiciones de operación de la tubería.
                                 </p>
-                
+
                               </div>
                             </div>
                           </div>
@@ -1103,11 +1101,11 @@
                                     class="demo-gallery__img--main">
                                     <img src="assets/images/1.png" alt="" />
                                   </a>
-                
+
                                 </div>
-                
+
                               </div>
-                          
+
                             </div>
                           </div>
                         </div>
@@ -1188,9 +1186,9 @@
                                 <p>Servicios técnicos relacionados con el registro de datos escaneo y análisis de
                                   tanques de almacenamiento de petróleo, utilizando Mesh Conversion & Polyworks
                                   Software.
-                
+
                                 </p>
-                
+
                               </div>
                             </div>
                           </div>
@@ -1203,7 +1201,7 @@
                                     data-author="Folkert Gorter" class="demo-gallery__img--main">
                                     <img src="assets/images/experiencia/Imagentanque.png" alt="" />
                                   </a>
-                
+
                                 </div>
                                 <div class="swiper-slide">
                                   <a href="assets/images/experiencia/Imagentanque2.png" data-size="1600x1600"
@@ -1211,8 +1209,8 @@
                                     data-author="Folkert Gorter" class="demo-gallery__img--main">
                                     <img src="assets/images/experiencia/Imagentanque2.png" alt="" />
                                   </a>
-                
-                
+
+
                                 </div>
                                 <div class="swiper-slide">
                                   <a href="assets/images/experiencia/Imagentanque3.png" data-size="1600x1600"
@@ -1220,7 +1218,7 @@
                                     data-author="Folkert Gorter" class="demo-gallery__img--main">
                                     <img src="assets/images/experiencia/Imagentanque3.png" alt="" />
                                   </a>
-                
+
                                 </div>
                                 <div class="swiper-slide">
                                   <a href="assets/images/experiencia/Imagentanque4.png" data-size="1600x1600"
@@ -1228,7 +1226,7 @@
                                     data-author="Folkert Gorter" class="demo-gallery__img--main">
                                     <img src="assets/images/experiencia/Imagentanque4.png" alt="" />
                                   </a>
-                
+
                                 </div>
                               </div>
                               <div class="swiper-pagination swiper-pagination-child"></div>
@@ -1243,7 +1241,7 @@
                           <div class="col-md-12">
                             <div class="item-content ">
                               <span>Shell
-                
+
                               </span>
                               <h3 class="title">Modelación 3D refinería Shell Deer Park
                               </h3>
@@ -1259,7 +1257,7 @@
                                 <p>Servicio de Modelación 3D de 42.000 metros lineales de racks de líneas de proceso
                                   para la refinería de Shell Deer Park en Texas
                                 </p>
-                
+
                               </div>
                             </div>
                           </div>
@@ -1272,14 +1270,14 @@
                                     data-author="Folkert Gorter" class="demo-gallery__img--main">
                                     <img src="assets/images/experiencia/images/Imagen 17.JPG" />
                                   </a>
-                
+
                                 </div>
                               </div>
                               <div class="swiper-pagination swiper-pagination-child"></div>
                               <div class="swiper-button-prev"></div>
                               <div class="swiper-button-next"></div>
-                
-                
+
+
                             </div>
                           </div>
                         </div>
@@ -1291,24 +1289,24 @@
                               <span>Ecopetrol
                               </span>
                               <h3 class="title">Verificación de condiciones As Built refinería Cartagena – Bloque R
-                
+
                               </h3>
                               <div class="items-exp">
                                 <span> <i class="fa fa-map-marker" aria-hidden="true"></i>
                                   Cartagena
-                
+
                                 </span>
                                 <span><i class="fa fa-clock-o" aria-hidden="true"></i>
                                   1 meses
-                
+
                                 </span>
                               </div>
                               <div class="btns-group">
                                 <p>Servicio de Inspección de Campo, medición y verificación de condiciones As Built de
                                   la planta de Crudo Bloque R de la Refinería de Cartagena
-                
+
                                 </p>
-                
+
                               </div>
                             </div>
                           </div>
@@ -1321,7 +1319,7 @@
                                     data-author="Folkert Gorter" class="demo-gallery__img--main">
                                     <img src="assets/images/experiencia/images/Imagen 20.JPG" />
                                   </a>
-                
+
                                 </div>
                                 <div class="swiper-slide">
                                   <a href="assets/images/experiencia/images/Imagen 21.JPG" data-size="1600x1600"
@@ -1329,9 +1327,9 @@
                                     data-author="Folkert Gorter" class="demo-gallery__img--main">
                                     <img src="assets/images/experiencia/images/Imagen 21.JPG" />
                                   </a>
-                
+
                                 </div>
-                
+
                               </div>
                               <div class="swiper-pagination swiper-pagination-child"></div>
                               <div class="swiper-button-prev"></div>
@@ -1401,7 +1399,7 @@
             <div class="section-content container content-width anim">
               <!------ <div class="row mb-4">
                   <div class="col-12 col-lg-7 text-left">
-              
+
                     <div class="title-desc">
                       <h2 class="display-3 anim-1 mb-4 title-blue">Partners</h2>
                     </div>
@@ -1452,11 +1450,8 @@
             <div class="txt-fix">
               <div class="row ">
                 <div class="col-md-12 flex-contact">
-                  <h2 class="display-3 anim-1 mb-4">Contact Us</h2>
-                  <p>We’ll reach you in less than 1 hour
-                    if you don’t get a response
-                    immediately! We take business
-                    opportunities very seriously!
+                  <h2 class="display-3 anim-1 mb-4">{{ __("messages.contactUs") }}</h2>
+                  <p>{{ __("messages.reach") }}
                   </p>
                 </div>
               </div>

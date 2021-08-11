@@ -67,6 +67,10 @@ return [
     "cibersecurity" => "Ciberseguridad",
     "peopleCibersecurity" => "Las personas son la primera y la última línea de defensa de la ciberseguridad. Aunque nunca se podrán detener todos los ciberataques, un Gemelo Digital puede aplicarse eficazmente como un simulador de entrenamiento y en puesta en marcha se puede pasar a un enfoque más proactivo y predictivo de la detección de ciberataques",
     "businessModel" => "Modelo de Negocio",
+    "parrafobusinessModel"=> "Binnops Digital Hub introduce un cambio fundamental y significativo en la forma de realizar el trabajo, dado que la mano
+    de obra de la industria está envejeciendo, la captura, documentación y transferencia de sus conocimientos técnicos
+    mediante la virtualización de activos es esencial. Los futuros trabajadores de las plantas se beneficiarán enormemente de
+    estos conocimientos y prosperarán en un entorno de modelos virtuales 3D más moderno.",
     "plantOwners" => "Los propietarios y operadores de plantas también deben tener en cuenta que las cuestiones medioambientales y la responsabilidad corporativa están en el punto de mira de los gobiernos. La normativa exige una concienciación interna y unos controles adecuados sobre la información y los procesos relacionados con la salud financiera de la empresa, incluida la documentación de los activos. El gobierno corporativo llama la atención sobre el papel del liderazgo a la hora de hacer de la seguridad en los procesos y equipos industriales 'un valor fundamental' de cualquier empresa. La OSHA 1910 pide a las empresas que cumplan las normas de seguridad para los trabajadores y el entorno local. Binnops Digital Hub facilita estos esfuerzos en ámbitos importantes a la vez que ofrece la excelencia operativa que distingue a las empresas de categoría mundial.",
     "byProjects" => "Por Proyecto",
     "binnopsOffers" => "Binnops ofrece las actividades individuales asociadas al escaneo láser, producción de modelos, captura y análisis de datos sobre la base de un proyecto a un precio de suma global y en función de un alcance de trabajo detallado. Los servicios individuales incluirán captura de datos de campo, actualización de datos de ingeniería; Producción de modelos 3D; IoT y análisis de datos.",
@@ -153,7 +157,7 @@ return [
     "processPlantDescription1" => "Escaneo Láser, Escaneo Subterráneo y Gemelos Digitales de
     Tuberías de Proceso y Equipos Mecánicos para una Planta de
     Procesos Químicos ubicada en Cajicá, Colombia.
-    
+
     Escaneo de un sistema de distribución y bombeo, así como la
     georreferenciación de los componentes y equipos mediante el
     uso de lidar montado sobre Drones. ",
@@ -267,7 +271,7 @@ return [
     data vital para optimizar las tareas de Integridad y Confiablidad por medio de sistemas de
     alarmas y análisis especializado. El acceso e intercambiabilidad de bases de datos y / o a
     información crítica generada por sensores y visualizada a través de Dash-Boards sobre la
-    
+
     plataforma de Binnops en Tiempo Real, aumenta exponencialmente la eficiencia en la
     Operación y en el mantenimiento de la Planta.",
     "operationsDescription2" => "Los procedimientos operativos pueden crearse y revisarse más fácilmente porque el modelo ofrece una verdadera perspectiva 'in plant' en el escritorio del usuario. La familiarización del personal con las instalaciones y los procedimientos se simplifica enormemente. Los procedimientos y materiales de capacitación se pueden vincular y acceder desde dentro del modelo virtual 3D con la capacidad de mostrar una vista aislada. Los procedimientos de seguridad, incluida la ubicación de los dispositivos de aislamiento, pueden documentarse en 3D y en todo su contexto. El análisis HAZOP puede realizarse con mayor claridad y con una documentación precisa de los activos. La ubicación de las alarmas persistentes puede visualizarse en su contexto físico. La creación de órdenes de trabajo es una actividad mucho más precisa porque el modelo virtual proporciona una manera fácil de vincular la misma a la pieza del equipo de interés en lugar de a nivel de la unidad de proceso. El modelo virtual también proporciona una base común en 3D para la comunicación entre operaciones y mantenimiento. ",
