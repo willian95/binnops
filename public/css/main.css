@@ -45,7 +45,7 @@ html.smooth-scroll {
 
 body {
     background: #ecedef;
- 
+
 }
 
 /* 0.2 Helpers and Utilities */
@@ -3645,7 +3645,7 @@ a.item-image-e:hover .item-body {
 }
 
 /* 1.9.b Bootstrap Row Column Container */
-.container,
+/*.container,
 .container-fluid,
 .container-lg,
 .container-md,
@@ -3682,7 +3682,7 @@ a.item-image-e:hover .item-body {
         padding-right: 1rem;
         padding-left: 1rem;
     }
-}
+}*/
 
 .row.shifted-odd {
     --shift-width: 8rem;

@@ -405,9 +405,7 @@ form{
 }
 }
 @media (width: 1024px) and (height: 1366px) {
-  .item-content {
-    height: 37vh;
-}
+
 .btns-group {
   height: 31vh;
 
@@ -641,7 +639,7 @@ form{
 }
 .item-content .title {
   font-size: 1.1rem;
- ;
+
 }
 .btns-group {
   height: 17vh;
@@ -668,9 +666,7 @@ form{
 .logo img {
     width: 380px;
 }
-.item-content {
-    height: 40vh;
-}
+
 .demo-gallery img {
 
   height: 160px;
@@ -720,9 +716,7 @@ form{
 .logo img {
     width: 380px;
 }
-.item-content {
-    height: 40vh;
-}
+
 .demo-gallery img {
 
   height: 160px;
@@ -762,22 +756,31 @@ form{
 
 }
 @media (min-width: 2000px) {
-  .home-1 {
-      font-size: 3.5rem;
-      padding: 0 9rem;
-  }
+    .video-play-button:after {
+        width: 150px;
+        height: 150px;
+    }
+    .home-swiper-container {
+
+        margin-bottom: 3rem;
+    }
+    .c-header .dflex-content {
+    margin-bottom: 20rem;
+}
+    .home-1 {
+        font-size: 5rem;
+        padding: 0 30rem;
+    }
   .p8 {
       padding-bottom: 4rem;
   }
   .logo img {
-      width: 380px;
-  }
+    width: 21%;
+}
   .item-content {
       height: auto;
   }
-  .back-banner {
-    height: 123vh;
-}
+
   .btns-group {
       height: auto;
   }
@@ -791,6 +794,22 @@ form{
   .fix-sect {
       height: 36vh;
   }
+  .card-body_main .author {
+    font-size: 5rem;
+}
+.display-3 {
+    font-size: 4rem !important;
+}
+.txt-fix h2, .txt-fix p {
+    color: #fff;
+    font-size: 3rem;
+}.main-blog_item:nth-child(2n+1) {
+    padding-right: 50rem;
+}
+.main-blog_item:nth-child(2n) {
+    text-align: end;
+    padding-left: 48rem;
+}
 }
 @media (width: 375px) and (max-width:680px) {
   .back-banner {
