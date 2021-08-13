@@ -1137,7 +1137,7 @@ justify-content: center;
 .pricing-table {
   --pricing-table-color: hsl(219, 83%, 57%);
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(16em, 1fr));
+  grid-template-columns: 1fr 1fr;
   grid-gap: 2em;
   margin: 0 auto;
   padding: 0;
