@@ -355,7 +355,9 @@ border-radius: 10px;
 .c-scene__container {
   position: relative;
   overflow: hidden;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   height: 100vh;
   margin: 0 auto;
 }

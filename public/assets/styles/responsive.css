@@ -1,4 +1,8 @@
 @media (max-width: 768px) {
+    .c-scene__container {
+
+        display: block;
+    }
     .item-card_size .mt-5 {
         margin-top: 0rem !important;
     }
@@ -413,7 +417,7 @@
 }
 @media (width: 1024px) and (height: 1366px) {
     .btns-group {
-        height: 31vh;
+        height: 5vh;
     }
     .c-scene__container {
         height: auto;
@@ -638,9 +642,7 @@
     .item-content .title {
         font-size: 1.1rem;
     }
-    .btns-group {
-        height: 17vh;
-    }
+
     .demo-gallery img {
         height: 100px;
     }
