@@ -291,7 +291,7 @@
             <a class="btn-volver" data-scroll-to href="#home">&times; {{ __("messages.backServices") }}</a>
             <div class="menu-grid">
               <div class="menu-grid_item">
-                <div class="content-services">
+                <div class="content-services ">
                   <div class="section-title title-anim  section-title-nav">
                     <h2 class="text text-stroke text-lg rellax services-txt" data-rellax-horizontal data-rellax-speed="-4" data-rellax-percentage="0.5">
                       <!--<img class="img_navs" src="assets/images/iconos/database2.svg" alt="">-->
@@ -325,9 +325,9 @@
                         <img src="assets/images/img/Services/Smart DigitalTwins/Imagen16.png" alt="" />
                       </a>
 
-                      <a href="assets/images/new/Services/smart/Imagen17.png" data-size="1600x1067" data-med="assets/images/new/Services/smart/Imagen17.png" data-med-size="1024x683" data-author="Michael Hull">
+                      <!---<a href="assets/images/new/Services/smart/Imagen17.png" data-size="1600x1067" data-med="assets/images/new/Services/smart/Imagen17.png" data-med-size="1024x683" data-author="Michael Hull">
                         <img src="assets/images/new/Services/smart/Imagen17.png" alt="" />
-                      </a>
+                      </a>-->
                     </div>
                   </div>
                   <!---------------------------------------------------------------------------------->
